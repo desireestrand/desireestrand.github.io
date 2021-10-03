@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Portfolio | Desirée Strand</title>
+
+        <!-- Favicon -->   
+        <link rel="icon" href="favicon.png">
+        <link rel="apple-touch-icon" href="favicon.png">
+
+        <!-- CSS, Adobe Fonts och Font Awesome -->
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ddd8zdc.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <!-- jQuery script för kollage -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    </head>
+
+    <!-- Sätter svenska som språk när först besöker sidan -->
+    <body id="sv">
+
+        <!-- Svenska -->
+        <div lang="sv">
+            <header>
+                <div class="header-row">
+                    <div class="column-logo">
+                        <!-- Header-titel -->
+                        <a href="index.html"><h1>Desirée Strand</h1></a>
+                    </div>
+
+                    <!-- Navigation -->
+                    <!-- Original - https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+                    <nav id="column-nav"> 
+                        <!-- Dator-länkar -->
+                        <ul id="navbar-links">
+                            <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                            <li><a href="archive.html">ARKIV</a></li>
+                            <li><a href="about.html">OM</a></li>
+                            <li><a href="contact.html">KONTAKT</a></li>
+                        </ul>
+
+                        <!-- Mobil-navigation -->
+                        <!-- Original - https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp -->
+                        <div id="myNav-sv" class="nav-overlay">
+                            <!-- Stäng-knapp -->
+                            <a href="javascript:void(0)" class="hamburger-closebtn" id="hamburger-closebtn" onclick="closeNav()">
+                                <i class="fas fa-times"></i>
+                            </a>
+                            <!-- Mobil-länkar, dark-mode och språk -->
+                            <div class="nav-overlay-content" id="nav-overlay-links">
+                                    <a href="index.html#portfolio">PORTFOLIO</a>
+                                    <a href="archive.html">ARKIV</a>
+                                    <a href="about.html">OM</a>
+                                    <a href="contact.html">KONTAKT</a>
+
+                                    <div id="nav-overlay-buttons">
+                                        <button class="btn" onclick="darkMode()"><i class="fas fa-adjust"></i> Tema</button>
+                                        <button class="btn" onclick="langMode()"><i class="fas fa-globe-americas"></i> EN</button>
+                                        <script src="darkmode.js"></script>
+                                        <script src="language.js"></script>
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- Öppna-knapp -->
+                        <a href="javascript:void(0)" class="hamburger-icon" id="hamburger-icon" onclick="openNav()">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                        <!-- Script för mobil-navigation -->
+                        <script src="hamburger.js"></script>
+                    </nav>
+
+                    <!-- Dator dark mode och språk -->
+                    <!-- Original dark mode switch - https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/ -->
+                    <!-- Original language switch - https://stackoverflow.com/questions/13606290/html-change-language-using-element-lang -->
+                    <div id="column-accessability"> 
+                        <ul>
+                            <button class="btn" onclick="darkMode()"><i class="fas fa-adjust"></i> Tema</button>
+                            <button class="btn" onclick="langMode()"><i class="fas fa-globe-americas"></i> EN</button>
+                            <script src="darkmode.js"></script>
+                            <script src="language.js"></script>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            
+            <main class="wrapper">
+                <div id="remap-front-case"></div>
+                <section class="case-intro">
+                    <h2>Re:map</h2>
+                    <h3>En grafisk identitet med självförtroende som lyfter ungdomars idéer</h3>
+                        <ul id="case-type">
+                            <li>Varumärkesdesign</li>
+                            <li>Grafisk design</li>
+                        </ul>
+
+                    <h4>Sammanfattning</h4>
+                        <p>
+                            Uppdraget var att mitt team och jag i en designbrief och grafisk profil skulle gestalta studentkonceptet <i>Re:map;</i> interaktiva skärmar som ger ungdomar möjlighet att förändra sitt närområde. Processen hade tre faser – framtagning av två olika grafiska förslag, vidareutveckling av ett förslag, och presentation i konceptfilm och pitch. Med utgångspunkt i estetiker som dekonstruktion, futurism och klipp-och-klistra sätter vår version av Re:maps grafiska identitet ungdomarna i beslutfattarnas skor. Vår gestaltning av Re:map hyllades av handledare som en av utbildningens främsta.
+                        </p>
+                </section>
+
+                <section class="about-center">
+                    <div class="case-box">
+                        <h5>Uppdragstyp</h5>
+                        <ul>
+                            <li>
+                                Grupprojekt under termin 3
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="case-box">
+                        <h5>Uppdragsgivare</h5>
+                        <ul>
+                            <li>
+                                Studentkonceptet <i>Re:map</i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="case-box">
+                        <h5>Tid</h5>
+                        <ul>
+                            <li>
+                                4 veckor (december 2020-januari 2021)
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="case-box">
+                        <h5>Kunskaper</h5>
+                        <ul>
+                            <li>
+                                Gestaltning, Layout, Moodboard, Typografi, Färgteori, Mock-up, Storyboard, Animation, Copy, Pitch
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="case-box">
+                        <h5>Verktyg</h5>
+                        <ul>
+                            <li>
+                                Adobe Illustrator, Adobe Photoshop, Adobe InDesign, Adobe After Effects, Adobe Premiere Pro, Mural
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="case-box">
+                        <h5>Team</h5>
+                        <ul>
+                            <li>
+                                Anna-Maria Hjorth
+                            </li>
+                            <li>
+                                Simon Karlsson
+                            </li>
+                            <li>
+                                Ottilia Olsson
+                            </li>
+                            <li>
+                                Sebastian Åhman
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+
+                <section>
+                    <div class="case-middle-text"> 
+                        <h3>Introduktion</h3>
+                        <h4>Bakgrund och problem</h4>
+                            <p>
+                                <i>Re:map</i> utvecklades ur uppdraget att ta fram ett koncept som löser ungdomars behov på forskningsprojektet <i>Planning with Youths</i> tema: ”Innovativa lösningar för att engagera ungdomar i hållbar stadsplanering”. Studentgruppen som skapade Re:map såg att ungdomar mellan 12 till 18 år inte delar med sig av sina idéer till beslutsfattare, dels för att de inte vet hur, men framförallt för att de känner att de inte skulle bli lyssnade på. Re:map menar att få ungdomar att känna sig hörda, genom att befinna sig där de är i samhället som interaktiva skärmar där de snabbt och enkelt kan lämna förslag på förändring av sitt närområde, rösta på andra ungdomars förslag och se förslagen förverkligas.
+                            </p>
+
+                        <h4>Uppdrag, mål och syfte</h4>
+                            <p>
+                                Vårt uppdrag var att gestalta Re:map i en skriftlig designbrief och grafisk profil med moodboard, logotyp, färgpalett, typsnitt, bildmanér, slogan, visualiseringar och personas, genom tre faser: första fasen där två olika grafiska förslag skulle tas fram, den andra fasen där ett av förslagen skulle vidareutvecklas, och tredje fasen där konceptgestaltningen skulle presenteras i en konceptfilm och pitch.
+                            </p>
+    
+                        <h4>Min roll</h4>
+                            <p>
+                                I det här projektet var min främsta roll grafisk designer där jag var med och definierade den grafiska identiteten. Jag skapade också layout till olika typer av presentations- och dokumentationsmaterial. Vad jag specifikt bidrog till lyfts i samband med designprocessen.
+                            </p>
+
+                        <button onclick="toggleCase()" id="toggle-case">
+                            Läs om designprocessen
+                        </button>
+                        <script src="togglecase.js"></script>
+                    </div>
+                </section>
+
+                <div id="process" style="display: none">
+                    <section>
+                        <div class="case-middle-text"> 
+                            <h3>Designprocessen</h3>
+                            <h4>Fas 1: Konceptskiss</h4>
+                                <p>
+                                    Teamet skulle leverera två konceptskisser av grafiska förslag för Re:map. Vi delade upp teamet i två kontrasterande estetiker; ”cool kommun” som baserades i typiska grafiska profiler för kommuner och ”nutida punkverkstad” som agerade extrem motsats. Min delgrupp tilldelades estetiken ”nutida punkverkstad” som baserades i Anna-Maria Hjorths moodboard.
+                                </p>
+                        </div>
+
+                        <div class="case-img-middle" id="moodboard-rak">
+                            <img src="bilder/remap-2.jpg" alt="Anna-Maria Hjorths moodboard">
+                        </div>
+
+                        <div class="bildtext-middle">
+                            <p id="case-middle-bildtext">
+                                Moodboarden som inspirerade estetiken "nutida verkstad", skapad av Anna-Maria Hjorth.
+                            </p>
+                        </div>
+
+                        <div class="case-middle-text"> 
+                            <p>
+                                Inspirerade av moodboarden utvecklade vi en designbrief, personas för primär målgrupp, ny moodboard, logotyp, typsnitt, färgpalett och förslag på slogan. Jag skapade sedan en lathund för hur de grafiska elementen skulle hanteras. Med grund i klipp-och-klistra-estetik användes lager av texturer, färger, genomskinlighet och kantiga urklipp. För fysisk känsla illustrerades egna mönster. Repetition av former och mönster förenade element och skapade något genomgående i en grafisk identitet som annars är flexibel i uttryck, kompositioner och hierarkier. Utifrån lathunden skapade jag en reklamposter, och mina delgruppsmedlemmar två 3D-modeller av Re:map-skärmen och ett skärmgränssnitt.
+                            </p>
+                        </div>
+
+                        <!-- <div class="case-img-middle" id="moodboard">
+                            <img src="bilder/remap-moodboard.png" alt="Moodboard">
+                        </div>
+
+                        <div class="bildtext-middle">
+                            <p id="case-middle-bildtext">
+                                Första skissen av Re:maps moodboard.
+                            </p>
+                        </div>
+
+                        <div class="case-img-middle" id="moodboard">
+                            <img src="bilder/remap-logotypskisser.png" alt="Logotypskisser">
+                        </div>
+
+                        <div class="bildtext-middle">
+                            <p id="case-middle-bildtext">
+                                Anna-Maria Hjorths skisser av Re:map-logotypen.
+                            </p>
+                        </div>
+
+                        <div class="case-img-middle" id="moodboard">
+                            <img src="bilder/markpenna.svg" alt="Märkpenna">
+                        </div>
+
+                        <div class="bildtext-middle">
+                            <p id="case-middle-bildtext">
+                                Sebastian Åhmans typsnitt <i>Märkpenna.</i>
+                            </p>
+                        </div> -->
+
+                        <div class="case-img-middle" id="moodboard-rak">
+                            <img src="bilder/remap-3.jpg" alt="Lathund">
+                        </div>
+
+                        <div class="bildtext-middle">
+                            <p id="case-middle-bildtext">
+                                Lathunden som jag skapade utifrån de grafiska element som delgruppen gemensamt definierat.
+                            </p>
+                        </div>
+
+                        <!-- <div class="case-img-middle" id="moodboard">
+                            <img src="bilder/remap-poster.jpg" alt="Poster">
+                        </div>
+
+                        <div class="bildtext-middle">
+                            <p id="case-middle-bildtext">
+                                Den första skissen av Re:maps reklamposter, skapad av mig.
+                            </p>
+                        </div>
+
+                        <div class="case-img-middle" id="moodboard">
+                            <img src="bilder/remap-skarm.jpg" alt="Skärm">
+                        </div>
+
+                        <div class="bildtext-middle">
+                            <p id="case-middle-bildtext">
+                                Den första versionen av den futuristiska skärmen, 3D-modell skapad av Sebastian Åhman och skärmgränssnitt skapat av Anna-Maria Hjorth.
+                            </p>
+                        </div> -->
+
+                        <div class="case-img-middle" id="moodboard-rund">
+                            <img src="bilder/remap-konceptgestaltning.jpg" alt="Konceptskiss">
+                        </div>
+
+                         <div class="bildtext-middle">
+                            <p id="case-middle-bildtext">
+                                Resultatet av konceptskissen "nutida punkverkstad".
+                            </p>
+                        </div>
+
+                        <div class="case-middle-text"> 
+                            <p>
+                                Mitt teams två grafiska förslag presenterades för att få kritik och ett förslag framröstat för vidareutveckling. Båda förslagen upplevdes som färdiga där få korrigeringar krävdes. Vid omröstningen togs min delgrupps förslag ”nutida punkverkstad” vidare.
+                            </p>
+                        </div>
+
+                        <div class="case-img-middle" id="two-img">
+                            <img src="bilder/remap-9-2.jpg" alt="Poster NV">
+                        </div>
+
+                        <div class="case-img-middle" id="two-img">
+                            <img src="bilder/remap-9-1.jpg" alt="Poster CK">
+                        </div>
+        
+                        <div class="bildtext-middle" id="two-img-bildtext">
+                            <p id="case-middle-bildtext">
+                                Visualiseringar av konceptskisserna, "nutida punkverkstad" till vänster och "cool kommun" till höger.
+                            </p>
+                        </div>
+
+                        <div class="case-middle-text"> 
+                            <h4>Fas 2: Slutgiltigt koncept</h4>
+                                <p>
+                                    Teamet skulle vidareutveckla den framröstade konceptskissen ”nutida punkverkstad”. Jag skapade bildmanér och bidrog till personas för sekundär målgrupp. Mina teammedlemmar skapade ett webbgränssnitt, uppdaterat skärmgränssnitt och Instagram-inlägg utifrån min lathund. Min främsta uppgift under denna fas var detaljarbete i färdiga element och sammanställning av den slutgiltiga konceptgestaltningen.
+                                </p>
+                        </div>
+
+                        <div class="case-img-middle" id="moodboard-rund">
+                            <img src="bilder/remap-konceptskiss.jpg" alt="Konceptgestaltningen">
+                         </div>
+
+                        <div class="bildtext-middle">
+                            <p id="case-middle-bildtext">
+                                Resultatet av konceptgestaltningen.
+                            </p>
+                        </div>
+
+                        <div class="case-middle-text"> 
+                            <h4>Fas 3: Konceptfilm och pitch</h4>
+                                <p>
+                                    Teamet skulle hålla en konceptpresentation med konceptfilm och muntlig retorisk pitch via Zoom anpassad till målgruppen investerare. Vi utförde en brainstorm för konceptfilmen, definierade idéen och skapade moodboard och storyboard. Konceptfilmen skulle förmedla den rebelliska tonen och klipp-och-klistra-estetiken som genomsyrar den grafiska identiteten. Medan mina teammedlemmar animerade fokuserade jag på innehållet i konceptfilmen som skulle spegla Re:maps slogan. Jag skrev copy, illustrerade kollage och skissade animeringar.
+                                </p>
+                        </div>
+
+                        <div class="case-middle-text"> 
+                            <!-- Original slideshow - https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+                            <div class="slideshow-container">
+                                <div class="mySlides1">
+                                    <img src="bilder/remap-5-1.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides1">
+                                    <img src="bilder/remap-5-2.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides1">
+                                    <img src="bilder/remap-5-3.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides1">
+                                    <img src="bilder/remap-5-4.jpg" style="width:100%">
+                                </div>
+
+                                <a class="slideshow-prev" onclick="slideshowplusSlides(-1, 0)">&#10094;</a>
+                                <a class="slideshow-next" onclick="slideshowplusSlides(1, 0)">&#10095;</a>
+
+                                <script src="slideshow.js"></script>
+                            </div>
+                        </div>
+
+                        <div class="bildtext-middle">
+                            <p id="case-middle-bildtext">
+                                Kollagen jag illustrerade till konceptfilmen.
+                            </p>
+                        </div>
+
+                        <div class="case-middle-text"> 
+                            <p>
+                                Pitchmaterialet utvecklades gemensamt. Till pitchen illustrerades en Re:map-skärm för interaktion i Zoom och Zoom-bakgrunder med Re:maps logotyp och färgpalett.
+                            </p>
+                        </div>
+
+                        <div class="case-img-middle" id="moodboard-rund">
+                            <img src="bilder/remap-zoom.png" alt="Zoom">
+                         </div>
+
+                        <div class="bildtext-middle">
+                            <p id="case-middle-bildtext">
+                                Den Re:map-skärm som deltagare kunde rita på i Zoom efter pitchen.
+                            </p>
+                        </div>
+
+                        <button onclick="toggleCase()" id="toggle-case">
+                            Göm designprocessen
+                        </button>
+                        <script src="togglecase.js"></script>
+                    </section>
+                </div>
+
+                <section>
+                    <div class="case-middle-text"> 
+                        <h3>Lösning</h3>
+                        <h4>Designbrief</h4>
+                            <p>
+                                Re:maps grafiska identitet vänder sig till ungdomar. Idag känner ungdomar att beslutsfattare inte lyssnar på de, och bidrar därför inte med idéer, då de inte heller vet hur man bidrar. Re:maps mål är att ungdomar ska känna att de har makten att förändra sitt närområde med sina idéer genom att ge dem verktygen och självförtroendet att göra det, på platser där de naturligt befinner sig. Centrala känslor Re:map vill förmedla är kreativitet, nyfikenhet, frihet, gemenskap, självförtroende och att känna sig hörd.
+                            </p>
+
+                        <h5 id="above-video">Konceptfilm</h5>
+                            <div style="padding:56.25% 0 0 0;position:relative;">
+                                <iframe src="https://player.vimeo.com/video/500366747?h=9f3a46c6e1&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <script src="https://player.vimeo.com/api/player.js"></script>
+
+                        <h4 id="below-video">Grafisk profil</h4>
+                        <h5>Moodboard</h5>
+                            <p>
+                                För att fånga intresset och uppmana till förändring har vi gått utanför vad som förväntas av en kommuns visuella språk. Samarbetet mellan ungdomar och kommunen resulterar i en kombination av vitt skilda stilar, bakgrunder och miljöer. Re:map menar att betona denna spretighet; dra isär och ifrågasätta normer och lyfta det unika, annorlunda och speciella för att göra Re:map till något spännande i alla miljöer. Med inspiration från dekonstruktivismens kollagestil har vi därför framställt ett kaxigt och rebelliskt grafiskt uttryck där inget är heligt. Dekonstruktion, punk, retroestetik, futurism, teknik, fysiska material, kontemporär typografi, och starka färger samsas om att göra intryck och skapa känslan av gemensamt skapande.
+                            </p>              
+                    </div>
+
+                    <div class="case-img-middle" id="moodboard-rak">
+                        <img src="bilder/remap-16.jpg" alt="Moodboard">
+                    </div>
+
+                    <div class="bildtext-middle">
+                        <p id="case-middle-bildtext">
+                            Re-maps moodboard.
+                        </p>
+                    </div>    
+
+                    <div class="case-middle-text"> 
+                        <h5>Logotyp</h5>
+                            <p>
+                                Re:maps logotyp tar den grafiska identiteten, och kombinerar och sammanfattar dess element. Re:map har även ett bildmärke som används i kontext där logotypen inte får plats.
+                            </p>              
+                    </div>
+
+                    <div class="case-img-middle" id="moodboard-rak">
+                        <img src="bilder/remap-logotyper.jpg" alt="Logotyper">
+                    </div>
+
+                    <div class="bildtext-middle">
+                        <p id="case-middle-bildtext">
+                            Re-maps logotyper.
+                        </p>
+                    </div>    
+
+                    <div class="case-middle-text"> 
+                        <h5>Mönster</h5>
+                            <p>
+                                Tre mönster förenar den grafiska profilens element. De tar inspiration från fysiska material och miljöer; det ena från industriell räfflad metall, och det andra från träslöjd och verkstäder. De återspeglar klipp-och-klistra-estetiken och skapandet vi eftersträvar.
+                            </p>              
+                    </div>
+
+                    <div class="case-img-middle" id="moodboard-rak">
+                        <img src="bilder/remap-monster.jpg" alt="Mönster">
+                    </div>
+
+                    <div class="bildtext-middle">
+                        <p id="case-middle-bildtext">
+                            Re:maps mönster.
+                        </p>
+                    </div>
+
+                    <div class="case-middle-text"> 
+                        <h5>Färgpalett</h5>
+                            <p>
+                                Profilfärgerna består av en lila, grön, och gul. Komplementfärgerna är en off-black samt off-white. Färgerna är starka och har mycket kontrast sinsemellan. Färgpaletten skapar ett högljutt uttryck med självförtroende som sticker ut oavsett kontext.
+                            </p>              
+                    </div>
+
+                    <div class="case-img-middle" id="moodboard-rak">
+                        <img src="bilder/remap-fargpalett.jpg" alt="Färgpalett">
+                    </div>
+
+                    <div class="bildtext-middle">
+                        <p id="case-middle-bildtext">
+                            Re-maps färgpalett.
+                        </p>
+                    </div>    
+
+                    <div class="case-middle-text"> 
+                        <h5>Typsnitt</h5>
+                            <p>
+                                Tre typsnitt kombineras i Re:map. Det egentillverkade accenttypsnittet Märkpenna betonar det rebelliska i Re:map, då dess handskrivna versaler skapar kontrast i både textur och form mot de geometriska rubriktypsnittet Syne och brödtexttypsnittet Work Sans.
+                            </p>              
+                    </div>
+
+                    <div class="case-img-middle" id="moodboard-rund">
+                        <img src="bilder/remap-typsnitt.jpg" alt="Typsnitt">
+                    </div>
+
+                    <div class="bildtext-middle">
+                        <p id="case-middle-bildtext">
+                            Re:maps rubriktypsnitt, brödtexttypsnitt och accenttypsnitt.
+                        </p>
+                    </div>
+
+                    <div class="case-img-middle" id="moodboard-rund">
+                        <img src="bilder/remap-markpenna.jpg" alt="Märkpenna">
+                    </div>
+
+                    <div class="bildtext-middle">
+                        <p id="case-middle-bildtext">
+                            Re:maps accenttypsnitt, <i>Märkpenna,</i> format av Sebastian Åhman.
+                        </p>
+                    </div>
+
+                    <div class="case-middle-text"> 
+                        <h5>Bildmanér</h5>
+                            <p>
+                                Re:maps bildmanér visar färgfilter, kameravinklar, motiv och tonalitet bildmaterialet ska ha. Re:map använder närbilder på människor i rörelse som speglar målgruppen, då vi vill att de ska känna sig och sin vilja att vara med och skapa sedda.
+                            </p>              
+                    </div>
+
+                    <div class="case-img-middle" id="bildmaner">
+                        <img src="bilder/remap-19.png" alt="Bildmanér">
+                    </div>
+
+                    <div class="bildtext-middle">
+                        <p id="case-middle-bildtext">
+                            Re-maps bildmanér.
+                        </p>
+                    </div>    
+
+                    <div class="case-middle-text"> 
+                        <h5>Slogan</h5>
+                            <p>
+                                “Reset, redo, create” ämnar att spela på Re:map som helhetskoncept, vad som är möjligt med tjänsten i sig och uppmana till kreativitet och handling. Den antyder också på vårt tema om att fördela om makt till ungdomar genom “reset” och “redo”.
+                            </p>      
+                    </div>
+
+                    <div class="case-img-middle" id="moodboard-rund">
+                        <img src="remap-slogan.jpg" alt="Slogan">
+                    </div>
+
+                    <div class="bildtext-middle">
+                        <p id="case-middle-bildtext">
+                            Re-maps slogan.
+                        </p>
+                    </div>    
+
+                    <div class="case-middle-text"> 
+                        <h5>Visualiseringar</h5>
+                            <p>
+                                Re:map är visualiserat genom en reklamposter som uppmanar att leta upp den fysiska skärmen. Vi skapade två modeller av skärmen, en klassiskt formad och en mer futuristisk. Vi visualiserade även Re:maps webbsida och hur reklam på sociala medier kan se ut, för att visa hur kanaler som ungdomar befinner sig i kan användas för att engagera de.
+                            </p>              
+                    </div>
+
+                    <div class="case-img-middle" id="moodboard-rak">
+                        <img src="remap-25.jpg" alt="Poster">
+                    </div>
+
+                    <div class="bildtext-middle">
+                        <p id="case-middle-bildtext">
+                            Re-maps reklamposter skapad av mig.
+                        </p>
+                    </div>    
+
+                    <div class="case-img-middle" id="two-img">
+                        <img src="remap-23.jpg" alt="Platt skärm">
+                    </div>
+
+                    <div class="case-img-middle" id="two-img">
+                        <img src="remap-24.jpg" alt="Rund skärm">
+                    </div>
+
+                    <div class="case-img-middle" id="bottom-two">
+                        <img src="remap-26.jpg" alt="Instagram">
+                    </div>
+
+                    <div class="case-img-middle" id="bottom-two">
+                        <img src="remap-27.jpg" alt="Webbsida">
+                    </div>
+
+                    <div class="bildtext-middle" id="two-img-bildtext">
+                        <p id="case-middle-bildtext">
+                            Re-maps skärmar skapade av Sebastian Åhman, Instagramreklam skapad av Ottilia Olsson och skärm- och webbgränssnitt skapade av Anna-Maria Hjorth.
+                        </p>
+                    </div>    
+
+                    <div class="case-middle-text"> 
+                        <h5>Personas</h5>
+                            <p>
+                                Re:map har fyra personas; två för den primära målgruppen ungdomar som baseras i behov och karaktärsdrag från originalkonceptets intervjuer, och två för den sekundära målgruppen ungdomarnas närstående vuxna som kan tänkas intressera sig för Re:map i och med ungdomarnas engagemang i det.
+                            </p>              
+                    </div>
+
+                    <div class="case-img-middle" id="personas">
+                        <img src="remap-21.jpg" alt="Primär målgrupp">
+                    </div>
+
+                    <div class="case-img-middle" id="personas">
+                        <img src="remap-22.jpg" alt="Sekundär målgrupp">
+                    </div>
+
+                    <div class="bildtext-middle">
+                        <p id="case-middle-bildtext">
+                            Re:maps personas av primär och sekundär målgrupp.
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="case-middle-text"> 
+                        <h3>Resultat</h3>
+                            <p>
+                                Den grafiska identitet som vi skapat för Re:map lyftes av handledare som en av de främsta konceptgestaltningarna i utbildningen hittills. Återkopplingen vi fick från opponeringsgrupp, handledare och gästföreläsare var att pitchen och konceptfilmen var mycket tydliga, engagerande, genomarbetade och proffsiga.
+                            </p>   
+                    </div>
+
+                    <div class="case-middle-text"> 
+                        <h3>Lärdomar</h3>
+                            <p>
+                                Jag är både stolt och nöjd över resultatet, men framförallt det generella arbetet med teamet. Vi levererade ett genomarbetat resultat på kort tid (totalt 14 arbetsdagar), vilket likt återkopplingen var ett kvitto på ett välfungerande samarbete, med god kommunikation, korrelerande förmågor, erfarenheter, ambitioner och mål, och respekt för varandra.
+                            </p>  
+
+                            <p>
+                                Följande lärdomar tar jag med mig från arbetet med Re:maps grafiska identitet:
+                            </p>
+
+                            <ul class="fa-ul" id="case-list">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-certificate"></i></span>  En initial gemensam grund och positiv inställning skapar en hälsosam arbetsmiljö där alla kan vara deltagande och engagerade, vilket i sin tur bidrar till effektivitet och noggrannhet i arbetet.
+                                </li>
+
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-certificate"></i></span> Med kontinuerliga incheckningar där alla deltar, nära samarbete och god kommunikation och planering behöver ett team inte tilldelas olika roller, utan kan istället beta av listor med enskilda uppgifter. Detta kräver dock gemensamma mål, förväntningar och disciplin.
+                                </li>
+
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-certificate"></i></span> Våga vara mer maximalistisk i det visuella.
+                                </li>
+                            </ul> 
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                <div id="footer-nav"> 
+                    <ul id="footer-links">
+                        <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                        <li><a href="archive.html">ARKIV</a></li>
+                        <li><a href="about.html">OM</a></li>
+                        <li><a href="contact.html">KONTAKT</a></li>
+                    </ul>
+                    <p>
+                        © Desirée Strand 2021.
+                    </p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Engelska -->
+        <div lang="en">
+            <header>
+                <div class="header-row">
+                    <div class="column-logo">
+                        <!-- Header-titel -->
+                        <a href="index.html"><h1>Desirée Strand</h1></a>
+                    </div>
+
+                    <!-- Navigation -->
+                    <!-- Original - https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+                    <nav id="column-nav"> 
+                        <!-- Dator-länkar -->
+                        <ul id="navbar-links">
+                            <li><a href="index.html#portfolio-en">PORTFOLIO</a></li>
+                            <li><a href="archive.html">ARCHIVE</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+
+                        <!-- Mobil-navigation -->
+                        <!-- Original - https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp -->
+                        <div id="myNav-en" class="nav-overlay">
+                            <!-- Stäng-knapp -->
+                            <a href="javascript:void(0)" class="hamburger-closebtn" id="hamburger-closebtn" onclick="closeNav()">
+                                <i class="fas fa-times"></i>
+                            </a>
+                            <!-- Mobil-länkar, dark-mode och språk -->
+                            <div class="nav-overlay-content" id="nav-overlay-links-en">
+                                    <a href="index.html#portfolio-en">PORTFOLIO</a>
+                                    <a href="archive.html">ARCHIVE</a>
+                                    <a href="about.html">ABOUT</a>
+                                    <a href="contact.html">CONTACT</a>
+
+                                <div id="nav-overlay-buttons-en">
+                                    <button class="btn" onclick="darkMode()"><i class="fas fa-adjust"></i> Theme</button>
+                                    <button class="btn" onclick="langMode()"><i class="fas fa-globe-americas"></i> SV</button>
+                                    <script src="darkmode.js"></script>
+                                    <script src="language.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Öppna-knapp -->
+                        <a href="javascript:void(0)" class="hamburger-icon" id="hamburger-icon" onclick="openNav()">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                        <!-- Script för mobil-navigation -->
+                        <script src="hamburger.js"></script>
+                    </nav>
+
+                    <!-- Dator dark mode och språk -->
+                    <!-- Original dark mode switch - https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/ -->
+                    <!-- Original language switch - https://stackoverflow.com/questions/13606290/html-change-language-using-element-lang -->
+                    <div id="column-accessability"> 
+                        <ul></ul>
+                            <button class="btn" onclick="darkMode()"><i class="fas fa-adjust"></i> Theme</button>
+                            <button class="btn" onclick="langMode()"><i class="fas fa-globe-europe"></i> SV</button>
+                            <script src="darkmode.js"></script>
+                            <script src="language.js"></script>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            
+            <main class="wrapper">
+                <section class="contact-info">
+                    <h2>Coming soon</h2>
+                </section>
+            </main>
+            
+            <footer>
+                <div id="footer-nav"> 
+                    <ul id="footer-links">
+                        <li><a href="index.html#portfolio-en">PORTFOLIO</a></li>
+                        <li><a href="archive.html">ARCHIVE</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <p>
+                        © Desirée Strand 2021.
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
