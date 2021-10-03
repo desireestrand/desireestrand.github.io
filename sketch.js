@@ -18,11 +18,15 @@ function setup() {
     frameRate(35);
 
     const currentTheme = localStorage.getItem("theme");
+
+    if (currentTheme == "") {
+      currentTheme = "light"
+    }
   
     if (currentTheme == "dark") {
       lineColor = color(164,242,68);
       backColor = color(9,8,9);
-    } else if (currentTheme == "light" || currentTheme == "") {
+    } else if (currentTheme == "light") {
       lineColor = color(25,35,201);
       backColor = color(242,244,243);
     }
@@ -39,11 +43,15 @@ function setup() {
     frameRate(35);
 
     const currentTheme = localStorage.getItem("theme");
+
+    if (currentTheme == "") {
+      currentTheme = "light"
+    }
   
     if (currentTheme == "dark") {
       lineColor = color(164,242,95);
       backColor = color(9,8,9);
-    } else if (currentTheme == "light" || currentTheme == "") {
+    } else if (currentTheme == "light") {
       lineColor = color(25,35,201);
       backColor = color(242,244,243);
     }
