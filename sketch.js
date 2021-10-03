@@ -8,7 +8,10 @@ let backColor;
 function setup() {
   var lang = document.body.id;
 
-  if (lang == "sv") {
+  var clientHeight = document.getElementById('front').clientHeight;
+  var clientWidth = document.getElementById('front').clientWidth;
+
+  if (lang == "sv" && clientWidth > 769) {
     var clientHeight = document.getElementById('front').clientHeight;
     var clientWidth = document.getElementById('front').clientWidth;
   
@@ -40,7 +43,7 @@ function setup() {
 
     const currentTheme = localStorage.getItem("theme");
   
-    if (currentTheme == "dark") {
+    if (currentTheme == "dark" && clientWidth > 769) {
       lineColor = color(164,242,95);
       backColor = color(9,8,9);
     } else if (currentTheme == "light") {
