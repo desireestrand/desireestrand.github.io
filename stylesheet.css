@@ -1501,6 +1501,13 @@ user-select: none;
 }
 
 @media screen and (max-width: 768px) {
+  .front, .front-en {
+    height: 100vh;
+    width: 100vw;
+    background: var(--second-color);
+    border-radius: 1.5em;
+  }
+  
   section {
     padding: 7% 0% 7% 0%;
   }
