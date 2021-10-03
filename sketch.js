@@ -8,10 +8,10 @@ let backColor;
 function setup() {
   var lang = document.body.id;
 
-  var clientWidth = document.getElementById('front').clientWidth;
-  var clientWidthEn = document.getElementById('front-en').clientWidth;
+  var windowSV = document.getElementById('front').clientWidth;
+  var windowEN = document.getElementById('front-en').clientWidth;
 
-  if (lang == "sv" && clientWidth > 769) {
+  if (lang == "sv" && windowSV > 769) {
     var clientHeight = document.getElementById('front').clientHeight;
     var clientWidth = document.getElementById('front').clientWidth;
   
@@ -32,7 +32,7 @@ function setup() {
   
     background(backColor);
 
-  } else if (lang == "en" && clientWidthEn > 769) {
+  } else if (lang == "en" && windowEN > 769) {
     var clientHeight = document.getElementById('front-en').clientHeight;
     var clientWidth = document.getElementById('front-en').clientWidth;
   
