@@ -22,12 +22,13 @@ function setup() {
     if (currentTheme == "dark") {
       lineColor = color(164,242,68);
       backColor = color(9,8,9);
-    } else if (currentTheme == "light") {
+    } else if (currentTheme == "light" || currentTheme == "") {
       lineColor = color(25,35,201);
       backColor = color(242,244,243);
     }
   
     background(backColor);
+
   } else if (lang == "en") {
     var clientHeight = document.getElementById('front-en').clientHeight;
     var clientWidth = document.getElementById('front-en').clientWidth;
@@ -42,7 +43,7 @@ function setup() {
     if (currentTheme == "dark") {
       lineColor = color(164,242,95);
       backColor = color(9,8,9);
-    } else if (currentTheme == "light") {
+    } else if (currentTheme == "light" || currentTheme == "") {
       lineColor = color(25,35,201);
       backColor = color(242,244,243);
     }
