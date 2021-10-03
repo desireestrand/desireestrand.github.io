@@ -18,10 +18,6 @@ function setup() {
     frameRate(35);
 
     const currentTheme = localStorage.getItem("theme");
-
-    if (currentTheme == "") {
-      currentTheme = "light"
-    }
   
     if (currentTheme == "dark") {
       lineColor = color(164,242,68);
@@ -43,10 +39,6 @@ function setup() {
     frameRate(35);
 
     const currentTheme = localStorage.getItem("theme");
-
-    if (currentTheme == "") {
-      currentTheme = "light"
-    }
   
     if (currentTheme == "dark") {
       lineColor = color(164,242,95);

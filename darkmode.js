@@ -4,9 +4,7 @@ const currentTheme = window.localStorage.getItem("theme");
 
 if (currentTheme == "") {
   currentTheme = "light"
-}
-
-if (currentTheme == "dark") {
+} else if (currentTheme == "dark") {
   document.body.classList.toggle("dark-theme");
 } else if (currentTheme == "light") {
   document.body.classList.toggle("light-theme");
