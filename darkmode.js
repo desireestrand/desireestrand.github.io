@@ -1,6 +1,11 @@
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
 const currentTheme = window.localStorage.getItem("theme");
+
+if (currentTheme == "") {
+  currentTheme = "light"
+}
+
 if (currentTheme == "dark") {
   document.body.classList.toggle("dark-theme");
 } else if (currentTheme == "light") {
