@@ -32,7 +32,7 @@ function setup() {
   
     background(backColor);
 
-  } else if (lang == "en") {
+  } else if (lang == "en" && clientWidth > 769) {
     var clientHeight = document.getElementById('front-en').clientHeight;
     var clientWidth = document.getElementById('front-en').clientWidth;
   
@@ -43,7 +43,7 @@ function setup() {
 
     const currentTheme = localStorage.getItem("theme");
   
-    if (currentTheme == "dark" && clientWidth > 769) {
+    if (currentTheme == "dark") {
       lineColor = color(164,242,95);
       backColor = color(9,8,9);
     } else if (currentTheme == "light") {
