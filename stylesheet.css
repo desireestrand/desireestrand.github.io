@@ -527,13 +527,14 @@ canvas {
 
 /* Layout */
 .gallery-row {
-  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
   border-radius: 1.5em;
 }
 
 .gallery-column {
-  float: left;
-  width: 25%;
+  flex: 25%;
+  max-width: 25%;
 }
 
 .gallery-column img {
@@ -609,10 +610,12 @@ canvas {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .modal-content img {
-  max-width: 50vh;
+  max-width: 80vw;
+  max-height: 70vh;
 }
 
 /* Stäng-knapp */
@@ -651,11 +654,12 @@ canvas {
   font-weight: 400;
   font-style: normal;
   font-size: 1em;
-  max-width: 50vh;
+  text-align: left;
+  max-width: 60vw;
 }
 
 /* Overlay på bilder i galleriet */
-figure .overlay {
+.column .overlay {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -679,11 +683,11 @@ figure .overlay {
   padding: 2em;
 }
 
-figure:hover .overlay {
+.column:hover .overlay {
   opacity: 1;
 }
 
-figure {
+.column {
   position: relative;
 }
 
@@ -1650,7 +1654,7 @@ user-select: none;
 
   .case-box {
     width: 45%;
-    height: 160px;
+    height: 165px;
   }
 
   .bildtext, #case-right-bildtext, #case-left-bildtext {
@@ -1858,16 +1862,17 @@ user-select: none;
 
   /* Arkiv */
   .gallery-column {
-    float: left;
-    width: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
 
   .modal-content img {
-    max-width: 30vh;
+    max-width: 80vw;
+    max-height: 80vh;
   }
 
   .caption-container {
-    max-width: 30vh;
+    max-width: 80vw;
   }
 
   .close {
@@ -1885,14 +1890,14 @@ user-select: none;
 
   .case-box {
     width: 100%;
-    height: 130px;
+    height: 155px;
   }
 
   .case-right-text h2 {
     font-size: 3em;
   }
 
-  .about-links li {
+  .about-links {
     margin-top: 2%;
   }
 
@@ -2077,8 +2082,8 @@ user-select: none;
 
   /* Arkiv */
   .gallery-column {
-    float: left;
-    width: 50%;
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
@@ -2105,8 +2110,8 @@ user-select: none;
 
   /* Arkiv */
   .gallery-column {
-    float: left;
-    width: 33.3%;
+    flex: 50%;
+    max-width: 50%;
   }
 
   .currents {
@@ -2148,8 +2153,8 @@ user-select: none;
 
    /* Arkiv */
   .gallery-column {
-    float: left;
-    width: 25%;
+    flex: 25%;
+    max-width: 25%;
   }
 
   .currents {
