@@ -246,10 +246,14 @@ canvas {
 
 .front {
   height: 100vh;
+  background: var(--second-color);
+  border-radius: 1.5em;
 }
 
 .front-en {
   height: 100vh;
+  background: var(--second-color);
+  border-radius: 1.5em;
 }
 
 #title {
