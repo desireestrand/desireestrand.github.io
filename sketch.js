@@ -30,7 +30,7 @@ function setup() {
       backColor = color(242,244,243);
     }
   
-    background(backColor);
+    color(backColor);
 
   } else if (lang == "en" && windowEN > 769) {
     var clientHeight = document.getElementById('front-en').clientHeight;
@@ -51,7 +51,7 @@ function setup() {
       backColor = color(242,244,243);
     }
   
-    background(backColor);
+    color(backColor);
   }
 }
 
