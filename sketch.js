@@ -1,4 +1,4 @@
-let x=0;
+/* let x=0;
 let y=0;
 let spacing = 7;
 let lineColor;
@@ -71,4 +71,4 @@ function draw() {
 function change() {
   x = 0;
   setup();
-}
+} */
