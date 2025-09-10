@@ -1,0 +1,168 @@
+/* GLOBAL STYLES */
+body {
+  margin: 0 auto;
+  background-color: #FAFAFA;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#222222;
+}
+
+/* HEADER */
+header {
+  padding: 1rem;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  margin: 0 1rem 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+nav a {
+  color: #222222;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #89A7E0;
+}
+
+nav h1 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* HERO SECTION */
+.header-container {
+  height: 80vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container h1 {
+  font-size: 3rem;
+}
+
+.header-container span {
+  color: #89A7E0;
+}
+
+/* BLOG */
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+}
+
+.blog-container header {
+  padding: 0;
+}
+
+.blog-container header p {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.blog-container article {
+  max-width: 800px;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #222222;
+  padding-bottom: 2rem;
+}
+
+.blog-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-container p {
+  margin-bottom: 1rem;
+}
+
+.blog-container code {
+  background: #EDEDED;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.95rem;
+}
+
+.blog-container footer {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+
+
+/* FOOTER */
+footer {
+  position: relative;
+  bottom: 0;
+  padding: 1rem 0;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #222222;
+  transition: color 0.3s;
+}
+
+.contact a:hover {
+  color: #89A7E0;
+}
+
+/* ICONS */
+
+ion-icon {
+  font-size: 2rem;
+  color: #222222;
+  transition: 0.3s;
+}
+
+ion-icon:hover {
+  color: #89A7E0;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .header-container h1 {
+    font-size: 2.5rem;
+  }
+}

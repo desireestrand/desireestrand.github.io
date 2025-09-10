@@ -1,362 +1,77 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desirée Strand - Portfolio</title>
+    <meta name="description" content="Portfolio of Desirée Strand, a Fullstack Developer passionate about User Experience." />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </head>
 
-        <title>Portfolio | Desirée Strand</title>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <h1><a href="index.html">Desirée Strand</a></h1>
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <!-- <li><a href="blog.html">Blogg</a></li> -->
+        </ul>
+      </nav>
+    </header>
 
-        <!-- Favicon -->   
-        <link rel="icon" href="favicon.png">
-        <link rel="apple-touch-icon" href="favicon.png">
+    <!-- MAIN -->
+    <main>
+        <section class="header-container">
+          <div class="header-container-item">
+            <h1>
+              Hi! I'm Desirée, <br />
+              a <span>Fullstack Developer</span> and <br />
+              <span>UX enthusiast</span>, passionate about <br>
+              crafting meaningful digital experiences <br>
+              that create real value for users.
+            </h1>
+          </div>
+        </section>
+    </main>
 
-        <!-- CSS, Adobe Fonts och Font Awesome -->
-        <link rel="stylesheet" href="stylesheet.css">
-        <link rel="stylesheet" href="https://use.typekit.net/ddd8zdc.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- FOOTER -->
+    <footer>
+      <section class="contact">
+        <div class="contact-container">
+          <ul>
+            <li>
+              <a href="mailto:desireestrxnd@gmail.com"
+                 aria-label="Email Desirée Strand">
+                <ion-icon name="mail"></ion-icon>
+              </a>
+            </li>
 
-        <!-- p5.js -->
-        <!-- <script src="p5/p5.min.js"></script> -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script> -->
-        <!-- <script src="sketch.js"></script> -->
-    </head>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/desirée-strand-a9ab7b159"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit LinkedIn Profile">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
 
-    <!-- Sätter svenska som språk när först besöker sidan -->
-    <body id="sv">
-
-        <!-- Svenska -->
-        <div lang="sv">
-            <header>
-                <div class="header-row">
-                    <div class="column-logo">
-                        <!-- Header-titel -->
-                        <a href="index.html"><h1>Desirée Strand</h1></a>
-                    </div>
-
-                    <!-- Navigation -->
-                    <!-- Original - https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-                    <nav id="column-nav"> 
-                        <!-- Dator-länkar -->
-                        <ul id="navbar-links">
-                            <li><a href="index.html#portfolio" class="active">PORTFOLIO</a></li>
-                            <li><a href="archive.html">ARKIV</a></li>
-                            <li><a href="about.html">OM</a></li>
-                            <li><a href="contact.html">KONTAKT</a></li>
-                        </ul>
-
-                        <!-- Mobil-navigation -->
-                        <!-- Original - https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp -->
-                        <div id="myNav-sv" class="nav-overlay">
-                            <!-- Stäng-knapp -->
-                            <a href="javascript:void(0)" class="hamburger-closebtn" id="hamburger-closebtn" onclick="closeNav()">
-                                <i class="fas fa-times"></i>
-                            </a>
-                            <!-- Mobil-länkar, dark-mode och språk -->
-                            <div class="nav-overlay-content" id="nav-overlay-links">
-                                    <a href="index.html#portfolio" class="active">PORTFOLIO</a>
-                                    <a href="archive.html">ARKIV</a>
-                                    <a href="about.html">OM</a>
-                                    <a href="contact.html">KONTAKT</a>
-
-                                    <div id="nav-overlay-buttons">
-                                        <button class="btn" onclick="darkMode();change()"><i class="fas fa-adjust"></i> Tema</button>
-                                        <!-- <button class="btn" onclick="langMode();change()"><i class="fas fa-globe-americas"></i> EN</button> -->
-                                        <script src="darkmode.js"></script>
-                                        <!-- <script src="language.js"></script> -->
-                                    </div>
-                            </div>
-                        </div>
-                        <!-- Öppna-knapp -->
-                        <a href="javascript:void(0)" class="hamburger-icon" id="hamburger-icon" onclick="openNav()">
-                            <i class="fas fa-bars"></i>
-                        </a>
-                        <!-- Script för mobil-navigation -->
-                        <script src="hamburger.js"></script>
-                    </nav>
-
-                    <!-- Dator dark mode och språk -->
-                    <!-- Original dark mode switch - https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/ -->
-                    <!-- Original language switch - https://stackoverflow.com/questions/13606290/html-change-language-using-element-lang -->
-                    <div id="column-accessability"> 
-                        <ul>
-                            <button class="btn" onclick="darkMode();change()"><i class="fas fa-adjust"></i> Tema</button>
-                            <!-- <button class="btn" onclick="langMode();change()"><i class="fas fa-globe-americas"></i> EN</button> -->
-                            <script src="darkmode.js"></script>
-                            <!-- <script src="language.js"></script> -->
-                        </ul>
-                    </div>
-                </div>
-            </header>
-            
-            <main class="wrapper">
-                <section class="front" id="front">
-                    <div id="title">
-                        <h3 id="hej">Hej! :-)</h3>
-                        <h3>Jag är <i>Desirée Strand,</i> en <em id="student">digital designer</em> och <em id="digdes">konsult</em> i <em id="sthlm">Stockholmsområdet.</em></h3>
-                    </div>
-
-                    <a href="#portfolio">
-                        <div class="arrow">
-                            <h4>PORTFOLIO</h4>
-                            <i class="fas fa-arrow-down"></i>
-                        </div>
-                    </a>
-                </section>
-
-                <a name="portfolio">
-                    <section class="hero">
-                        <h2>Portfolio</h2>
-                            <p>
-                                I mitt portfolio hittas case om utvalda projekt som jag har varit en del av.
-                            </p>
-                    </section>
-                </a>
-
-                <section class="portfolio">
-                    <a href="internetskolan.html">
-                        <!-- Original effect - http://thenewcode.com/613/Create-a-Halftone-Effect-with-SVG -->
-                        <div id="internetskolan-front"></div>
-                        <div class="portfolio-intro">
-                            <div class="intro-item-1">
-                                <h2>Internetskolan</h2>
-                                <h3>En lektionsbaserad webbsida som motverkar äldres digitala utanförskap</h3>
-                                <ul>
-                                    <li>UX-design</li>
-                                    <li>UI-design</li>
-                                    <li>Webbdesign</li>
-                                    <li>Produktdesign</li>
-                                </ul>
-                            </div>
-
-                            <div class="intro-item-2">
-                                <p>
-                                    På uppdrag av Spånga-Tensta stadsdelsförvaltnings avdelning för äldreomsorg, funktionsnedsättning och psykisk ohälsa skulle mitt team och jag ge förslag på hur digitalt utanförskap kan motverkas hos äldre och personer med psykiska och fysiska funktionsnedsättningar. Genom en användarcentrerad designprocess utvecklades en interaktiv prototyp av vårt förslag <i>Internetskolan;</i> en lektionsbaserad webbsida där äldre personer över 65 år kan lära sig grunderna i internet. Förslaget togs mycket positivt emot av både användare och uppdragsgivare som menar att Internetskolan är något de vill förverkliga.
-                                </p>
-                            </div>   
-                        </div>
-
-                        <div class="case-middle-text" id="link-portfolio"> 
-                            <a href="internetskolan.html">
-                                <button class="link-btn">
-                                    Läs mer
-                                </button>
-                            </a>
-                        </div>
-                    </a>
-                </section>
-
-                <section class="portfolio">
-                    <a href="remap.html">
-                        <div id="remap-front"></div>
-                        <div class="portfolio-intro">
-                            <div class="intro-item-1">
-                                <h2>Re:map</h2>
-                                <h3>En grafisk identitet med självförtroende som lyfter ungdomars idéer</h3>
-                                <ul>
-                                    <li>Varumärkesdesign</li>
-                                    <li>Grafisk design</li>
-                                </ul>
-                            </div>
-
-                            <div class="intro-item-2">
-                                <p>
-                                    Uppdraget var att mitt team och jag i en designbrief och grafisk profil skulle gestalta studentkonceptet <i>Re:map;</i> interaktiva skärmar som ger ungdomar möjlighet att förändra sitt närområde. Processen hade tre faser – framtagning av två olika grafiska förslag, vidareutveckling av ett förslag, och presentation i konceptfilm och pitch. Med utgångspunkt i estetiker som dekonstruktion, futurism och klipp-och-klistra sätter vår version av Re:maps grafiska identitet ungdomarna i beslutfattarnas skor. Vår gestaltning av Re:map hyllades av handledare som en av utbildningens främsta.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="case-middle-text" id="link-portfolio"> 
-                            <a href="remap.html">
-                                <button class="link-btn">
-                                    Läs mer
-                                </button>
-                            </a>
-                        </div>
-                    </a>
-                </section>
-            </main>
-
-            <footer>
-                <div id="footer-nav"> 
-                    <ul id="footer-links">
-                        <li><a href="index.html#portfolio" class="active">PORTFOLIO</a></li>
-                        <li><a href="archive.html">ARKIV</a></li>
-                        <li><a href="about.html">OM</a></li>
-                        <li><a href="contact.html">KONTAKT</a></li>
-                    </ul>
-                    <p>
-                        © Desirée Strand 2021.
-                    </p>
-                </div>
-            </footer>
+            <li>
+              <a href="https://github.com/desireestrand" 
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Visit GitHub Profile">
+                 <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
         </div>
-
-        <!-- Engelska -->
-        <div lang="en">
-            <header>
-                <div class="header-row">
-                    <div class="column-logo">
-                        <!-- Header-titel -->
-                        <a href="index.html"><h1>Desirée Strand</h1></a>
-                    </div>
-
-                    <!-- Navigation -->
-                    <!-- Original - https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-                    <nav id="column-nav"> 
-                        <!-- Dator-länkar -->
-                        <ul id="navbar-links">
-                            <li><a href="index.html#portfolio-en" class="active">PORTFOLIO</a></li>
-                            <li><a href="archive.html">ARCHIVE</a></li>
-                            <li><a href="about.html">ABOUT</a></li>
-                            <li><a href="contact.html">CONTACT</a></li>
-                        </ul>
-
-                        <!-- Mobil-navigation -->
-                        <!-- Original - https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp -->
-                        <div id="myNav-en" class="nav-overlay">
-                            <!-- Stäng-knapp -->
-                            <a href="javascript:void(0)" class="hamburger-closebtn" id="hamburger-closebtn" onclick="closeNav()">
-                                <i class="fas fa-times"></i>
-                            </a>
-                            <!-- Mobil-länkar, dark-mode och språk -->
-                            <div class="nav-overlay-content" id="nav-overlay-links-en">
-                                    <a href="index.html#portfolio-en" class="active">PORTFOLIO</a>
-                                    <a href="archive.html">ARCHIVE</a>
-                                    <a href="about.html">ABOUT</a>
-                                   <a href="contact.html">CONTACT</a>
-
-                                <div id="nav-overlay-buttons-en">
-                                    <button class="btn" onclick="darkMode();change()"><i class="fas fa-adjust"></i> Theme</button>
-                                    <button class="btn" onclick="langMode();change()"><i class="fas fa-globe-americas"></i> SV</button>
-                                    <script src="darkmode.js"></script>
-                                    <script src="language.js"></script>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Öppna-knapp -->
-                        <a href="javascript:void(0)" class="hamburger-icon" id="hamburger-icon" onclick="openNav()">
-                            <i class="fas fa-bars"></i>
-                        </a>
-                        <!-- Script för mobil-navigation -->
-                        <script src="hamburger.js"></script>
-                    </nav>
-
-                    <!-- Dator dark mode och språk -->
-                    <!-- Original dark mode switch - https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/ -->
-                    <!-- Original language switch - https://stackoverflow.com/questions/13606290/html-change-language-using-element-lang -->
-                    <div id="column-accessability"> 
-                        <ul></ul>
-                            <button class="btn" onclick="darkMode();change()"><i class="fas fa-adjust"></i> Theme</button>
-                            <button class="btn" onclick="langMode();change()"><i class="fas fa-globe-europe"></i> SV</button>
-                            <script src="darkmode.js"></script>
-                            <script src="language.js"></script>
-                        </ul>
-                    </div>
-                </div>
-            </header>
-            
-            <main class="wrapper">
-                <section class="front" id="front-en">
-                    <div id="title">
-                        <h3 id="hej">Hi! :-)</h3>
-                        <h3>I am <i>Desirée Strand,</i> a <em id="student">Digital Designer</em> and <em id="digdes">consultant</em> in the <em id="sthlm">Stockholm area</em> of Sweden.</h3>
-                    </div>
-
-                    <a href="#portfolio-en">
-                        <div class="arrow">
-                            <h4>PORTFOLIO</h4>
-                            <i class="fas fa-arrow-down"></i>
-                        </div>
-                    </a>
-                </section>
-
-                <a name="portfolio-en">
-                    <section class="hero">
-                        <h2>Portfolio</h2>
-                            <p>
-                                In my portfolio you find cases about selected work that I have been a part of.
-                            </p>
-                    </section>
-                </a>
-
-                <section class="portfolio">
-                    <a href="internetskolan.html">
-                        <!-- Original effect - http://thenewcode.com/613/Create-a-Halftone-Effect-with-SVG -->
-                        <div id="internetskolan-front"></div>
-                        <div class="portfolio-intro">
-                            <div class="intro-item-1">
-                                <h2>Internetskolan</h2>
-                                <h3>A lesson-based website that counteracts the digital exclusion of the elderly</h3>
-                                <ul>
-                                    <li>UX design</li>
-                                    <li>UI design</li>
-                                    <li>Web design</li>
-                                    <li>Product design</li>
-                                </ul>
-                            </div>
-
-                            <div class="intro-item-2">
-                                <p>
-                                    On behalf of Spånga-Tensta city district administration’s department for elderly care, disability and mental illness, my team and I would give suggestions on how digital exclusion of the elderly and people with mental and physical disabilities can be counteracted. Through a user-centered design process, we developed an interactive prototype of <i>Internetskolan (The Internet School);</i> a lesson-based website where elderly over the age of 65 can learn the basics of the internet. Internetskolan was recieved very well by both users and clients who want the prototype to be realized.
-                                </p>
-                            </div>   
-                        </div>
-
-                        <div class="case-middle-text" id="link-portfolio"> 
-                            <a href="internetskolan.html">
-                                <button class="link-btn">
-                                    Read more
-                                </button>
-                            </a>
-                        </div>
-                    </a>
-                </section>
-
-                <section class="portfolio">
-                    <a href="remap.html">
-                        <div id="remap-front"></div>
-                        <div class="portfolio-intro">
-                            <div class="intro-item-1">
-                                <h2>Re:map</h2>
-                                <h3>A graphic identity with self-confidence that elevates ideas by youths</h3>
-                                <ul>
-                                    <li>Brand design</li>
-                                    <li>Graphic design</li>
-                                </ul>
-                            </div>
-
-                            <div class="intro-item-2">
-                                <p>
-                                    The mission was that my team and I in a design brief and graphic profile would identify the student concept <i>Re:map;</i> interactive screens that give youths the oppurtunity to change their immediate area. The process had three phases - development of two different graphic examples, further development of one of them, and presentation through a concept film and pitch. Based on aesthetics such as deconstruction, futurism and do-it-yourself, our version of Re:map's graphic identity puts youths in the shoes of decision-makers. Our graphic identity for Re:map was praised by our mentors as one of the foremost in our education.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="case-middle-text" id="link-portfolio"> 
-                            <a href="remap.html">
-                                <button class="link-btn">
-                                    Read more
-                                </button>
-                            </a>
-                        </div>
-                    </a>
-                </section>
-            </main>
-
-            
-            <footer>
-                <div id="footer-nav"> 
-                    <ul id="footer-links">
-                        <li><a href="index.html#portfolio-en" class="active">PORTFOLIO</a></li>
-                        <li><a href="archive.html">ARCHIVE</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-                    <p>
-                        © Desirée Strand 2021.
-                    </p>
-                </div>
-            </footer>
-        </div>
-    </body>
+      </section>
+            <p style="text-align: center; font-size: 0.9rem; margin-top: 1rem;">
+        <time datetime="2025">2025</time> © Desirée Strand
+      </p>
+    </footer>
+  </body>
 </html>
