@@ -7,6 +7,8 @@
     <meta name="description" content="Blog by Desirée Strand, Fullstack Developer passionate about User Experience.">
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="script.js" defer></script>
+    <script src="blog.js" defer></script>
   </head>
 
   <body>
@@ -17,6 +19,11 @@
         <ul>
           <li><a href="index.html">Hem</a></li>
           <li><a href="blog.html">Blogg</a></li>
+          <li>
+            <button id="theme-toggle">
+              <ion-icon name="moon"></ion-icon>
+            </button>
+          </li>
         </ul>
       </nav>
     </header>
@@ -24,52 +31,6 @@
     <!-- MAIN -->
     <main>
       <section class="blog-container">
-        <article>
-          <header>
-              <p>
-                <time datetime="2025-08-27">27 augusti 2025</time> - av Desirée Strand
-              </p>
-            <h2>Hello World!</h2>
-          </header>
-
-          <p>
-            Välkommen till det hörn av WWW där jag dokumenterar min resa inom
-            programmering. Jag är dock inte helt nybörjare: jag har erfarenhet
-            av gränssnittsdesign och webbutveckling från tidigare utbildning och
-            ett par hobbyprojekt.
-          </p>
-          <p>
-            Efter några år som konsult inom digital design har jag längtat
-            tillbaka till programmeringen som utlopp för kreativitet och
-            problemlösning. Jag gillar hur det får min hjärna att kännas,
-            programmering är den bästa typen av hjärngympa för mig. Jag vill
-            också fördjupa mina tidigare kunskaper och lära mig massor av nytt!
-          </p>
-          <p>
-            Därför hoppade jag på en ny utbildning den här hösten, även fast jag
-            trodde att jag aldrig skulle plugga igen efter min kandidatexamen.
-            Jag ska bli fullstackutvecklare. Det känns jättekul!
-          </p>
-          <p>
-            I måndags började vi med HTML. Jag känner mig ganska säker på HTML
-            sedan tidigare och hittills har det mesta varit repetition. När jag
-            började bygga den här bloggsidan i enkel HTML lärde jag mig dock
-            mycket mer om semantik i HTML och hur man bör strukturera
-            HTML-element som <code>main</code>, <code>section</code> och
-            <code>article</code>! På den här sidan befinner sig till exempel
-            alla <code>article</code> inom en och samma <code>section</code> i
-            <code>main</code>, eftersom blogginläggen är samma typ av innehåll,
-            och därför hör ihop i samma <code>section</code>. Jag har också lärt
-            mig att en <code>article</code> bör ha en egen
-            <code>header</code> och <code>footer</code>. The more you know!
-          </p>
-          <p>
-            Jag ser fram emot att dela med mig av flera lärdomar. Vi hörs då!
-          </p>
-          <footer>
-            <p><strong>Kategori:</strong> Utbildning</p>
-          </footer>
-        </article>
       </section>
     </main>
 
