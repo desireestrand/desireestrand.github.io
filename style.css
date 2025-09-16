@@ -1,8 +1,8 @@
 :root {
-  --bg-color: #FAFAFA;
+  --bg-color: #fafafa;
   --text-color: #222222;
-  --primary-color: #89A7E0;
-  --code-bg: #F4F4F4;
+  --primary-color: #89a7e0;
+  --code-bg: #f4f4f4;
 }
 
 /* GLOBAL STYLES */
@@ -14,11 +14,11 @@ body {
   transition: 0.3s;
 }
 
-body.dark {
+html.dark {
   --bg-color: #222222;
-  --text-color: #FAFAFA;
-  --primary-color: #89A7E0;
-  --code-bg: #2E2E2E;
+  --text-color: #fafafa;
+  --primary-color: #89a7e0;
+  --code-bg: #2e2e2e;
 }
 
 /* HEADER */
@@ -134,6 +134,7 @@ nav h1 {
   border-radius: 4px;
   font-family: monospace;
   font-size: 0.95rem;
+  transition: 0.3s;
 }
 
 .blog-container footer {

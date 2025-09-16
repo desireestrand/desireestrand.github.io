@@ -4,8 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desirée Strand - Blogg</title>
-    <meta name="description" content="Blog by Desirée Strand, Fullstack Developer passionate about User Experience.">
-    <link rel="stylesheet" href="style.css">
+    <meta
+      name="description"
+      content="Blog by Desirée Strand, Fullstack Developer passionate about User Experience."
+    />
+    <script>
+      (function () {
+        const theme = localStorage.getItem("theme");
+        const prefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches;
+        if (theme === "dark" || (!theme && prefersDark)) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="script.js" defer></script>
     <script src="blog.js" defer></script>
@@ -30,8 +44,7 @@
 
     <!-- MAIN -->
     <main>
-      <section class="blog-container">
-      </section>
+      <section class="blog-container"></section>
     </main>
 
     <!-- FOOTER -->
@@ -70,7 +83,7 @@
           </ul>
         </div>
       </section>
-      <p style="text-align: center; font-size: 0.9rem; margin-top: 1rem;">
+      <p style="text-align: center; font-size: 0.9rem; margin-top: 1rem">
         <time datetime="2025">2025</time> © Desirée Strand
       </p>
     </footer>
