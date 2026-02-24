@@ -1,11 +1,14 @@
 import SocialLinks from "../SocialLinks/SocialLinks"
+import s from './Footer.module.css'
 
 function Footer() {
 
   return (
     <>
-      <SocialLinks />
-      <p>2026 © Desirée Strand</p>
+      <div className={s.footer}>
+        <SocialLinks />
+        <p>2026 © Desirée Strand</p>
+      </div>
     </>
   )
 }

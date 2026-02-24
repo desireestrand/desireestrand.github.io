@@ -1,0 +1,31 @@
+.contactcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactcontainer a {
+  display: inline-block;
+  padding: 0 1rem;
+  text-decoration: none;
+  color: #222222;
+  transition: color 0.3s;
+}
+
+.contactcontainer a:hover {
+  color: var(--primary-color);
+}
+
+/* ICONS */
+.contactcontainer ion-icon {
+  font-size: 2rem;
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+.contactcontainer ion-icon:hover {
+  color: var(--primary-color);
+}
