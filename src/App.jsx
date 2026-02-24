@@ -7,26 +7,29 @@ import ContactPage from "./pages/ContactPage/ContactPage"
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage"
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
+import { ThemeProvider } from "./context/ThemeContext"
 
 function App() {
 
   return (
     <>
-      <BrowserRouter>
-      <Header />
+      <ThemeProvider>
+        <BrowserRouter>
+          <Header />
 
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/projects/:id" element={<ProjectDetailsPage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactPage />} />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/projects/:id" element={<ProjectDetailsPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
 
-        <Route path="*" element={<NotFoundPage />} />
-      </Routes>
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
 
-      <Footer />
-      </BrowserRouter>
+          <Footer />
+        </BrowserRouter>
+      </ThemeProvider>
     </>
   )
 }

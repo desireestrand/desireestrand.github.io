@@ -21,3 +21,15 @@
   text-decoration: underline;
   color: var(--primary-color);
 }
+
+.navcontainer {
+  margin: 0 1rem 0 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  right: 0;
+}
+
+.navitem {
+  display: inline-block;
+}

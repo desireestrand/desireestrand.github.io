@@ -12,3 +12,10 @@ body {
   color: var(--text-color);
   transition: 0.3s;
 }
+
+.dark-mode {
+  --bg-color: #222222;
+  --text-color: #fafafa;
+  --primary-color: #89a7e0;
+  --code-bg: #2e2e2e;
+}
