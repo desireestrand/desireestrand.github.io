@@ -6,10 +6,10 @@ function Navbar() {
     <>
       <Link to="/"><h1>Desirée Strand</h1></Link>
       
-      <Link to="/">Hem</Link>
-      <Link to="/projects">Projekt</Link>
-      <Link to="/about">Om mig</Link>
-      <Link to="/contact">Kontakt</Link>
+      <Link to="/">Home</Link>
+      <Link to="/projects">Projects</Link>
+      <Link to="/about">About</Link>
+      <Link to="/contact">Contact</Link>
     </>
   )
 }
