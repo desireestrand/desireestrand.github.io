@@ -1,0 +1,23 @@
+.header {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.header a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}

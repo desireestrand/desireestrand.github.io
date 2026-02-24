@@ -1,0 +1,14 @@
+:root {
+  --bg-color: #fafafa;
+  --text-color: #222222;
+  --primary-color: #89a7e0;
+  --code-bg: #f4f4f4;
+}
+
+body {
+  margin: 0 auto;
+  background-color: var(--bg-color);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+  transition: 0.3s;
+}

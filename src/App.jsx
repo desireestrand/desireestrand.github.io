@@ -5,7 +5,7 @@ import ProjectDetailsPage from "./pages/ProjectDetailsPage/ProjectDetailsPage"
 import AboutPage from "./pages/AboutPage/AboutPage"
 import ContactPage from "./pages/ContactPage/ContactPage"
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage"
-import Navbar from "./components/Navbar/Navbar"
+import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Navbar />
+      <Header />
 
       <Routes>
         <Route path="/" element={<HomePage />} />
