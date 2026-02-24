@@ -1,8 +1,11 @@
+import SocialLinks from "../SocialLinks/SocialLinks"
+
 function Footer() {
 
   return (
     <>
-      <h2>Footer</h2>
+      <SocialLinks />
+      <p>2026 © Desirée Strand</p>
     </>
   )
 }
