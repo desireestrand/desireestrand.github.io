@@ -1,12 +1,21 @@
+import { Link } from "react-router-dom"
 import Hero from "../../components/Hero/Hero"
+import ProjectGrid from "../../components/ProjectGrid/ProjectGrid"
 import TechBadges from "../../components/TechBadges/TechBadges"
+import s from './HomePage.module.css'
 
 function HomePage() {
 
   return (
     <>
-      <Hero />
-      <TechBadges />
+      <div className={s.wrapper}>
+        <Hero />
+        <h3>Tech Stack</h3>
+        <TechBadges />
+        <h3>Projects</h3>
+        <ProjectGrid limit={3} showFilters={false} />
+        <div className={s.button}><Link to="/projects">All projects</Link></div>
+      </div>
     </>
   )
 }
