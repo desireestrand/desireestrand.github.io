@@ -10,3 +10,29 @@
     grid-template-columns: repeat(3, 250px); 
     gap: 2rem;
 }
+
+.filters {
+    margin-bottom: 2rem;
+}
+
+.filters button {
+    width: 80px;
+    text-align: center;
+    padding: 0.5rem 0.7rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    margin: 0 auto;
+    border: none;
+    position:relative;
+    bottom: 0;
+    margin-top: auto;
+    margin-right: 1rem;
+}
+
+.filters button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
