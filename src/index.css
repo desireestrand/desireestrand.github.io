@@ -1,5 +1,6 @@
 :root {
   --bg-color: #fafafa;
+  --bg-color-2: #fff;
   --text-color: #222222;
   --primary-color: #89a7e0;
   --code-bg: #f4f4f4;
@@ -15,6 +16,7 @@ body {
 
 .dark-mode {
   --bg-color: #222222;
+  --bg-color-2: #111;
   --text-color: #fafafa;
   --primary-color: #89a7e0;
   --code-bg: #2e2e2e;

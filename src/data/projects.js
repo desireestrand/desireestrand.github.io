@@ -4,7 +4,7 @@ export const projects = [
     title: "E-handel", 
     type: "frontend", 
     thumbnail: "/images/test.jpg",
-    excerpt: "En modern webbshop byggd med React och Stripe.",
+    excerpt: "En modern webbshop byggd med React och Stripe. En modern webbshop byggd med React och Stripe.",
     fullDescription: "Detta projekt fokuserade på att skapa en sömlös köpupplevelse...", 
     gallery: ["img1.jpg", "img2.jpg"],
     tags: ["React", "CSS", "Stripe"],

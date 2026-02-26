@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
             <div className={s.tags}>
               {project.tags.map(tag => <span key={tag}>{tag}</span>)}
             </div>
-            <Link to={`/projects/${project.id}`}>Läs mer</Link>
+            <button>Läs mer</button>
           </div>
         </div>
       </Link>

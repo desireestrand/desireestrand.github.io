@@ -9,8 +9,4 @@
     display: grid;
     grid-template-columns: repeat(3, 250px); 
     gap: 2rem;
-    justify-content: center; 
-    width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
 }
