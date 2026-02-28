@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
             <div className={s.tags}>
               {project.tags.map(tag => <span key={tag}>{tag}</span>)}
             </div>
-            <button>Läs mer</button>
+            <div className={s.readmore}><span>Read more →</span></div>
           </div>
         </div>
       </Link>

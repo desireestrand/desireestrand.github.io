@@ -18,8 +18,7 @@ const ProjectGrid = ({ limit, showFilters }) => {
     <section className={s.wrapper}>
       {showFilters && (
         <div className={s.filters}>
-          <button onClick={() => setFilter('all')}>Alla</button>
-          <button onClick={() => setFilter('ux')}>UX</button>
+          <button onClick={() => setFilter('all')}>All</button>
           <button onClick={() => setFilter('frontend')}>Frontend</button>
         </div>
       )}

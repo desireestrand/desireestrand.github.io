@@ -7,10 +7,8 @@
 .nav a {
   color: var(--text-color);
   text-decoration: none;
-  transition: color 0.3s, text-decoration 0.3s;
 }
 
 .nav a:hover {
   text-decoration: underline;
-  color: var(--primary-color);
 }

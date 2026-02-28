@@ -22,17 +22,22 @@
     background-color: var(--primary-color);
     color: var(--text-color);
     text-decoration: none;
-    border-radius: 10px;
-    font-size: 0.7rem;
+    border-radius: 25px;
+    font-size: 0.8rem;
     margin: 0 auto;
     border: none;
-    position:relative;
+    position: relative;
     bottom: 0;
     margin-top: auto;
+    transition: 0.3s;
+    font-family: "Lora", serif;
+}
+
+.filters button:first-of-type {
     margin-right: 1rem;
 }
 
 .filters button:hover {
     cursor: pointer;
-    text-decoration: underline;
+    background-color: var(--primary-hover);
 }
