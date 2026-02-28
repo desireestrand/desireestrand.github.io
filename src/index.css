@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62.5..125,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 :root {
   --bg-color: #fafafa;
   --bg-color-2: #fff;
@@ -9,7 +11,7 @@
 body {
   margin: 0 auto;
   background-color: var(--bg-color);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lora", serif;
   color: var(--text-color);
   transition: 0.3s;
 }

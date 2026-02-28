@@ -10,10 +10,14 @@ function HomePage() {
     <>
       <div className={s.wrapper}>
         <Hero />
-        <h3>Tech Stack</h3>
-        <TechBadges />
-        <h3>Projects</h3>
-        <ProjectGrid limit={3} showFilters={false} />
+        <div className={s.section}>
+          <h3>Tech Stack</h3>
+          <TechBadges />
+        </div>
+        <div className={s.section}>
+          <h3>Projects</h3>
+          <ProjectGrid limit={3} showFilters={false} />
+        </div>
         <div className={s.button}><Link to="/projects">All projects</Link></div>
       </div>
     </>
