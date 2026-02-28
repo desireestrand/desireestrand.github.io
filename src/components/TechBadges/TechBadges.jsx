@@ -17,14 +17,14 @@ const techStack = [
   { id: 'vscode', name: 'VS Code', category: 'Development Tool' },
   { id: 'git', name: 'Git', category: 'Development Tool' },
   { id: 'github', name: 'GitHub', category: 'Development Tool' },
-  { id: 'vitejs', name: 'Vite', category: 'Development Tool' },
+  { id: 'vitejs', name: 'Vite.js', category: 'Development Tool' },
   { id: 'postman', name: 'Postman', category: 'API' },
 ];
 
-const categories = ['All', ...new Set(techStack.map(item => item.category))];
+const categories = [...new Set(techStack.map(item => item.category))];
 
 function TechBadges() {
-  const [activeFilter, setActiveFilter] = useState('All');
+  const [activeFilter, setActiveFilter] = useState('Language');
 
   const filteredStack = activeFilter === 'All' 
     ? techStack 

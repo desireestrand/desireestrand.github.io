@@ -1,7 +1,46 @@
+.wrapper {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.wrapper p {
+    margin: 0;
+}
+
 .wrapper h2 {
     font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
+    font-weight: 500;
     margin-top: 2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
+    font-family: "Archivo", sans-serif;
+}
+
+.details {
+    font-size: 1rem;
+}
+
+.title {
+    font-size: 1rem;
+    margin-top: 1rem !important;
+}
+
+.location {
+    font-size: 0.9rem;
+    font-family: "Archivo", sans-serif;
+    margin-top: 0.5rem !important;
+}
+
+.wrapper h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: "Archivo", sans-serif;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
 }
