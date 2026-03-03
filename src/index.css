@@ -1,27 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62.5..125,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62.5..125,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
 :root {
   --bg-color: #fafafa;
   --bg-color-2: #fff;
   --text-color: #222222;
-  --primary-color: #89a7e0;
-  --primary-hover: #6b8fcf; 
+  --primary-color: #e089cc; /* E089CC eller E342BE eller 89a7e0 */
+  --primary-hover: color-mix(in srgb, var(--primary-color),black 15%); /* 6b8fcf */
   --code-bg: #f4f4f4;
-}
-
-body {
-  margin: 0 auto;
-  background-color: var(--bg-color);
-  font-family: "Lora", serif;
-  color: var(--text-color);
-  transition: 0.3s;
+  --max-width: 1100px;
+  --transition-speed: 0.3s ease;
 }
 
 .dark-mode {
   --bg-color: #222222;
   --bg-color-2: #111;
   --text-color: #fafafa;
-  --primary-color: #89a7e0;
-  --primary-hover: #a5bdec; 
+  --primary-color: #c43aa4; /* 89a7e0 */
+  --primary-hover: color-mix(in srgb, var(--primary-color),white 15%); /* a5bdec */
   --code-bg: #2e2e2e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Lora", serif;
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+h1, h2, h3, h4, header, footer {
+  font-family: "Archivo", sans-serif;
 }

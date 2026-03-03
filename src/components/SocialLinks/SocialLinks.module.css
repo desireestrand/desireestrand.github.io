@@ -1,31 +1,25 @@
-.contactcontainer {
+.contactContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style-type: none;
+  gap: 1rem;
   padding: 0;
   margin: 0;
 }
 
-.contactcontainer a {
-  display: inline-block;
-  padding: 0 1rem;
+.contactContainer a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  color: #222222;
-  transition: color 0.3s;
-}
-
-.contactcontainer a:hover {
-  color: var(--primary-color);
-}
-
-/* ICONS */
-.contactcontainer ion-icon {
-  font-size: 2rem;
   color: var(--text-color);
-  transition: 0.3s;
+  transition: color var(--transition-speed);
 }
 
-.contactcontainer ion-icon:hover {
+.contactContainer a:hover {
   color: var(--primary-color);
+}
+
+.contactContainer ion-icon {
+  font-size: 2rem;
+  color: inherit;
 }

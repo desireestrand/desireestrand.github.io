@@ -1,16 +1,18 @@
-import { useContext } from 'react';
-import { ThemeContext } from '../../context/ThemeContext';
-import s from './ThemeToggle.module.css'
+import { useContext } from "react";
+import { ThemeContext } from "../../context/ThemeContext";
+import s from "./ThemeToggle.module.css";
 
 const ThemeToggle = () => {
   const { darkMode, toggleDarkMode } = useContext(ThemeContext);
 
   return (
-    <div className={s.themetogglecontainer}>
-        <button onClick={toggleDarkMode} className={s.themetoggle}>
-            <ion-icon name="moon"></ion-icon>
-        </button>
-    </div>
+    <button
+      onClick={toggleDarkMode}
+      className={s.themeToggle}
+      aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
+    >
+      <ion-icon name={darkMode ? "sunny" : "moon"}></ion-icon>
+    </button>
   );
 };
 

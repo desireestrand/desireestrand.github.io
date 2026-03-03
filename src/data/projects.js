@@ -2,7 +2,7 @@ export const projects = [
   { 
     id: 1, 
     title: "Dynamisk bloggplattform", 
-    type: "frontend", 
+    type: "backend", 
     thumbnail: "/images/test.jpg",
     excerpt: "En interaktiv SPA (Single Page Application) där användare kan skapa, publicera och moderera egna blogginlägg i realtid.",
     fullDescription: "Detta projekt fokuserade på att skapa en sömlös köpupplevelse...", 

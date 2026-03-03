@@ -1,25 +1,23 @@
 .hero {
-  height: 400px;
-  padding: 2rem;
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
+  padding: 2rem;
 }
 
-.hero h2 {
+.hero h1 {
   font-size: 2.5rem;
-  font-family: "Archivo", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Lora", serif;
   font-weight: 500;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 125;
+  line-height: 1.1;
 }
 
 .hero span {
-  color: var(--primary-color);
-  font-family: "Lora", serif;
+  display: inline-block;
   font-size: 2.7rem;
+  font-family: "Archivo", sans-serif;
+  font-variation-settings: "wdth" 125;
+  color: var(--primary-color);
 }

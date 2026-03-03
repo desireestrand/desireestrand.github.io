@@ -1,23 +1,19 @@
-import { Link } from "react-router-dom"
-import Hero from "../../components/Hero/Hero"
-import ProjectGrid from "../../components/ProjectGrid/ProjectGrid"
-import TechBadges from "../../components/TechBadges/TechBadges"
-import s from './HomePage.module.css'
+import { Link } from "react-router-dom";
+import Hero from "../../components/Hero/Hero";
+import ProjectGrid from "../../components/ProjectGrid/ProjectGrid";
+import s from "./HomePage.module.css";
 
 function HomePage() {
-
   return (
-    <>
-      <div className={s.wrapper}>
-        <Hero />
-        <div className={s.section}>
-          <h3>Projects</h3>
-          <ProjectGrid limit={3} showFilters={false} />
-          <div className={s.button}><Link to="/projects">Show all</Link></div>
-        </div>
-      </div>
-    </>
-  )
+    <div className={s.wrapper}>
+      <Hero />
+      <section className={s.section}>
+        <h2>Projects</h2>
+        <ProjectGrid limit={3} showFilters={false} />
+        <Link to="/projects" className={s.button}>Show all</Link>
+      </section>
+    </div>
+  );
 }
 
-export default HomePage
+export default HomePage;

@@ -1,26 +1,22 @@
-.themetogglecontainer {
-  display: inline-block;
-  padding-left: 1rem;
-  font-size: 1rem;
-}
-
-.themetoggle {
+.themeToggle {
   background-color: var(--text-color);
   border: none;
   border-radius: 50%;
   width: 35px;
   height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: bottom;
   cursor: pointer;
-  transition: 0.3s;
+  transition: var(--transition-speed);
 }
 
-.themetoggle:hover {
+.themeToggle:hover {
   background-color: var(--primary-color);
 }
 
-/* ICONS */
-.themetoggle ion-icon {
+.themeToggle ion-icon {
   font-size: 1.1rem;
   color: var(--bg-color);
   transition: 0.3s;

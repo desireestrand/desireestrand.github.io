@@ -1,16 +1,13 @@
-import ProjectGrid from "../../components/ProjectGrid/ProjectGrid"
-import s from "./ProjectsPage.module.css"
+import ProjectGrid from "../../components/ProjectGrid/ProjectGrid";
+import s from "./ProjectsPage.module.css";
 
 function ProjectsPage() {
-
   return (
-    <>
-    <div className={s.wrapper}>
+    <section className={s.projectsPage}>
       <h2>Projects</h2>
       <ProjectGrid showFilters={true} />
-    </div>
-    </>
-  )
+    </section>
+  );
 }
 
-export default ProjectsPage
+export default ProjectsPage;
