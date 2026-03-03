@@ -1,0 +1,139 @@
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.backLink {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  transition: var(--transition-speed);
+}
+
+.backLink:hover {
+  color: var(--primary-hover);
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.type {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.75rem;
+}
+
+.excerpt {
+  font-family: "Lora", serif;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.links a {
+  display: inline-block;
+  text-align: center;
+  min-width: 120px;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1rem;
+  position: relative;
+  background-color: var(--primary-color);
+  color: var(--text-color) !important;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: "Lora", serif;
+  font-weight: 500;
+  transition: background-color var(--transition-speed);
+}
+
+.links a:hover {
+  background-color: var(--primary-hover);
+}
+
+.tags {
+  margin: 0.7rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tagBadge {
+  background-color: var(--primary-color);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-family: "Archivo", sans-serif;
+}
+
+.content {
+  margin: 1rem 0 4rem 0;
+  max-width: 100%;
+}
+
+.content h3,
+.gallery h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+.heroImage {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.heroImage img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.gallery {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.imageWrapper {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
