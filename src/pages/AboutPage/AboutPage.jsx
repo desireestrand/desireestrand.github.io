@@ -15,7 +15,7 @@ function AboutPage() {
       <section className={s.content}>
         <h3>About me</h3>
         <p>
-          Junior fullstackutvecklare med spets i frontend och bakgrund inom UX.
+          Junior fullstackutvecklare med spets i <span className={s.highlight}>frontend</span> och bakgrund inom <span className={s.highlight}>UX</span>.
           Erfaren av att arbeta genom hela utvecklingsflödet – från krav och
           design till implementation, test och vidareutveckling. Arbetar
           strukturerat och analytiskt med fokus på kvalitet, användarupplevelse,

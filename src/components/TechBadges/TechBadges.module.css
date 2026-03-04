@@ -44,9 +44,8 @@
 }
 
 .container {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   gap: 1rem;
   width: 100%;
   max-width: 800px;
@@ -57,16 +56,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--primary-color);
-  width: 90px;
-  height: 90px;
+  background: var(--bg-color-2);
+  background-image: linear-gradient(180deg, var(--bg-color-2), var(--bg-color));
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  aspect-ratio: 1 / 1;
   border-radius: 12px;
   box-sizing: border-box;
-  transition: transform var(--transition-speed);
+  transition: var(--transition-speed);
+  position: relative;
 }
 
 .badge:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 .badge p {
@@ -83,7 +86,7 @@
 .label {
   font-size: 0.75rem;
   font-family: "Archivo", sans-serif;
-  color: var(--primary-text-on-button) !important;
+  color: var(--text-color) !important;
   margin: 0;
   text-align: center;
   padding: 0 5px;
