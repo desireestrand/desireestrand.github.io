@@ -39,6 +39,7 @@
 .type {
   font-family: "Archivo", sans-serif;
   font-size: 0.75rem;
+  opacity: 0.8;
 }
 
 .excerpt {
@@ -66,6 +67,7 @@
   font-family: "Lora", serif;
   font-weight: 500;
   transition: background-color var(--transition-speed);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .links a:hover {
