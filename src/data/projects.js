@@ -1,50 +1,50 @@
 export const projects = [
   { 
     id: 1, 
-    title: "Dynamisk bloggplattform", 
-    type: "backend", 
+    title: "Productivity Assistant App", 
+    type: "frontend", 
     thumbnail: "/images/test.jpg",
-    excerpt: "En interaktiv SPA (Single Page Application) där användare kan skapa, publicera och moderera egna blogginlägg i realtid.",
+    excerpt: "A productivity platform designed to help users organize and prioritize tasks, routines, and daily events. The application focuses on streamlining everyday life through intuitive task management and habit tracking.",
     fullDescription: "", 
-    gallery: ["img1.jpg", "img2.jpg"],
-    tags: ["JavaScript", "HTML", "CSS"],
-    github: "https://github.com/...",
-    link: "https://demo.com"
+    gallery: [""],
+    tags: ["React", "CSS", "HTML"],
+    github: "https://github.com/desireestrand/productivity-assistant-app",
+    link: "https://desireestrand.github.io/productivity-assistant-app/"
   },
   { 
     id: 2, 
-    title: "Productivity Assistant", 
+    title: "Pokémon 151 Application", 
     type: "frontend", 
     thumbnail: "/images/test.jpg",
-    excerpt: "En produktivitetsplattform byggd för att hjälpa användare att organisera och prioritera ärenden, rutiner och händelser i vardagen.",
-    fullDescription: "Detta projekt fokuserade på att skapa en sömlös köpupplevelse...", 
-    gallery: ["img1.jpg", "img2.jpg"],
-    tags: ["React", "CSS", "HTML"],
-    github: "https://github.com/...",
-    link: "https://demo.com"
+    excerpt: "A dynamic web app for exploring the first generation of Pokémon. It fetches and displays detailed species information in real-time from an external API.",
+    fullDescription: "", 
+    gallery: [""],
+    tags: ["React", "REST API", "CSS"],
+    github: "https://github.com/desireestrand/pokemon-app",
+    link: "https://desireestrand.github.io/pokemon-app/"
   },
   { 
     id: 3, 
-    title: "Pokémon Application", 
+    title: "Dynamic Blog Platform", 
     type: "frontend", 
     thumbnail: "/images/test.jpg",
-    excerpt: "En interaktiv webbapplikation som låter användaren utforska detaljerad information om de första 151 Pokémon-arterna via ett externt API.",
-    fullDescription: "Detta projekt fokuserade på att skapa en sömlös köpupplevelse...", 
-    gallery: ["img1.jpg", "img2.jpg"],
-    tags: ["React", "REST API", "CSS"],
-    github: "https://github.com/...",
-    link: "https://demo.com"
+    excerpt: "A dynamic SPA platform featuring real-time content management, allowing users to seamlessly create, publish, and moderate their own blog posts.",
+    fullDescription: "", 
+    gallery: [""],
+    tags: ["JavaScript", "HTML", "CSS"],
+    github: "https://github.com/desireestrand/blog-platform",
+    link: "https://desireestrand.github.io/blog-platform/"
   },
   { 
     id: 4, 
-    title: "Interaktiv quizapplikation", 
+    title: "Interactive Quiz Application", 
     type: "frontend", 
     thumbnail: "/images/test.jpg",
-    excerpt: "En dynamisk Single Page Application (SPA) där hela användarflödet, från kategorival till slutresultat, hanteras på en och samma HTML-sida utan sidomladdning.",
-    fullDescription: "Detta projekt fokuserade på att skapa en sömlös köpupplevelse...", 
-    gallery: ["img1.jpg", "img2.jpg"],
+    excerpt: "A highly responsive application managing the full user flow on a single page. Leverages modern JavaScript to transition between quiz categories and results without page reloads.",
+    fullDescription: "", 
+    gallery: [""],
     tags: ["JavaScript", "CSS", "HTML"],
-    github: "https://github.com/...",
-    link: "https://demo.com"
+    github: "https://github.com/desireestrand/quiz-app",
+    link: "https://desireestrand.github.io/quiz-app/"
   },
 ];
