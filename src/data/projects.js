@@ -5,7 +5,7 @@ export const projects = [
     type: "backend", 
     thumbnail: "/images/test.jpg",
     excerpt: "En interaktiv SPA (Single Page Application) där användare kan skapa, publicera och moderera egna blogginlägg i realtid.",
-    fullDescription: "Detta projekt fokuserade på att skapa en sömlös köpupplevelse...", 
+    fullDescription: "", 
     gallery: ["img1.jpg", "img2.jpg"],
     tags: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/...",

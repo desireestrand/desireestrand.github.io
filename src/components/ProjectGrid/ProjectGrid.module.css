@@ -37,13 +37,16 @@
 
 .filters button:hover {
   background-color: var(--primary-color);
+  color: var(--primary-text-on-button);
 }
 
 .activeFilter {
   background-color: var(--primary-color) !important;
+  color: var(--primary-text-on-button) !important;
 }
 
 .activeFilter:hover {
   background-color: var(--primary-hover) !important;
+  color: var(--primary-text-on-button) !important;
   border: 2px solid var(--primary-hover) !important;
 }

@@ -2,10 +2,13 @@
 
 :root {
   --bg-color: #fafafa;
-  --bg-color-2: #fff;
-  --text-color: #222222;
-  --primary-color: #e089cc; /* E089CC eller E342BE eller 89a7e0 */
-  --primary-hover: color-mix(in srgb, var(--primary-color),black 15%); /* 6b8fcf */
+  --bg-color-2: #ffffff;
+  --text-color: #1a1a1a;
+
+  --primary-color: #0033cc; /* E089CC eller E342BE eller 89a7e0 */
+  --primary-hover: #002bb3; /* 6b8fcf */
+  --primary-text-on-button: #ffffff;
+
   --code-bg: #f4f4f4;
   --max-width: 1100px;
   --transition-speed: 0.3s ease;
@@ -13,10 +16,13 @@
 
 .dark-mode {
   --bg-color: #222222;
-  --bg-color-2: #111;
+  --bg-color-2: #111111;
   --text-color: #fafafa;
-  --primary-color: #c43aa4; /* 89a7e0 */
-  --primary-hover: color-mix(in srgb, var(--primary-color),white 15%); /* a5bdec */
+
+  --primary-color: #ff7edb; /* 89a7e0 */
+  --primary-hover: #ff9ae6; /* a5bdec */
+  --primary-text-on-button: #000000;
+
   --code-bg: #2e2e2e;
 }
 

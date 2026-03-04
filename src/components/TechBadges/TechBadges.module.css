@@ -29,14 +29,17 @@
 
 .filterBtn:hover {
   background-color: var(--primary-color);
+  color: var(--primary-text-on-button);
 }
 
 .active {
   background-color: var(--primary-color) !important;
+  color: var(--primary-text-on-button) !important;
 }
 
 .active:hover {
   background-color: var(--primary-hover) !important;
+  color: var(--primary-text-on-button) !important;
   border: 2px solid var(--primary-hover) !important;
 }
 
@@ -80,7 +83,7 @@
 .label {
   font-size: 0.75rem;
   font-family: "Archivo", sans-serif;
-  color: var(--text-color);
+  color: var(--primary-text-on-button) !important;
   margin: 0;
   text-align: center;
   padding: 0 5px;

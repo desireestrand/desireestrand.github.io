@@ -43,6 +43,7 @@
 
 .excerpt {
   font-family: "Lora", serif;
+  margin-bottom: 1.5rem;
 }
 
 .links {
@@ -58,7 +59,7 @@
   padding: 0.6rem 1rem;
   position: relative;
   background-color: var(--primary-color);
-  color: var(--text-color) !important;
+  color: var(--primary-text-on-button) !important;
   text-decoration: none;
   border-radius: 8px;
   font-size: 0.9rem;
@@ -80,6 +81,7 @@
 
 .tagBadge {
   background-color: var(--primary-color);
+  color: var(--primary-text-on-button);
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;

@@ -74,7 +74,7 @@
 
 .tag {
   background-color: var(--primary-color);
-  color: var(--text-color);
+  color: var(--primary-text-on-button);
   padding: 0.2rem 0.6rem;
   border-radius: 30px;
   font-size: 0.75rem;
@@ -82,8 +82,42 @@
 }
 
 .readMore {
+  margin-top: auto;
+  padding: 0.5rem;
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--primary-color);
   align-self: flex-start;
+}
+
+.noLinkCard {
+  height: 100%;
+  cursor: default;
+}
+
+.externalLinks {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: auto;
+}
+
+.externalLinks a {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: var(--primary-text-on-button) !important;
+  transition: background-color var(--transition-speed);
+}
+
+.externalLinks a:hover {
+  background-color: var(--primary-hover);
+}
+
+.noLinkCard:hover h3 {
+  color: var(--text-color);
 }
