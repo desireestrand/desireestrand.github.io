@@ -4,10 +4,10 @@ function Hero() {
   return (
     <section className={s.hero}>
       <h1>
-        Hi! I'm Desirée, <br />a <span>Fullstack Developer</span> and <br />
-        <span>UX Enthusiast</span>, passionate about <br />
-        crafting robust and meaningful <br />
-        digital experiences <br />
+        Hi! I'm Desirée, a <span>Fullstack Developer</span> and <br />
+        <span>UX Enthusiast</span>, passionate about
+        crafting robust and meaningful
+        digital experiences
         that create real value for users.
       </h1>
     </section>
