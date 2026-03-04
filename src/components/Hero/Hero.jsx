@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section className={s.hero}>
       <h1>
-        Hi! I'm Desirée, <br />a <span>Full-Stack Developer</span> and <br />
+        Hi! I'm Desirée, <br />a <span>Fullstack Developer</span> and <br />
         <span>UX Enthusiast</span>, passionate about <br />
         crafting robust and meaningful <br />
         digital experiences <br />
