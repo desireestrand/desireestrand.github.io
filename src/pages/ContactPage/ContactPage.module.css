@@ -1,43 +1,67 @@
 .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 70vh;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 70vh;
+  text-align: center;
+  padding: 2rem;
 }
 
-.wrapper h2 {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    font-family: "Archivo", sans-serif;
-    color: var(--text-color);
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-family: "Archivo", sans-serif;
+  color: var(--text-color);
 }
 
-.links p {
-    font-family: "Archivo", sans-serif;
-    margin: 1rem 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
+.subtitle {
+  font-family: "Lora", serif;
+  margin-bottom: 3rem;
 }
 
-.links span {
-    font-size: 0.85rem;
-    color: var(--text-color);
+.container {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  max-width: 600px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.links a {
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: var(--primary-color);
-    font-family: "Lora", serif;
-    font-weight: 600;
-    transition: var(--transition-speed);
-    margin-bottom: 1rem;
+.card {
+  background: var(--bg-color-2);
+  background-image: linear-gradient(180deg, var(--bg-color-2), var(--bg-color));
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  border-radius: 20px;
+  text-decoration: none;
+  color: var(--text-color);
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: var(--transition-speed);
+  position: relative;
+  overflow: hidden;
 }
 
-.wrapper a:hover {
-    color: var(--primary-hover);
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  color: var(--primary-hover);
+}
+
+.label {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.value {
+  font-weight: 600;
+  font-family: "Lora", serif;
 }

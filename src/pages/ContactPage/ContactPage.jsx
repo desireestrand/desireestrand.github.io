@@ -3,16 +3,20 @@ import s from "./ContactPage.module.css";
 function ContactPage() {
   return (
     <div className={s.wrapper}>
-      <h2>Contact me!</h2>
-      <div className={s.links}>
-        <p>
-          <span>E-mail:</span>
-          <a href="mailto:desireestrxnd@gmail.com">desireestrxnd@gmail.com</a>
-        </p>
-        <p>
-          <span>LinkedIn:</span>
-          <a href="https://www.linkedin.com/in/desireestrand" target="_blank" rel="noreferrer">Desirée Strand</a>
-        </p>
+      <h2 className={s.title}>Let's connect!</h2>
+      <p className={s.subtitle}>
+        I'm currently open for new opportunities and collaborations.
+      </p>
+
+      <div className={s.container}>
+        <a href="mailto:desireestrxnd@gmail.com" className={s.card}>
+          <span className={s.label}>E-mail</span>
+          <span className={s.value}>desireestrxnd@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/desireestrand" target="_blank" rel="noreferrer" className={s.card}>
+          <span className={s.label}>LinkedIn</span>
+          <span className={s.value}>Desirée Strand</span>
+        </a>
       </div>
     </div>
   );
