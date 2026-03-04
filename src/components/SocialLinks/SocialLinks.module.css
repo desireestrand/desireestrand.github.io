@@ -10,16 +10,24 @@
 .contactContainer a {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-decoration: none;
-  color: var(--text-color);
-  transition: color var(--transition-speed);
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  transition: var(--transition-speed);
+  text-align: bottom;
+  cursor: pointer;
 }
 
 .contactContainer a:hover {
-  color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .contactContainer ion-icon {
-  font-size: 2rem;
-  color: inherit;
+  font-size: 1.1rem;
+  color: var(--bg-color);
 }
