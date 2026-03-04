@@ -10,6 +10,7 @@
   text-align: bottom;
   cursor: pointer;
   transition: var(--transition-speed);
+  z-index: 1002;
 }
 
 .themeToggle:hover {
