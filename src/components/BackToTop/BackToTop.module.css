@@ -1,0 +1,39 @@
+.backToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.button {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  text-align: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-speed);
+}
+
+.button:hover {
+  background-color: var(--primary-hover);
+}
+
+.button ion-icon {
+  font-size: 1.1rem;
+  color: var(--bg-color);
+  transition: 0.3s;
+}
+
+@media (max-width: 480px) {
+  .backToTop {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}

@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import { ThemeProvider } from "./context/ThemeContext";
 import ScrollToTop from "./components/ScrollToTop";
 import s from "./App.module.css";
+import BackToTop from "./components/BackToTop/BackToTop";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </main>
-
+          
+          <BackToTop />
           <Footer />
         </div>
       </BrowserRouter>
