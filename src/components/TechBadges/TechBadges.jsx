@@ -8,7 +8,7 @@ const techStack = [
   { id: "nodejs", name: "Node.js", category: "Framework" },
   { id: "typescript", name: "TypeScript", category: "Language" },
   { id: "mongodb", name: "MongoDB", category: "Database" },
-  { id: "postgresql", name: "PostgresSQL", category: "Database" },
+  { id: "postgresql", name: "PostgreSQL", category: "Database" },
   { id: "html5", name: "HTML5", category: "Language" },
   { id: "css3", name: "CSS3", category: "Language" },
   { id: "python", name: "Python", category: "Language" },
