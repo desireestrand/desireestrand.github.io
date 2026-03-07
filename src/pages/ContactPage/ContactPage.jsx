@@ -11,11 +11,11 @@ function ContactPage() {
       <div className={s.container}>
         <a href="mailto:desireestrxnd@gmail.com" className={s.card}>
           <span className={s.label}>E-mail</span>
-          <span className={s.value}>desireestrxnd@gmail.com</span>
+          <span className={s.value}>desireestrxnd@gmail.com →</span>
         </a>
         <a href="https://www.linkedin.com/in/desireestrand" target="_blank" rel="noreferrer" className={s.card}>
           <span className={s.label}>LinkedIn</span>
-          <span className={s.value}>Desirée Strand</span>
+          <span className={s.value}>Desirée Strand →</span>
         </a>
       </div>
     </div>
