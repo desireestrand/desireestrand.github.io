@@ -1,10 +1,9 @@
 .wrapper {
   max-width: 800px;
   margin: 0 auto;
-  padding: 4rem 1rem 4rem;
+  padding: 4rem 1rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .backLink {
@@ -12,7 +11,7 @@
   color: var(--primary-color);
   font-size: 0.85rem;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   transition: var(--transition-speed);
 }
 
@@ -22,29 +21,95 @@
 
 .header {
   width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.header h1 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.meta {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 1rem;
-}
-
-.type {
+.category {
   font-family: "Archivo", sans-serif;
   font-size: 0.75rem;
   opacity: 0.8;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
-.excerpt {
-  font-family: "Lora", serif;
+.header h1 {
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
+}
+
+.tagsContainer {
+  margin-bottom: 2.5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.tagBadge {
+  background-color: var(--primary-color);
+  color: var(--primary-text-on-button);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-family: "Archivo", sans-serif;
+}
+
+.summary {
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+.heroImage {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.heroImage img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+}
+
+.metaGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  width: 100%;
+}
+
+.metaItem {
+  background: var(--bg-color-2);
+  background-image: linear-gradient(180deg, var(--bg-color-2), var(--bg-color));
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  border-radius: 14px;
+  box-sizing: border-box;
+  transition: var(--transition-speed);
+  position: relative;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.metaItem span {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-bottom: 0.4rem;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+}
+
+.metaItem:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 .links {
@@ -52,7 +117,8 @@
   gap: 1.5rem;
 }
 
-.links a {
+.links a,
+.projectButton {
   display: inline-block;
   text-align: center;
   min-width: 120px;
@@ -70,74 +136,196 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.links a:hover {
+.links a:hover,
+.projectButton:hover {
   background-color: var(--primary-hover);
 }
 
-.tags {
-  margin: 0.7rem 0;
+.contentBlocks {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 3rem;
 }
 
-.tagBadge {
-  background-color: var(--primary-color);
-  color: var(--primary-text-on-button);
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-family: "Archivo", sans-serif;
+.h1Block {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
-
-.content {
-  margin: 1rem 0 4rem 0;
-  max-width: 100%;
+.h2Block {
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
-
-.content h3,
-.gallery h3 {
-  font-size: 1.2rem;
+.h3Block {
+  font-size: 1.3rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.content p {
-  line-height: 1.7;
-  color: var(--text-color);
+.textBlock {
+  line-height: 1.8;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-.heroImage {
+.imageBlock {
+  max-width: 100%;
+}
+
+.imageBlock img {
   width: 100%;
-  margin-bottom: 1.5rem;
   border-radius: 15px;
-  overflow: hidden;
+  display: block;
 }
 
-.heroImage img {
+figcaption,
+.quoteBlock span {
+  padding: 1rem 0;
+  font-size: 0.85rem;
+  opacity: 0.8;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.galleryBlock {
   width: 100%;
-  height: 300px;
-  display: block;
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery2Col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+
+.gallery2Col img {
+  width: 100%;
+  border-radius: 12px;
   object-fit: cover;
 }
 
-.gallery {
-  width: 100%;
-  margin-top: 1rem;
-}
-
-.imageGrid {
+.galleryRow {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 1.5rem;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.imageWrapper {
-  border-radius: 10px;
+.galleryRow img {
+  width: 100%;
+}
+
+.bulletList,
+.numberedList {
+  width: 100%;
+  padding-left: 2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.bulletList {
+  list-style: none;
+}
+
+.bulletList li {
+  position: relative;
+  padding-left: 1.5rem;
+  line-height: 1.7;
+}
+
+.bulletList li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.numberedList {
+  list-style-position: inside;
+  padding-left: 1.5rem;
+}
+
+.numberedList li {
+  line-height: 1.7;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.quoteBlock {
+  padding: 1.5rem 0 1.5rem 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.quoteBlock p {
+  font-family: "Archivo", sans-serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+
+.quoteBlock span {
+  display: block;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
   overflow: hidden;
 }
 
-.imageWrapper img {
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  border: none;
+}
+
+.buttonBlock {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2.2rem;
+  }
+  .gallery2Col {
+    grid-template-columns: 1fr;
+  }
+  .metaGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 2rem 1rem;
+  }
+  .header h1 {
+    font-size: 1.8rem;
+  }
+  .quoteBlock {
+    padding: 1rem 0 1rem 1.5rem;
+  }
+  .quoteBlock p {
+    font-size: 1.2rem;
+  }
 }

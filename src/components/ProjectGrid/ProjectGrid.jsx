@@ -4,12 +4,12 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 import s from "./ProjectGrid.module.css";
 
 const ProjectGrid = ({ limit, showFilters }) => {
-  const [filter, setFilter] = useState("all");
+  const [filter, setFilter] = useState("All");
 
-  const categories = ["all", ...new Set(projects.map((p) => p.type))];
+  const categories = ["All", ...new Set(projects.map((p) => p.category))];
 
   const filteredProjects =
-    filter === "all" ? projects : projects.filter((p) => p.type === filter);
+    filter === "All" ? projects : projects.filter((p) => p.category === filter);
 
   const displayedProjects = limit
     ? filteredProjects.slice(0, limit)
@@ -25,7 +25,7 @@ const ProjectGrid = ({ limit, showFilters }) => {
               onClick={() => setFilter(category)}
               className={filter === category ? s.activeFilter : ""}
             >
-              {category.charAt(0).toUpperCase() + category.slice(1)}
+              {category}
             </button>
           ))}
         </div>
