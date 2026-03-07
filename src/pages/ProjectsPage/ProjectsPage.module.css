@@ -12,3 +12,9 @@
   color: var(--text-color);
   position: relative;
 }
+
+@media (max-width: 455px) {
+  .projectsPage {
+    padding: 2rem 1rem 2rem;
+  }
+}
