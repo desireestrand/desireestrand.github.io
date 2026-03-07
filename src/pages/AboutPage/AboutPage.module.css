@@ -144,3 +144,9 @@
   color: var(--primary-color);
   font-weight: 600;
 }
+
+@media (max-width: 455px) {
+  .wrapper {
+    padding: 2rem 1rem 2rem;
+  }
+}
