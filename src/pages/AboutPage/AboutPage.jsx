@@ -7,7 +7,7 @@ function AboutPage() {
       <header className={s.header}>
         <h2>Desirée Strand</h2>
         <div className={s.details}>
-          <p className={s.title}>Fullstack Developer & UX Designer</p>
+          <p className={s.title}>Fullstack Developer & UX/UI Designer</p>
           <span className={s.location}>Stockholm, Sweden</span>
         </div>
       </header>
@@ -17,7 +17,7 @@ function AboutPage() {
         <p>
           Junior Fullstack Developer with a focus on
           <span className={s.highlight}> Frontend</span> and a background in
-          <span className={s.highlight}> UX</span>. Experienced in working
+          <span className={s.highlight}> UX/UI</span>. Experienced in working
           through the entire development lifecycle – from requirements and
           design to implementation, testing, and maintenance. I work in a
           structured and analytical manner, focusing on writing clean,
