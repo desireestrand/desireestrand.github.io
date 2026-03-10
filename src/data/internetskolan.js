@@ -2,16 +2,16 @@ export const internetskolan = {
   id: "internetskolan",
   title: "Internetskolan",
   category: "UX",
-  tags: ["UX", "UI", "Webbdesign", "Produktdesign", "Frontend"],
+  tags: ["UX", "UI", "Web Design", "Product Design", "Frontend"],
   thumbnail: "/images/internetskolan-front.jpg",
   excerpt:
-    "En lektionsbaserad webbsida som motverkar äldres digitala utanförskap",
+    "A lesson-based platform dedicated to bridging the digital divide among the elderly",
   summary:
-    "På uppdrag av Spånga-Tensta stadsdelsförvaltnings avdelning för äldreomsorg, funktionsnedsättning och psykisk ohälsa skulle mitt team och jag ge förslag på hur digitalt utanförskap kan motverkas hos äldre och personer med psykiska och fysiska funktionsnedsättningar. Genom en användarcentrerad designprocess utvecklades en interaktiv prototyp av vårt förslag Internetskolan; en lektionsbaserad webbsida där äldre personer över 65 år kan lära sig grunderna i internet. Förslaget togs mycket positivt emot av både användare och uppdragsgivare som menar att Internetskolan är något de vill förverkliga.",
-  type: "Skarpt designprojekt i grupp under termin 4",
+    "Commissioned by the Spånga-Tensta Municipality Administration’s Department for Elderly Care, Disability, and Mental Health, my team and I were tasked with developing solutions to combat digital exclusion among the elderly and people with mental and physical disabilities. Through a user-centered design process, we created 'Internetskolan' (The Internet School) — an interactive, lesson-based web platform where seniors above the age of 65 can learn the fundamentals of the internet at their own pace. The project was highly praised by both users and stakeholders, expressing a strong interest in bringing the concept to life.",
+  type: "Live Group Project (Semester 4)",
   client:
-    "Avdelningen för äldreomsorg, funktionsnedsättning och psykisk ohälsa inom Spånga-Tensta stadsdelsförvaltning, Stockholms stad",
-  duration: "5 veckor (maj-juni 2021)",
+    "The Department for Elderly Care, Disability, and Mental Health, Spånga-Tensta Municipality Administration, Stockholm City",
+  duration: "5 weeks (May - June 2021)",
   skills: [
     "Design Thinking",
     "User Research",
@@ -38,77 +38,77 @@ export const internetskolan = {
   blocks: [
     {
       type: "h1",
-      content: "Introduktion",
+      content: "Introduction",
     },
     {
       type: "h2",
-      content: "Bakgrund och problem",
+      content: "Background & Problem Statement",
     },
     {
       type: "text",
       content:
-        "När samhällstjänster och sociala sammanhang övergår till det digitala rummet riskerar sällan- och ickeanvändare av internet att hamna i digitalt utanförskap. De främst utsatta samhällsgrupperna är äldre, funktionsnedsatta, ensamstående, lågutbildade, låginkomsttagare och landsbygdsbor. Digitalt utanförskap är dock ett komplext samhällsproblem som avgörs av en kombination av ålder, inkomst, utbildning, geografisk plats och psykiska och fysiska förutsättningar.",
+        "As essential public services and social interactions migrate to the digital sphere, non-users and infrequent internet users face a growing risk of digital exclusion. The most affected groups are seniors, people with disabilities, singles, individuals with lower levels of education or income, and people living in rural areas. However, digital exclusion is a complex societal challenge shaped by a combination of age, income, education, geographical location, and mental and physical conditions.",
     },
     {
       type: "text",
       content:
-        "Spånga-Tensta är ett socioekonomiskt utsatt och demografiskt splittrat stadsdelsområde, båda aspekter som kan orsaka och relateras till digitalt utanförskap.",
+        "Spånga-Tensta is a socioeconomically disadvantaged and demographically divided district — factors that are closely linked to digital exclusion.",
     },
     {
       type: "h2",
-      content: "Uppdrag, mål och syfte",
+      content: "Mission & Objectives",
     },
     {
       type: "text",
       content:
-        "Spånga-Tensta stadsdelsförvaltnings avdelning för äldreomsorg, funktionsnedsättning och psykisk ohälsa gav oss uppdraget att ge förslag på hur verksamheten kan öka användningen av digitala lösningar hos målgrupperna äldre och personer med psykiska och fysiska funktionsnedsättningar. Målet var att målgrupperna självständigt ska kunna ta del av digitala samhällstjänster och lösningar, samt öka sin digitala delaktighet, för att motverka digitalt utanförskap.",
+        "The Department for Elderly Care, Disability, and Mental Health at Spånga-Tensta Municipality Administration commissioned us to propose how they could increase the adoption of digital solutions among the target audience of seniors and people with mental and physical disabilities. The goal was to empower these groups to independently navigate digital public services and solutions, and increase their digital participation, thereby combating digital exclusion.",
     },
     {
       type: "quote",
       content:
-        "Kunskap. Trygghet. Meningsfullhet. Självständighet. Delaktighet.",
+        "Knowledge. Safety. Purpose. Independence. Participation.",
       caption:
-        "Projektets ledord som inspirerade teamets designprocess och designval.",
+        "Core principles that guided the team’s design process and design choices.",
     },
     {
       type: "h2",
-      content: "Min roll",
+      content: "My Role",
     },
     {
       type: "text",
       content:
-        "I det här projektet tilldelades jag rollen som mediedesigner. Under den större delen av projektet arbetade dock teamet tätt tillsammans; i användarundersökning, datainsamling, dataanalys, brainstorming, prototyping och användartest. Det var inte förrän arbetet med den slutgiltiga prototypen som jag verkligen hamnade i min specifika roll. Jag bidrog då till illustrationer och copy, samt webbsidans gränssnitt – framförallt dess generella struktur, navigationselement och grafiska detaljer.",
+        "In this project, I served as the Media Designer. Throughout most of the project, our team worked closely together on user research, data gathering, data analysis, brainstorming, prototyping, and user testing. My specific role came to the forefront during the development of the final prototype, where I focused on illustrations, copywriting, and the user interface — specifically the general structure, navigation elements, and visual details.",
     },
     {
       type: "h1",
-      content: "Designprocessen",
+      content: "The Design Process",
     },
     {
       type: "text",
       content:
-        "Projektet gick iterativt igenom de fem användarcentrerade faserna av design thinking; empati, definiering, idégenerering, prototyping och test.",
+        "The project iteratively followed the five user-centered phases of the Design Thinking framework: Empathize, Define, Ideate, Prototype and Test.",
     },
     {
       type: "h2",
-      content: "Empati för målgruppen och deras behov",
+      content: "Empathy & User Needs",
     },
     {
       type: "h3",
-      content: "Användarundersökning",
+      content: "User Research",
     },
     {
       type: "text",
       content:
-        "Covid-19-pandemin och målgruppernas begränsade digitala kompetens gjorde att teamet inte kunde möta målgrupperna direkt och fysiskt. Användarundersökningen byggde därför på existerande material som statistikunderlag, rapporter och case, samt tidigare individuella arbeten om digitalt utanförskap och en omvärldsanalys av nuvarande lösningar. Vi utförde också två enkätundersökningar för att skapa förstahandsförståelse för målgrupperna, deras behov och syn på internet, digitala lösningar och digitalt utanförskap.",
+        "Due to the Covid-19 pandemic and the target group's limited digital literacy, direct physical meetings were not possible. Our user research instead relied on already existing secondary data — statistics, reports, and case studies — as well as previous academic work on digital exclusion and an analysis of existing solutions. We also conducted two surveys to gain primary insights into the users, their needs and their perceptions of the internet, digital solutions and digital exclusion.",
     },
     {
       type: "h3",
-      content: "Målgruppsavgränsning",
+      content: "Scope & Target Audience",
     },
     {
       type: "text",
       content:
-        "Brist på data resulterade i en avgränsning av målgrupperna till äldre över 65 år med någon form av digital kompetens, men som behöver hjälp med grunderna i internet. Lösningen är dock fortsatt av värde för en sekundär målgrupp av funktionsnedsatta med liknande behov som äldre och nybörjare på internet generellt.",
+        "Due to data limitations, we narrowed our primary target audience to seniors above the age of 65 who possess some digital familiarity but require help with the fundamentals of the internet. However, the solution remains highly relevant for a secondary target audience of people with disabilities with similar needs as the elderly or any beginner navigating the digital landscape.",
     },
     {
       type: "image",
@@ -122,59 +122,59 @@ export const internetskolan = {
       type: "image",
       url: "/images/internetskolan-10.jpg",
       caption:
-        "Projektets primära personas Agda och Nahom, och sekundära persona Anna.",
+        "Primary personas Agda and Nahom, and secondary persona Anna.",
     },
     {
       type: "h3",
-      content: "Insikter",
+      content: "Insights",
     },
     {
       type: "text",
       content:
-        "Utifrån teamets omfattande datainsamling var de generella insikterna att äldre har låg kunskap om internet och hur det fungerar, av olika anledningar som till exempel åldersrelaterade förutsättningar eller rädsla, och att detta orsakar lågt självförtroende i internetanvändningen. Vi såg också att det finns en önskan hos äldre att lära sig mer om internet och hur det fungerar.",
+        "Our extensive data collection and research revealed that many seniors have low internet literacy, understanding of the internet and how it works, due to different reasons like age-related conditions or fear, leading to low digital self-confidence. Crucially, we also found a strong underlying desire among seniors to learn about the internet and understand how it works.",
     },
     {
       type: "h2",
-      content: "Definering av problemet",
+      content: "Problem Definition",
     },
     {
       type: "quote",
       content:
-        "Äldre över 65 år behöver lära sig mer om internet för att bli, och våga vara, mer digitalt delaktiga.",
-      caption: "Projektets Point-of-View.",
+        "Seniors above the age of 65 need to learn more about the internet to become, and dare to be, more digitally involved.",
+      caption: "The project's Point-of-View (POV).",
     },
     {
       type: "quote",
       content:
-        "Hur kan vi utbilda äldre om internet på ett kul och inspirerande sätt?",
-      caption: "En av projektets många How might we?-frågor.",
+        "How might we educate seniors about the internet in an engaging and inspiring way?",
+      caption: "One of the project's many 'How Might We?' questions.",
     },
     {
       type: "h2",
-      content: "Idégenerering",
+      content: "Ideation",
     },
     {
       type: "text",
       content:
-        "Resultatet av flera brainstorms och moodboards var ett webbaserat läromaterial som fungerar som ”Börja här”-rutan i internetresan där användaren på ett engagerande och enkelt sätt kan lära sig om internets grunder, samt konceptet ”Lila linjen” där tåg och tunnelbanelinjer fungerar som en metafor för användarens internetresa och samhörigheten med andra användare under den.",
+        "Following several brainstorms and moodboarding sessions, we developed a web-based educational platform designed as a 'Starting Point' for the digital journey, where the user can learn about the basics of the internet in an engaging and simple way. We also introduced the 'Purple Line' (Lila linjen) concept — using train and subway lines as a metaphor for the user’s internet journey and their shared connection with other learners during it.",
     },
     {
       type: "image",
       url: "/images/internetskolan-12.jpg",
-      caption: "En moodboard från idégenereringen.",
+      caption: "A moodboard from the ideation phase.",
     },
     {
       type: "h2",
-      content: "Prototyping och användartest av lösningen",
+      content: "Prototyping & User Testing",
     },
     {
       type: "text",
       content:
-        "Vi itererade på lösningen tre gånger utifrån användartester med äldre, anhöriga till äldre i digitalt utanförskap, representanter från SeniorNet och uppdragsgivare. Återkopplingen på samtliga prototyper var mycket positiv från alla håll. De få förslag som gavs på förbättring motiverade vidare utveckling av både idéen och gränssnittet.",
+        "We iterated on the solution three times based on user testing with seniors, relatives of digitally excluded elders, representatives from SeniorNet, and our stakeholders. Feedback across all prototypes was overwhelmingly positive, with minor suggestions fueling the continuous refinement of the core concept and UI.",
     },
     {
       type: "h3",
-      content: "Lo-fi-prototyp och Look-and-Feel-profiler",
+      content: "Lo-fi Prototype & Look-and-Feel Profiles",
     },
     {
       type: "gallery-row",
@@ -185,17 +185,17 @@ export const internetskolan = {
         { url: "/images/internetskolan-lofi-4.jpg" },
       ],
       caption:
-        "Lo-fi-prototypen av lösningen som undersökte själva idéen av en lektionsbaserad webbsida och strukturen av en sådan.",
+        "The lo-fi prototype exploring the concept and structure of a lesson-based website.",
     },
     {
       type: "image",
       url: "/images/internetskolan-13.png",
       caption:
-        "Look-and-Feel-profiler som undersökte preferenser i estetik. Frame 2, 4, 5 och 6 föredrogs mest under användartesterna.",
+        "Look-and-Feel profiles used to test aesthetic preferences. Frames 2, 4, 5, and 6 were the most well-received by users.",
     },
     {
       type: "h3",
-      content: "Hi-fi-prototyp",
+      content: "Hi-fi Prototype",
     },
     {
       type: "gallery-row",
@@ -206,7 +206,7 @@ export const internetskolan = {
         { url: "/images/internetskolan-hifi-4.jpg" },
       ],
       caption:
-        "Första iterationen av hi-fi-prototypen av lösningen där även  ”Lila linjen”-konceptet testades.",
+        "The first hi-fi iteration where the 'Purple Line' concept was initially proposed.",
     },
     {
       type: "gallery-row",
@@ -218,11 +218,11 @@ export const internetskolan = {
         { url: "/images/internetskolan-hifi-15.jpg" },
       ],
       caption:
-        "Andra iterationen av hi-fi-prototypen av lösningen där ”Lila linjen”-konceptet slopades, ett blått tema applicerades och Länkbanken lades till.",
+        "The second hi-fi iteration where the 'Purple Line’ concept was removed, a blue theme was applied, and the Link Bank (Länkbanken) was added.",
     },
     {
       type: "h3",
-      content: "Interaktiv och handkodad prototyp",
+      content: "Interactive & Hand-Coded Prototype",
     },
     {
       type: "gallery-row",
@@ -234,66 +234,66 @@ export const internetskolan = {
         { url: "/images/internetskolan-prototyp-5.png" },
         { url: "/images/internetskolan-prototyp-6.png" },
       ],
-      caption: "Den slutgiltiga handkodade prototypen.",
+      caption: "The final hand-coded prototype.",
     },
     {
       type: "image",
       url: "/images/internetskolan-illustration1.jpg",
       caption:
-        "Linda Norléns illustrationer av projektets personas Agda och Nahom, som jag var med och itererade på till illustrationerna till höger.",
+        "Original persona illustrations of Agda and Nahom by a team member, which I later iterated upon (right).",
     },
     {
       type: "image",
       url: "/images/illustrationer.jpg",
       caption:
-        "Illustrationerna som jag skapade till den slutgiltiga prototypen.",
+        "Final illustrations created by me for the interactive prototype.",
     },
     {
       type: "h1",
-      content: "Lösning",
+      content: "The Solution",
     },
     {
       type: "text",
       content:
-        "Lösningen är Internetskolan, webbsidan dit äldre kan vända sig för att börja sin internetresa eller få stöd längs med den. Äldre kan själva lära sig om internets grunder, faror och möjligheter för att kunna och våga använda internet och digitala tjänster självständigt, bli mer digitalt delaktiga och bygga upp mentala modeller av internet. En mental modell är vår inre uppfattning av hur en sak fungerar och är grundläggande för att kunna använda den.",
+        "The solution is 'Internetskolan' (The Internet School) — a dedicated web platform where seniors can go to begin their digital journey or get support during it. Elders can on their own learn the basics, risks, and opportunities of the internet, to be able and dare to use the web and digital services independently and with confidence, become more digitally involved, and build vital mental models of the internet. A mental model is our internal perception of how something works and is fundamental to be able to use it.",
     },
     {
       type: "text",
       content:
-        "Klicka på knappen för att testa den slutgiltiga prototypen (OBS! Webbsidan är i detta stadie endast skapad för 13-tumsskärmar):",
+        "Note: The prototype is currently only optimized for 13-inch screens. Click the button below to explore the final prototype:",
     },
     {
       type: "button",
-      text: "Besök Internetskolan",
+      text: "Visit Internetskolan (The Internet School)",
       url: "https://saschjo.github.io/internetskolan/",
       external: "_blank",
     },
     {
       type: "h2",
-      content: "Internetskolan",
+      content: "Platform Features",
     },
     {
       type: "text",
       content:
-        " Internetskolan är uppdelad i sektionerna ”Lektioner”, ”Länkbanken” och ”Lexikon”.",
+        "The Internet School is organized into three main sections: 'Lessons' (Lektioner), 'The Link Bank' (Länkbanken), and 'The Glossary' (Lexikon).",
     },
     {
       type: "h2",
-      content: "Lektioner",
+      content: "Lessons",
     },
     {
       type: "text",
       content:
-        "I Internetskolan finns två typer av lektioner som lär ut internets grunder. Lektionstyperna har en lättnavigerad struktur med interaktiva handledande element, korta texter av pedagogiskt och enkelt språk och många illustrationer för att underlätta inlärningen. Lektionssidorna ska ha uppläsning och video för att förenkla inlärningen ytterligare.",
+        "The platform offers two types of lessons that teach the basics of the internet. The lesson types are designed for easy navigation and feature interactive guiding elements, concise reading material with pedagogical and simple language, and many illustrations to facilitate learning. Future iterations would include audio narration and video to further enhance learning.",
     },
     {
       type: "h3",
-      content: "Lärande lektionstyp",
+      content: "Educational Lessons",
     },
     {
       type: "text",
       content:
-        "Internetskolans lärande lektionstyp hanterar breda som smala internetrelaterade ämnen på ett lättillgängligt sätt för att utveckla mentala modeller av internet. I prototypen är dessa ”Lektion 1: Hur fungerar internet?” och ”Lektion 2: Faror på internet”.",
+        "The educational lessons focus on building mental models of the internet by explaining both broad and specific digital topics in an accessible way. Prototype examples include 'Lesson 1: How does the Internet work?' (”Lektion 1: Hur fungerar internet?”) and 'Lesson 2: Online Safety.' (”Lektion 2: Faror på internet”)."
     },
     {
       type: "image",
@@ -302,110 +302,110 @@ export const internetskolan = {
     {
       type: "image",
       url: "/images/lektion2.gif",
-      caption: "De lärande lektionerna i den slutgiltiga prototypen.",
+      caption: "Educational lesson modules in the final prototype.",
     },
     {
       type: "h3",
-      content: "Praktisk lektionstyp",
+      content: "Practical Lessons",
     },
     {
       type: "text",
       content:
-        "Internetskolans praktiska lektionstyp följer ett steg-för-steg-format för att hjälpa äldre att lätt och tryggt utföra moment i digitala tjänster, och på så sätt uppmuntra till interaktion med internet. I prototypen är denna lektion ”Lektion 3: Skapa ett e-postkonto”.",
+        "The practical lessons follow a step-by-step format to help seniors perform specific digital tasks easily and safely, encouraging active interaction with the internet. An example in the prototype is 'Lesson 3: Creating an E-mail Account.' (”Lektion 3: Skapa ett e-postkonto”.).",
     },
     {
       type: "image",
       url: "/images/lektion3.gif",
-      caption: "Den praktiska lektionen i den slutgiltiga prototypen.",
+      caption: "Practical lesson module in the final prototype.",
     },
     {
       type: "h2",
-      content: "Länkbanken",
+      content: "The Link Bank",
     },
     {
       type: "text",
       content:
-        "Länkbanken samlar direktlänkar till exempelvis samhällstjänster, e-post-leverantörer, streamingtjänster och webbutiker. Med hjälp av logotyper, rubriker och beskrivningar är det tydligt vilken webbsida länken går till. Länkbanken ska avlasta äldre och nybörjare mentalt genom att samla viktiga och vanliga webbadresser på en plats. Länkbanken skapar trygghet och hämmar rädsla genom att lyfta fram tillförlitliga och säkra platser på internet.",
+        "The Link Bank (Länkbanken) gathers direct links to essential public services, email providers, streaming services, and e-commerce sites. Using logos, headings and descriptions, it is clear which website the link goes to. The Link Bank’s purpose is to reduce the cognitive load for elders and beginners by gathering essential and popular websites in one place. The Link Bank creates safety and inhibits fear by highlighting reliable and safe destinations on the internet.",
     },
     {
       type: "image",
       url: "/images/lankbank.gif",
-      caption: "Länkbanken i den slutgiltiga prototypen.",
+      caption: "The Link Bank feature in the final prototype.",
     },
     {
       type: "h2",
-      content: "Lexikon",
+      content: "Glossary",
     },
     {
       type: "text",
       content:
-        "Lexikonet ska samla och definiera olika förkortningar, termer och begrepp som är unika för det digitala rummet och internetanvändare. Äldre och nybörjare på internet kan så lära sig, förstå och anamma det språket, bli en del av gemenskapen och mer manade att utforska internet och stöta på uttrycken de lärt sig. Lexikonet ska också ha en sökfunktion.",
+        "The Glossary (Lexikon) collects and defines common abbreviations, terminology and concepts that are unique to the digital space and internet users. Elders and internet beginners can then learn, understand and embrace that language, feel a part of the community, and be more encouraged to explore the internet and come across the expressions they learn. The Glossary will also have a search function.",
     },
     {
       type: "image",
       url: "/images/lexikon.gif",
-      caption: "Lexikonet i den slutgiltiga prototypen.",
+      caption: "The Glossary in the final prototype.",
     },
     {
       type: "h2",
-      content: "Tillgänglighetsanpassningar",
+      content: "Accessibility Features",
     },
     {
       type: "text",
       content:
-        "Internetskolan ska vara tillgänglighetsanpassad för att kunna användas av äldre och andra med liknande behov. Det här innefattar till exempel tydliga konstraster i färgschemat, pedagogiskt och enkelt språk, korta textstycken och tydliga, handledande och bekräftande interaktionselement. Vi har även anpassat webbsidan utifrån den sekundära målgruppen. Språkval och talsyntes finns som alternativ i menyraden. Som språkval ska svenska, engelska, arabiska, tigrinja och somaliska finnas; vanliga språk i Spånga-Tensta stadsdelsområde. Alternativet ”Textstorlek” finns även i menyraden då läsbarhet är mycket individuellt. Internetskolan ska också kunna användas på fler digitala enheter än i nuläget, och ha olika lägen för olika behov av stöd eller digital kompetens.",
+        "The Internet School should be accessible to be used by the elderly and others with similar needs. This includes, for example, high color contrasts in the color scheme, educational and simple language, short text passages, and clear, guiding and confirming interaction elements. We have also adapted the website based on the secondary target group. Language selection and text-to-speech are available as options in the menu bar. The language choices should be Swedish, English, Arabic, Tigrinya and Somali; common languages ​​in the Spånga-Tensta district area. The option 'Text size' is also available in the menu bar as readability is very individual. The Internet School should also be able to be used on all digital devices, and have different modes for different needs of support or digital literacy.",
     },
     {
       type: "image",
       url: "/images/availability.gif",
-      caption: "Tillgänglighetsanpassningar i den slutgiltiga prototypen.",
+      caption: "Accessibility features in the final prototype.",
     },
     {
       type: "h2",
-      content: "Framtid: Lila linjen",
+      content: "Future Concept: The Purple Line",
     },
     {
       type: "text",
       content:
-        "”Lila linjen” slopades som metafor och koncept för lösningen efter användartester, men kan istället vara ett större koncept som Internetskolan är en ”station” inom eftersom det är en tydlig metafor för resan in i det digitala samhället. Lila linjen skulle kunna innebära fysiska träffar och lektioner, utlåning av digitala enheter där Internetskolan är startsidan i webbläsaren, och rekommenderas till äldre i digitalt utanförskap och anhöriga genom till exempel Medborgarkontoret, väntrum och postutskick.",
+        "The 'Purple Line' was removed as a metaphor and concept for the solution after user testing, but could instead be a larger concept in which The Internet School is a “station”, since it is a clear and powerful metaphor for the journey into the digital society. The Purple Line could involve physical meetings and lessons, lending of digital devices where The Internet School is the start page in the browser, and be recommended for elderly people in digital exclusion and their relatives through, for example, Medborgarkontoret, waiting rooms and postal mailings.",
     },
     {
       type: "image",
       url: "/images/internetskolan-14.png",
-      caption: "Ett Lila linjen-tåg, illustrerat av Anna-Maria Hjorth.",
+      caption: "A 'Purple Line' train, illustrated by a team member.",
     },
     {
       type: "h1",
-      content: "Resultat",
+      content: "Results",
     },
     {
       type: "text",
       content:
-        "Användarna förmedlade kontinuerligt intresset för lösningen och att de ville samt behövde använda den själva. Uppdragsgivarna menade att vårt arbete samt lösningen överträffade alla deras förväntningar. De betonade projektets koppling till verkliga behov, och att de därför vill diskutera lösningen med beslutsfattare för att ta den vidare med oss i framtiden. Utifrån sådana reaktioner upplever vi att lösningen uppnått uppdraget; att äldre självständigt kan lära sig om internet, våga vara mer digitalt delaktiga och bli inkluderade i digitala sammanhang. Lösningen kan så motverka digitalt utanförskap.",
+        "User testing consistently showed a high level of interest and a genuine want and need for the platform. Our stakeholders stated that our work and the solution exceeded all of their expectations. They emphasized the project’s alignment with real-world needs, and expressed intent to discuss the project with decision-makers for potential future implementation. Based on such reactions, we believe that the project successfully achieved its mission; that older people can independently learn about the internet, dare to be more digitally involved and be included in digital contexts. The solution can thus counteract digital exclusion.",
     },
     {
       type: "h1",
-      content: "Lärdomar",
+      content: "Key Takeaways",
     },
     {
       type: "text",
       content:
-        "Jag är jättenöjd med projektet, designprocessen och de underbyggda designval som resulterat i teamets välutvecklade lösning. Det har varit en av de bästa designprocesserna i min erfarenhet tack vare teamet, uppdragsgivarna och vår detaljerade planering!",
+        "I am extremely satisfied with the project, the iterative design process and the research-backed design choices that led to this elaborate solution. This was one of the most rewarding design experiences I've had, thanks to a strong team, stakeholder engagement and a detailed plan!",
     },
     {
       type: "text",
       content:
-        "Följande lärdomar tar jag med mig från arbetet med Internetskolan:",
+        "I bring the following lessons with me from working with The Internet School:",
     },
     {
       type: "list",
       style: "ul",
       items: [
-        "En omfattande datainsamling och analys effektiviserar den övriga designprocessen och resulterar i en användarcentrerad lösning då det definierar ramarna för övriga aktiviteter och underbygger designval.",
-        "Trots bristfällig användarundersökning (i detta fall till exempel i bredd och direkt kontakt med målgruppen) kan insikter senare valideras vid användartester.",
-        "Användartester behöver bara representera en tillräckligt stor del av användarna för att betona idéens relevans till målgruppens behov, vilket räcker för att visa lösningens potential.",
-        "Gemensamt arbete är effektivt, stärker gruppdynamiken och gör att teamet är på samma plan och kan lära sig av varandra.",
-        " Teamet, uppdragsgivarna och uppdraget har betydelse för engagemanget i ett projekt.",
+        "Comprehensive data collection and analysis streamline the entire design process and ensure a user-centered solution, since it defines the boundaries for other activities and supports design choices.",
+        "Even when user research face constraints (like limited direct contact with the target audience), insights can be validated and refined through user testing.",
+        "User testing only needs to represent a large enough portion of users to emphasize the relevance of the idea to the needs of the target group, which is enough to demonstrate the potential value of the solution.",
+        "Collaborative work is effective, strengthens group dynamics and ensures that the team is on the same level and learns from each other's diverse perspectives.",
+        "Engagement in a project is deeply influenced by the synergy between the team, the stakeholders, and the mission itself.",
       ],
     },
   ],
