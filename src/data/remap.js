@@ -44,7 +44,7 @@ export const remap = {
     },
     {
       type: "h2",
-      content: "The Mission & Objectives",
+      content: "Mission & Objectives",
     },
     {
       type: "text",

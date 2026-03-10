@@ -234,7 +234,7 @@ export const internetskolan = {
         { url: "/images/internetskolan-prototyp-5.png" },
         { url: "/images/internetskolan-prototyp-6.png" },
       ],
-      caption: "The final hand-coded prototype.",
+      caption: "The final hand-coded prototype, built with HTML5, CSS3 and Vanilla JavaScript.",
     },
     {
       type: "image",
