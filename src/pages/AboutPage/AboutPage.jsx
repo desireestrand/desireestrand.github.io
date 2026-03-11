@@ -15,39 +15,48 @@ function AboutPage() {
       <section className={s.content}>
         <h3>About me</h3>
         <p>
-          Junior Fullstack Developer with a focus on
-          <span className={s.highlight}> Frontend</span> and a background in
-          <span className={s.highlight}> UX/UI</span>. Experienced in working
-          through the entire development lifecycle – from requirements and
-          design to implementation, testing, and maintenance. I work in a
-          structured and analytical manner, focusing on writing clean,
-          maintainable and scalable code and building user-focused, accessible
-          and sustainable solutions.
+          I'm a Junior <span className={s.highlight}>Fullstack Developer</span>{" "}
+          and <span className={s.highlight}> UX/UI Designer</span> passionate
+          about building digital products that solve real-world problems and
+          create meaningful experiences for users.
         </p>
         <p>
-          My UX background allows me to approach development with a strong
-          understanding of user needs and product goals. I translate
-          requirements and design concepts into functional, intuitive interfaces
-          and reliable technical solutions. By combining development and design
-          thinking, I create products that are both technically solid and
-          meaningful to users.
+          Currently, I'm studying Fullstack Development at Nackademin,
+          deepening my frontend development skills in React and JavaScript while
+          expanding into backend development with Node.js, TypeScript, APIs, and
+          database management.
         </p>
         <p>
-          When solving problems, I explore multiple perspectives, holistic{" "}
-          <i>and </i>
-          detail-oriented, before refining the strongest solutions. I enjoy
-          breaking down complex challenges, experimenting with ideas, and
-          iterating toward efficient implementations. Inspiration for my work
-          often comes from both digital and physical systems, as well as from
-          past solutions and emerging technologies.
+          With a Bachelor's degree in Media Technology and a background in
+          UX/UI, I bring a holistic perspective to product development. My
+          experience with the design processes that precede development helps me
+          understand user needs and design intent, translating them into
+          intuitive interfaces and reliable solutions that are both technically
+          solid and meaningful to users. I enjoy bridging the gap between design
+          and engineering, contributing across the entire product lifecycle —
+          from initial concept to final implementation and long-term
+          maintenance.
         </p>
         <p>
-          I am highly self-driven but thrive in agile, cross-functional teams. I
-          enjoy working in collaborative environments where development happens
-          close to the product and its users. I learn quickly, adapt easily, and
-          am motivated by new technical challenges and opportunities to grow as
-          a developer.
+          As a curious and analytical person, I'm motivated by technical
+          challenges that require thoughtful problem-solving and continuous
+          learning. I work in a structured and systematic way, focusing on
+          writing clean, maintainable, and scalable code while building
+          user-focused, accessible, and sustainable solutions. I'm highly
+          self-driven, but thrive in cross-functional teams and collaborative,
+          creative environments where development happens close to the product
+          and its users.
         </p>
+        <p>
+          For me, technology is at its most compelling when it isn't just
+          functional, but truly valuable and appreciated by the people who use
+          it.
+        </p>
+      </section>
+
+      <section className={s.section}>
+        <h3>Tech Stack</h3>
+        <TechBadges />
       </section>
 
       <section className={s.section}>
@@ -61,13 +70,29 @@ function AboutPage() {
             <p className={s.company}>Nackademin</p>
 
             <ul className={s.courseList}>
-              <li>Backend Development I – JavaScript (Node.js, MongoDB)</li>
-              <li>Database Systems (PostgreSQL)</li>
               <li>
-                Frontend Development II – JS Libraries & Frameworks (React)
+                Acquiring broad skills in both frontend and backend development,
+                mastering languages and frameworks such as HTML5, CSS3, Vanilla
+                JavaScript, React, Node.js, and TypeScript
               </li>
-              <li>Frontend Development I – HTML5, CSS3 & Modern JavaScript</li>
-              <li>Business Acumen & Professionalism</li>
+              <li>
+                Managing database systems including PostgreSQL and MongoDB to
+                build data-driven applications
+              </li>
+              <li>
+                Implementing modern development tools and industry best
+                practices, with strong emphasis on Git, GitHub, and Agile
+                methodologies
+              </li>
+              <li>
+                Executing team-based projects, gaining practical experience in
+                collaborative, solution-oriented development; from initial
+                planning and coding to final implementation
+              </li>
+              <li>
+                Developing professional practices and business thinking as a
+                developer in the tech industry
+              </li>
             </ul>
           </div>
           <div className={s.item}>
@@ -76,6 +101,30 @@ function AboutPage() {
             </span>
             <p className={s.role}>ICT, Media and Design</p>
             <p className={s.company}>Södertörn University</p>
+            <ul className={s.courseList}>
+              <li>
+                Acquired vast knowledge and skill in UX and UI design, web and
+                mobile development, graphic design and media production
+              </li>
+              <li>
+                Applied user-centered design through methodologies like Design
+                Thinking and Agile development, covering user research,
+                usability testing, and lo-fi and hi-fi prototyping
+              </li>
+              <li>Followed design principles and best practices</li>
+              <li>
+                Collaborated in cross-functional teams, taking on various roles
+                in both design and development
+              </li>
+              <li>
+                Mastered industry-standard design tools, specifically Figma and
+                the Adobe Creative Suite
+              </li>
+              <li>
+                Worked with languages and libraries including HTML5, CSS3,
+                JavaScript, jQuery, PHP, MySQL, p5.js and Flutter
+              </li>
+            </ul>
           </div>
           <div className={s.item}>
             <span className={s.date}>Mar 2022 - May 2022 (Online Course)</span>
@@ -98,12 +147,12 @@ function AboutPage() {
         <h3>Experience</h3>
         <div className={s.timeline}>
           <div className={s.item}>
-            <span className={s.date}>Jun 2023 - Jun 2025</span>
+            <span className={s.date}>Jun 2023 - Jun 2025 (Consultant)</span>
             <p className={s.role}>Design Mentor</p>
             <p className={s.company}>ZoCom AB</p>
           </div>
           <div className={s.item}>
-            <span className={s.date}>Jun 2022 - Jan 2024</span>
+            <span className={s.date}>Jun 2022 - Jan 2024 (Consultant)</span>
             <p className={s.role}>Digital Designer</p>
             <p className={s.company}>ZoCom AB</p>
           </div>
@@ -113,11 +162,6 @@ function AboutPage() {
             <p className={s.company}>ZoCom AB</p>
           </div>
         </div>
-      </section>
-
-      <section className={s.section}>
-        <h3>Tech Stack</h3>
-        <TechBadges />
       </section>
     </article>
   );
