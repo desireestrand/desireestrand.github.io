@@ -16,7 +16,7 @@
 }
 
 .hero span {
-  display: inline-block;
+  display: inline;
   font-size: 2.3rem;
   font-family: "Archivo", sans-serif;
   font-variation-settings: "wdth" 125;
