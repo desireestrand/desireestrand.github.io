@@ -3,13 +3,13 @@ import s from "./TechBadges.module.css";
 import { useState } from "react";
 
 const techStack = [
-  { id: "js", name: "JavaScript", category: "Frontend" },
-  { id: "typescript", name: "TypeScript", category: "Frontend" },
   { id: "react", name: "React", category: "Frontend" },
+  { id: "js", name: "JavaScript", category: "Frontend" },
   { id: "nodejs", name: "Node.js", category: "Backend" },
-  { id: "python", name: "Python", category: "Backend" },
+  { id: "typescript", name: "TypeScript", category: "Backend" },
   { id: "html5", name: "HTML5", category: "Frontend" },
   { id: "css3", name: "CSS3", category: "Frontend" },
+  { id: "python", name: "Python", category: "Backend" },
   { id: "mongodb", name: "MongoDB", category: "Databases" },
   { id: "postgresql", name: "PostgreSQL", category: "Databases" },
   { id: "mysql", name: "MySQL", category: "Databases" },
@@ -21,23 +21,19 @@ const techStack = [
   { id: "figma", name: "Figma", category: "Tools" },
   { id: "jquery", name: "jQuery", category: "Frontend" },
   { id: "php", name: "PHP", category: "Backend" },
-  { id: "p5js", name: "p5.js", category: "Frontend" },
-  { id: "ux", name: "UX Design", category: "Design" },
-  { id: "ui", name: "UI Design", category: "Design" },
-  { id: "idea", name: "Ideation", category: "Design" },
-  { id: "prototype", name: "Prototyping", category: "Design" },
-  { id: "research", name: "User Research", category: "Design" },
-  { id: "testing", name: "Usability Testing", category: "Design" },
-  { id: "adobecc", name: "Adobe Creative Cloud", category: "Tools" },
-  { id: "office", name: "Microsoft Office", category: "Tools" },
   { id: "agile", name: "Agile (SCRUM, Kanban)", category: "Methods" },
   { id: "dt", name: "Design Thinking", category: "Methods" },
+  { id: "research", name: "User Research", category: "Methods" },
+  { id: "idea", name: "Brainstorming", category: "Methods" },
+  { id: "prototype", name: "Lo-fi and Hi-fi Prototyping", category: "Methods" },
+  { id: "testing", name: "Usability Testing", category: "Methods" },
+  { id: "adobecc", name: "Adobe Creative Suite", category: "Tools" },
 ];
 
 const categories = ["All", ...new Set(techStack.map((item) => item.category))];
 
 function TechBadges() {
-  const [activeFilter, setActiveFilter] = useState("All");
+  const [activeFilter, setActiveFilter] = useState("Frontend");
 
   const filteredStack =
     activeFilter === "All"
