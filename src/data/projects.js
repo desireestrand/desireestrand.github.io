@@ -4,12 +4,14 @@ import { blogPlatform } from "./blog-platform";
 import { quizApp } from "./quiz-app";
 import { internetskolan } from "./internetskolan";
 import { remap } from "./remap";
+import { breakie } from "./breakie";
 
 export const projects = [
   productivityAssistantApp,
   pokemonApp,
-  internetskolan,
   blogPlatform,
   quizApp,
+  breakie,
+  internetskolan,
   remap
 ];

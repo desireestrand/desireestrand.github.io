@@ -172,6 +172,7 @@ export const remap = {
     {
       type: "video",
       url: "https://player.vimeo.com/video/500366747?h=9f3a46c6e1",
+      caption: "The concept film for Re:map."
     },
     {
       type: "h2",

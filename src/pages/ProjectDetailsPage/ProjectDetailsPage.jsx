@@ -130,10 +130,34 @@ function ProjectDetailsPage() {
               );
 
             case "video":
+              const isExternal =
+                block.url.includes("youtube") || block.url.includes("vimeo");
+
               return (
-                <div key={index} className={s.videoWrapper}>
-                  <iframe src={block.url} allowFullScreen title="video" />
-                </div>
+                <figure key={index} className={s.videoBlock}>
+                  <div className={s.videoWrapper}>
+                    {isExternal ? (
+                      /* Extern video (YouTube/Vimeo) - Autoplay styrs av URL-parametrar */
+                      <iframe
+                        src={block.url}
+                        allowFullScreen
+                        title="video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      />
+                    ) : (
+                      /* Lokal fil - Ta bort 'autoPlay' här för att stoppa den */
+                      <video
+                        src={block.url}
+                        controls
+                        preload="metadata"
+                        className={s.localVideo}
+                      >
+                        Your browser does not support the video tag.
+                      </video>
+                    )}
+                  </div>
+                  {block.caption && <figcaption>{block.caption}</figcaption>}
+                </figure>
               );
 
             case "quote":

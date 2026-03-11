@@ -234,6 +234,7 @@ figcaption,
 
 .bulletList {
   list-style: none;
+  padding-bottom: 1.5rem;
 }
 
 .bulletList li {
@@ -286,6 +287,12 @@ figcaption,
   height: 0;
   width: 100%;
   overflow: hidden;
+}
+
+.localVideo {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .videoWrapper iframe {
