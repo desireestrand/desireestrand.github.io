@@ -4,7 +4,7 @@ export const productivityAssistantApp = {
   category: "Frontend",
   thumbnail: "/images/livsplaneraren.png",
   excerpt:
-    "A comprehensive React-based productivity suite featuring task management, habit tracking, and event planning with persistent user authentication.",
+    "A comprehensive React-based productivity suite featuring task management, habit tracking, and event planning with persistent user authentication",
   type: "Group Project (Semester 1)",
   client: "Educational Project",
   duration: "2 weeks (Dec 2025)",
@@ -16,7 +16,7 @@ export const productivityAssistantApp = {
     "Asynchronous Data Fetching"
   ],
   tools: ["React", "JavaScript", "CSS", "REST API", "Trello", "GitHub", "Figma", "localStorage"],
-  tags: ["React", "CSS", "HTML", "Agile"],
+  tags: ["React", "CSS", "HTML", "API"],
   github: "https://github.com/desireestrand/productivity-assistant-app",
   liveDemo: "https://desireestrand.github.io/productivity-assistant-app/",
   blocks: [

@@ -5,10 +5,10 @@ function ContactPage() {
     <div className={s.wrapper}>
       <h2 className={s.title}>Let's connect!</h2>
       <p className={s.subtitle}>
-        I'm currently seeking an internship (LIA) from November 2026 to May
-        2027, where I can apply my skills in Fullstack Development and UX/UI
-        Design while gaining practical experience and continuing to grow as a
-        developer. I would love to hear from you!
+        I'm currently seeking an internship (LIA) opportunity from November 2026
+        to May 2027, where I can apply my skills in Fullstack Development, gain
+        hands-on experience and continue to grow as a developer. I would love
+        to hear from you!
       </p>
 
       <div className={s.container}>
