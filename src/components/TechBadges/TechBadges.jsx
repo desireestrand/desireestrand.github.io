@@ -33,7 +33,7 @@ const techStack = [
 const categories = ["All", ...new Set(techStack.map((item) => item.category))];
 
 function TechBadges() {
-  const [activeFilter, setActiveFilter] = useState("Frontend");
+  const [activeFilter, setActiveFilter] = useState("All");
 
   const filteredStack =
     activeFilter === "All"
