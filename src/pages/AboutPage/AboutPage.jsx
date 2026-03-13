@@ -21,19 +21,19 @@ function AboutPage() {
           create meaningful experiences for users.
         </p>
         <p>
-          Currently, I'm studying Fullstack Development at Nackademin,
-          deepening my frontend development skills in React and JavaScript while
-          expanding into backend development with Node.js, TypeScript, APIs, and
-          database management.
+          Currently, I'm studying <span className={s.highlight}>Fullstack Development at Nackademin</span>, deepening
+          my frontend skills in React and JavaScript while expanding into
+          backend development with Node.js, TypeScript, APIs, and database
+          management.
         </p>
         <p>
-          With a Bachelor's degree in Media Technology and a background in
+          With a <span className={s.highlight}>Bachelor's degree in Media Technology</span> and a background in
           UX/UI, I bring a holistic perspective to product development. My
           experience with the design processes that precede development helps me
           understand user needs and design intent, translating them into
           intuitive interfaces and reliable solutions that are both technically
-          solid and meaningful to users. I enjoy bridging the gap between design
-          and engineering, contributing across the entire product lifecycle —
+          solid and meaningful to users. I enjoy <span className={s.highlight}>bridging the gap between design
+          and engineering</span>, contributing across the entire product lifecycle —
           from initial concept to final implementation and long-term
           maintenance.
         </p>
@@ -50,7 +50,7 @@ function AboutPage() {
         <p>
           For me, technology is at its most compelling when it isn't just
           functional, but truly valuable and appreciated by the people who use
-          it.
+          it. <span className={s.highlight}>✴︎</span>
         </p>
       </section>
 
@@ -130,6 +130,21 @@ function AboutPage() {
             <span className={s.date}>Mar 2022 - May 2022 (Online Course)</span>
             <p className={s.role}>React.js</p>
             <p className={s.company}>Folkuniversitet</p>
+          </div>
+          <div className={s.item}>
+            <span className={s.date}>Jan 2022 - Feb 2022 (Course)</span>
+            <p className={s.role}>Mobile Services and Interfaces</p>
+            <p className={s.company}>Södertörn University</p>
+          </div>
+          <div className={s.item}>
+            <span className={s.date}>Jan 2019 - Jun 2019 (Course)</span>
+            <p className={s.role}>Cinema Studies I</p>
+            <p className={s.company}>Stockholm University</p>
+          </div>
+          <div className={s.item}>
+            <span className={s.date}>Sep 2018 - Jan 2019 (Course)</span>
+            <p className={s.role}>Art History I: Visual Studies</p>
+            <p className={s.company}>Stockholm University</p>
           </div>
           <div className={s.item}>
             <span className={s.date}>
