@@ -10,7 +10,7 @@ export const pokemonApp = {
   duration: "2 weeks (Nov 2025)",
   skills: ["React", "JavaScript", "CSS", "Asynchronous Programming", "State Management"],
   tools: ["Vite", "PokéAPI", "React Hooks"],
-  tags: ["React", "REST API", "CSS"],
+  tags: ["React", "API", "CSS"],
   github: "https://github.com/desireestrand/pokemon-app",
   liveDemo: "https://desireestrand.github.io/pokemon-app/",
   blocks: [
