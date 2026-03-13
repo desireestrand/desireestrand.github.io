@@ -4,8 +4,10 @@ export const breakie = {
   category: "UX",
   tags: ["UX", "UI", "Interaction Design", "EdTech"],
   thumbnail: "/images/breakie-front.png",
-  excerpt: "A digital classroom tool designed to re-energize students and improve concentration through scheduled 'brain breaks'",
-  summary: "As part of a commissioned project by NTI Gymnasiet at ZoCom AB, I served as Lead Designer for Breakie — the fourth tool in the 'Toolie' ecosystem. Breakie addresses 'classroom friction' by providing teachers with an efficient way to implement physical, mental, and social pauses during long lessons. By applying a user-centered Design Thinking process, I transformed a teacher-led concept into a high-fidelity interactive prototype. The project focused on functional minimalism, accessibility (WCAG), and a scalable design system based on an 8-point grid, ensuring a seamless experience for both educators and students.",
+  excerpt:
+    "A digital classroom tool designed to re-energize students and improve concentration through scheduled 'brain breaks'",
+  summary:
+    "As part of a commissioned project by NTI Gymnasiet at ZoCom AB, I served as Lead Designer for Breakie — the fourth tool in the 'Toolie' ecosystem. Breakie addresses 'classroom friction' by providing teachers with an efficient way to implement physical, mental, and social pauses during long lessons. By applying a user-centered Design Thinking process, I transformed a teacher-led concept into a high-fidelity interactive prototype. The project focused on functional minimalism, accessibility (WCAG), and a scalable design system based on an 8-point grid, ensuring a seamless experience for both educators and students.",
   type: "Client Project / Final Project for my Bachelor's Degree in Media Technology (Semester 6)",
   client: "NTI Gymnasiet (via ZoCom AB)",
   duration: "10 weeks (March - June 2022)",
@@ -31,7 +33,8 @@ export const breakie = {
     "Accessibility View",
   ],
   github: "",
-  liveDemo: "https://www.figma.com/proto/7y9TFEtLnrSnSTL8g4VFLx/Strand_Desire%CC%81e_prototyp_PEP_VT2022?node-id=1340%3A1140&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1340%3A1140",
+  liveDemo:
+    "https://www.figma.com/proto/7y9TFEtLnrSnSTL8g4VFLx/Strand_Desire%CC%81e_prototyp_PEP_VT2022?node-id=1340%3A1140&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1340%3A1140",
   blocks: [
     {
       type: "h1",
@@ -45,7 +48,7 @@ export const breakie = {
     {
       type: "video",
       url: "/images/breakie-video.mp4",
-      caption: "A video summary of the Breakie project."
+      caption: "A video summary of the Breakie project.",
     },
     {
       type: "h2",
@@ -64,7 +67,7 @@ export const breakie = {
     {
       type: "image",
       url: "/images/breakie-1.png",
-      caption: "The Toolie app (https://toolie.se/)."
+      caption: "The Toolie app (https://toolie.se/).",
     },
     {
       type: "h2",
@@ -81,7 +84,7 @@ export const breakie = {
         "Breakie aims to turn mental fatigue into focus through movement and variation.",
       caption: "The core vision for the project.",
     },
-        {
+    {
       type: "h2",
       content: "Research & Market Context",
     },
@@ -109,6 +112,12 @@ export const breakie = {
         "The project followed an iterative Design Thinking framework (Empathize, Define, Ideate, Prototype, Test) integrated into NTI's agile incubator milestones. While the initial concept existed, my process involved deep-diving into user needs to refine the interface and user experience.",
     },
     {
+      type: "image",
+      url: "/images/breakie-2.png",
+      caption:
+        "The needs and requirements for Breakie, defined by ZoCom and teachers at NTI Gymnasiet.",
+    },
+    {
       type: "h2",
       content: "Initial Interface Proposals",
     },
@@ -118,38 +127,40 @@ export const breakie = {
         "Starting with 'braindrawing' sessions, I explored how to balance the two core functions: 'Randomize a Breakie' and 'Choose a Specific Breakie'. The challenge was to minimize the number of steps to ensure the tool didn't take valuable time away from the lesson. I iterated between paper sketches and Figma to align the UI with the existing 'Toolie' design language.",
     },
     {
-      // Här kan du lägga in galleriet med kundresekartor om du har bilder
-      type: "gallery-row",
+      type: "gallery-2col",
       images: [
-        { url: "/images/breakie-cjm-1.jpg" },
-        { url: "/images/breakie-cjm-2.jpg" },
+        { url: "/images/breakie-3.jpg" },
+        { url: "/images/breakie-4.png" },
       ],
       caption: "The first sketches of Breakie, on paper and in Figma.",
     },
-        {
+    {
       type: "image",
-      url: "/images/breakie-sketches.jpg",
+      url: "/images/breakie-5.png",
       caption: "The initial interface proposal in Figma.",
     },
-        {
+    {
       type: "text",
       content:
         "Sketches were tested with the ZoCom team for feedback, leading to iterative improvements. I also held a workshop with teachers from NTI Gymnasiet to test the initial interface proposal, gather feedback, and improve it. I presented the interface and conducted A/B testing to refine features based on user preferences. Feedback was primarily positive, with suggestions for additional features. The workshop also included brainstorming sessions to define new functions and requirements for Breakie. Changes were made to the interface based on both teacher and team member feedback, focusing on simplicity.",
     },
     {
       type: "image",
-      url: "/images/breakie-sketches.jpg",
-      caption: "New needs and requirements for Breakie after the workshop with NTI Gymnasiet's teachers.",
+      url: "/images/breakie-6.png",
+      caption:
+        "New needs and requirements for Breakie after the workshop with NTI Gymnasiet's teachers.",
     },
-        {
+    {
       type: "image",
-      url: "/images/breakie-sketches.jpg",
-      caption: "Sketches in Figma of the functions to create a breakie and instructions for selected breakie.",
+      url: "/images/breakie-7.png",
+      caption:
+        "Sketches in Figma of the functions to create a breakie and instructions for selected breakie.",
     },
-        {
+    {
       type: "image",
-      url: "/images/breakie-sketches.jpg",
-      caption: "The interface in Figma after the form to create a breakie and the instructions for selected breakie were stripped.",
+      url: "/images/breakie-8.png",
+      caption:
+        "The interface in Figma after the form to create a breakie and the instructions for selected breakie were stripped.",
     },
     {
       type: "h2",
@@ -158,12 +169,45 @@ export const breakie = {
     {
       type: "text",
       content:
-        "To deepen my understanding, I conducted a market analysis of existing classroom tools, performed stakeholder mapping and a requirement analysis. This phase helped me realize that students needed to be emphasized more as primary users, not just the teachers. Three personas were developed based on these findings.",
+        "To deepen my understanding, I conducted a market analysis of existing classroom tools, performed stakeholder mapping and a needs and requirement analysis.",
     },
     {
       type: "image",
-      url: "/images/breakie-personas.jpg",
-      caption: "Personas created for teachers (Göran) and students (Josefine) to guide the UX strategy.",
+      url: "/images/breakie-9.png",
+      caption: "The results from the market analysis, a mind map.",
+    },
+    {
+      type: "gallery-2col",
+      images: [
+        { url: "/images/breakie-10.png" },
+        { url: "/images/breakie-11.png" },
+      ],
+      caption: "Identification and mapping of Breakie's stakeholders.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-12.png",
+      caption: "The needs and requirement analysis.",
+    },
+    {
+      type: "text",
+      content:
+        "This phase helped me realize that students needed to be emphasized more as primary users, not just the teachers. Three personas were developed based on these findings.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-13.png",
+      caption: "The persona Göran, a program-specific teacher.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-14.png",
+      caption: "The persona Sarah, a primary subject teacher.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-15.png",
+      caption: "The persona Josefine, a student.",
     },
     {
       type: "text",
@@ -171,13 +215,23 @@ export const breakie = {
         "I developed six customer journey maps to identify gaps in the interaction. These maps revealed the need for features like filtering and 'favorite' lists, which were then integrated into a clickable prototype.",
     },
     {
-      // Här kan du lägga in galleriet med kundresekartor om du har bilder
-      type: "gallery-row",
+      type: "gallery-2col",
       images: [
-        { url: "/images/breakie-cjm-1.jpg" },
-        { url: "/images/breakie-cjm-2.jpg" },
+        { url: "/images/breakie-16.png" },
+        { url: "/images/breakie-17.png" },
+        { url: "/images/breakie-18.png" },
+        { url: "/images/breakie-19.png" },
+        { url: "/images/breakie-20.png" },
+        { url: "/images/breakie-21.png" },
       ],
-      caption: "Customer journey mapping to identify pain points and feature gaps.",
+      caption:
+        "Customer journey mapping to identify pain points and feature gaps in different interactions.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-22.png",
+      caption:
+        "The interface in Figma after iteration based on the customer journey maps.",
     },
     {
       type: "h2",
@@ -189,6 +243,17 @@ export const breakie = {
         "Using methods like 'Six Thinking Hats' and 'Charettes', I gathered feedback from pedagogical experts at ZoCom and Kvasar Makerspace during design critique sessions and brainstorming. This led to critical insights: the need to simplify the start-page access to favorites, avoiding 'Swenglish' in the UI, and ensuring the transition back to the lesson was as smooth as the break itself.",
     },
     {
+      type: "image",
+      url: "/images/breakie-23.png",
+      caption: "Ideation based on the feedback from teachers.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-24.png",
+      caption:
+        "Sketches of solutions in Figma based on feedback from teachers.",
+    },
+    {
       type: "h2",
       content: "The Design System & Accessibility",
     },
@@ -198,14 +263,29 @@ export const breakie = {
         "To ensure scalability and consistency with the Toolie ecosystem, I implemented an 8-Point Grid System. I also studied React basics to better communicate with the frontend developers and build a design system that aligned with their technical framework.",
     },
     {
+      type: "image",
+      url: "/images/breakie-25.png",
+      caption: "Flowchart of the interface and components.",
+    },
+    {
       type: "text",
       content:
         "Accessibility was a core pillar in this project. Using tools like 'Stark' and WCAG guidelines, I refined color contrasts, typography, and hit areas to ensure the tool was inclusive for all students and teachers.",
     },
     {
       type: "image",
-      url: "/images/breakie-design-system.jpg",
-      caption: "The Breakie Design System: components, typography, and grid standards.",
+      url: "/images/breakie-26.png",
+      caption: "The Breakie design system in Figma.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-27.png",
+      caption: "Breakie components and variants in Figma.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-28.png",
+      caption: "The interface in Figma after adapting it to the design system.",
     },
     {
       type: "h2",
@@ -213,8 +293,26 @@ export const breakie = {
     },
     {
       type: "text",
-      content:
-        "I conducted three distinct types of tests: 1. Student Concept Testing: Validating that breaks were perceived as helpful for concentration. 2. Accessibility Audit: Expert review of the code and UI against WCAG. 3. Heuristic Evaluation: A peer-review based on Andy Budd's web design principles.",
+      content: "I conducted three distinct types of tests:",
+    },
+    {
+      type: "list",
+      style: "ul",
+      items: [
+        "Student Concept Testing: Validating that breaks were perceived as helpful for concentration. ",
+        "Accessibility Audit: Expert review of the code and UI against WCAG.",
+        "Heuristic Evaluation: A peer-review based on Andy Budd's web design principles.",
+      ],
+    },
+    {
+      type: "image",
+      url: "/images/breakie-29.png",
+      caption: "Sorting and prioritizing feedback from the tests.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-30.png",
+      caption: "Ideation based on the feedback from the tests.",
     },
     {
       type: "text",
@@ -222,13 +320,23 @@ export const breakie = {
         "Feedback from these tests led to the final major iteration, adding features like a hover-state label for navigation, a 'Random/Select' switch, and a dedicated timer screen with clear start and end states to help system visibility.",
     },
     {
+      type: "image",
+      url: "/images/breakie-31.png",
+      caption: "The interface in Figma after the feedback from the tests.",
+    },
+    {
       type: "h2",
-      content: "Final Validation",
+      content: "Final Test",
     },
     {
       type: "text",
       content:
         "The process concluded with a final usability test with former high school teachers. They confirmed the ease of use, leading to minor visual polish before the design was handed over for final implementation.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-32.png",
+      caption: "The final version of the hi-fi prototype of Breakie.",
     },
     {
       type: "h1",
@@ -266,8 +374,33 @@ export const breakie = {
     },
     {
       type: "image",
-      url: "/images/breakie-solution-screens.jpg",
-      caption: "From left to right: The Randomizer, the Breakie Bank, and the Activity Screen with timer.",
+      url: "/images/breakie-33.png",
+      caption: "Randomly select a breakie.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-34.png",
+      caption: "Choose a specific breakie.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-35.png",
+      caption: "Instructions for selected breakie.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-36.png",
+      caption: "Save favorite breakies.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-37.png",
+      caption: "Randomly select a breakie from favorite breakies.",
+    },
+    {
+      type: "image",
+      url: "/images/breakie-38.png",
+      caption: "Create a breakie.",
     },
     {
       type: "h1",
@@ -282,6 +415,12 @@ export const breakie = {
       type: "text",
       content:
         "While the long-term impact on student concentration remains to be measured post-launch, initial feedback from both students and teachers indicates a strong belief that Breakie will foster a healthier, more dynamic classroom environment. By combining the excitement of a randomizer with the structure of a curated library, Breakie offers a unique value proposition compared to existing physical cards or static video banks.",
+    },
+    {
+      type: "button",
+      text: "The Implemented Version of Breakie",
+      url: "https://toolie.se/breakie/",
+      external: "_blank",
     },
     {
       type: "h1",
