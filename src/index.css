@@ -42,3 +42,7 @@ body {
 h1, h2, h3, h4, header, footer {
   font-family: "Archivo", sans-serif;
 }
+
+ion-icon {
+  visibility: visible !important;
+}
