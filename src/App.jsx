@@ -15,7 +15,7 @@ import BackToTop from "./components/BackToTop/BackToTop";
 function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter basename="/">
+      <BrowserRouter>
         <ScrollToTop />
 
         <div className={s.appLayout}>
