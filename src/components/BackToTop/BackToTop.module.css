@@ -30,8 +30,8 @@
   font-size: 1.1rem;
   color: var(--bg-color);
   transition: 0.3s;
-  width: 18px !important;
-  height: 18px !important;
+  display: block;
+  pointer-events: none;
 }
 
 @media (max-width: 480px) {

@@ -32,7 +32,7 @@ const BackToTop = () => {
           className={s.button}
           aria-label="Back to top"
         >
-          <ion-icon name="arrow-up-outline"></ion-icon>
+          <ion-icon name="arrow-up-outline" style={{fontSize: "40px", color: "red"}}></ion-icon>
         </button>
       )}
     </div>

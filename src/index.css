@@ -42,11 +42,3 @@ body {
 h1, h2, h3, h4, header, footer {
   font-family: "Archivo", sans-serif;
 }
-
-ion-icon {
-  display: inline-block;
-  font-size: 32px;
-  --ionicon-stroke-width: 32px;
-  visibility: visible !important;
-  pointer-events: none;
-}
