@@ -44,7 +44,8 @@ h1, h2, h3, h4, header, footer {
 }
 
 ion-icon {
+  display: inline-block;
+  font-size: 32px;
+  --ionicon-stroke-width: 32px;
   visibility: visible !important;
-  min-width: 1em;
-  min-height: 1em;
 }
