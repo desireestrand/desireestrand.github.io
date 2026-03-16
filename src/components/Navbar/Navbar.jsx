@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className={s.nav}>
       <button className={s.menuIcon} onClick={toggleMenu} aria-label="Toggle menu">
-        <ion-icon name={isOpen ? "close" : "menu"}></ion-icon>
+        <ion-icon name={isOpen ? "close-outline" : "menu-outline"}></ion-icon>
       </button>
 
       <ul className={`${s.navLinks} ${isOpen ? s.open : ""}`}>
