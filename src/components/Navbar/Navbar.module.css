@@ -41,6 +41,8 @@
   text-align: bottom;
   cursor: pointer;
   transition: var(--transition-speed);
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .menuIcon:hover {
