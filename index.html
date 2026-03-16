@@ -4,6 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desirée Strand</title>
+    <style>
+      html {
+        background-color: #fafafa;
+      }
+      html.dark-mode {
+        background-color: #222222;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Lora", serif;
+      }
+    </style>
+    <script>
+      (function () {
+        try {
+          const savedMode = localStorage.getItem("dark-mode");
+          const darkMode = savedMode === "true";
+          if (darkMode) document.documentElement.classList.add("dark-mode");
+        } catch (e) {
+          console.error(e);
+        }
+      })();
+    </script>
     <script type="text/javascript">
       (function () {
         var redirect = window.location.search.match(/p=([^&]*)/);
@@ -13,8 +37,8 @@
         }
       })();
     </script>
-    <script type="module" crossorigin src="/assets/index-BgIDQ9hE.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CxrgnYZU.css">
+    <script type="module" crossorigin src="/assets/index-D9Daynge.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BHKNcoss.css">
   </head>
   <body>
     <div id="root"></div>
