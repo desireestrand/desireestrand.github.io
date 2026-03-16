@@ -21,14 +21,6 @@
   color: var(--primary-color);
 }
 
-.navLinks {
-  pointer-events: none;
-}
-
-.navLinks.open {
-  pointer-events: auto;
-}
-
 .active {
   color: var(--primary-color) !important;
   transition: color var(--transition-speed);
@@ -84,10 +76,12 @@
     gap: 2.5rem;
     transition: var(--transition-speed);
     z-index: 1000;
+    pointer-events: none;
   }
 
   .navLinks.open {
     right: 0;
+    pointer-events: auto;
   }
 
   .navLinks a {
