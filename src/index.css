@@ -49,3 +49,7 @@ ion-icon {
   --ionicon-stroke-width: 32px;
   visibility: visible !important;
 }
+
+button ion-icon {
+  pointer-events: none;
+}

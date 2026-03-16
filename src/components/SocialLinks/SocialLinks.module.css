@@ -19,7 +19,6 @@
   width: 35px;
   height: 35px;
   transition: var(--transition-speed);
-  text-align: bottom;
   cursor: pointer;
 }
 
