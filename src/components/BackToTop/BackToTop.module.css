@@ -19,6 +19,8 @@
   align-items: center;
   justify-content: center;
   transition: var(--transition-speed);
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .button:hover {

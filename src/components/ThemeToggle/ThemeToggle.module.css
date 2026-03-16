@@ -11,6 +11,8 @@
   cursor: pointer;
   transition: var(--transition-speed);
   z-index: 1002;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .themeToggle:hover {
