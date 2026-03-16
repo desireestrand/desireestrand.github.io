@@ -48,8 +48,5 @@ ion-icon {
   font-size: 32px;
   --ionicon-stroke-width: 32px;
   visibility: visible !important;
-}
-
-button ion-icon {
   pointer-events: none;
 }
