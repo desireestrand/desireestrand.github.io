@@ -14,7 +14,7 @@
   --transition-speed: 0.3s ease;
 }
 
-.dark-mode {
+html.dark-mode {
   --bg-color: #222222;
   --bg-color-2: #111111;
   --text-color: #fafafa;
@@ -33,9 +33,12 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Lora", serif;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: "Lora", serif;
+}
+
+body, html {
   transition: background-color var(--transition-speed), color var(--transition-speed);
 }
 
