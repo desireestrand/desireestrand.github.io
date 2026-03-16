@@ -29,6 +29,8 @@
   font-size: 1.1rem;
   color: var(--bg-color);
   transition: 0.3s;
+  width: 18px !important;
+  height: 18px !important;
 }
 
 @media (max-width: 480px) {
