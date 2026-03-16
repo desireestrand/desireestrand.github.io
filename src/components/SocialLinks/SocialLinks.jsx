@@ -1,10 +1,12 @@
+import { MdMail } from "react-icons/md";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import s from "./SocialLinks.module.css";
 
 function SocialLinks() {
   return (
     <div className={s.contactContainer}>
       <a href="mailto:desireestrxnd@gmail.com" aria-label="Email Desirée">
-        <ion-icon name="mail"></ion-icon>
+        <MdMail className={s.icon} />
       </a>
 
       <a
@@ -13,7 +15,7 @@ function SocialLinks() {
         rel="noreferrer"
         aria-label="LinkedIn profile"
       >
-        <ion-icon name="logo-linkedin"></ion-icon>
+        <FaLinkedin className={s.icon} />
       </a>
 
       <a
@@ -22,7 +24,7 @@ function SocialLinks() {
         rel="noreferrer"
         aria-label="GitHub profile"
       >
-        <ion-icon name="logo-github"></ion-icon>
+        <FaGithub className={s.icon} />
       </a>
     </div>
   );

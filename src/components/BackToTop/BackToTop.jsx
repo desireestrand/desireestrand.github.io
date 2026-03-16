@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { IoArrowUp } from "react-icons/io5";
 import s from "./BackToTop.module.css";
 
 const BackToTop = () => {
@@ -32,7 +33,7 @@ const BackToTop = () => {
           className={s.button}
           aria-label="Back to top"
         >
-          <ion-icon name="arrow-up-outline" style={{fontSize: "40px", color: "red"}}></ion-icon>
+          <IoArrowUp className={s.icon} />
         </button>
       )}
     </div>

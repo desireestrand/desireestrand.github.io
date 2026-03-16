@@ -56,7 +56,7 @@
   background-color: var(--primary-color);
 }
 
-.menuIcon ion-icon {
+.icon {
   font-size: 1.1rem;
   color: var(--bg-color);
   transition: 0.3s;

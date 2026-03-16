@@ -18,7 +18,9 @@
   background-color: var(--primary-color);
 }
 
-.themeToggle ion-icon {
+.icon {
   font-size: 1.1rem;
   color: var(--bg-color);
+  display: block;
+  pointer-events: none;
 }

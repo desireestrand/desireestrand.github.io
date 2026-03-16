@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { IoMenu, IoClose } from "react-icons/io5";
 import s from "./Navbar.module.css";
 import { useState } from "react";
 
@@ -12,7 +13,7 @@ function Navbar() {
   return (
     <nav className={s.nav}>
       <button className={s.menuIcon} onClick={toggleMenu} aria-label="Toggle menu">
-        <ion-icon name={isOpen ? "close-outline" : "menu-outline"}></ion-icon>
+        {isOpen ? <IoClose className={s.icon} /> : <IoMenu className={s.icon} />}
       </button>
 
       <ul className={`${s.navLinks} ${isOpen ? s.open : ""}`}>

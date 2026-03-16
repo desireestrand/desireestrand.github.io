@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ThemeContext } from "../../context/ThemeContext";
+import { IoSunny, IoMoon } from "react-icons/io5";
 import s from "./ThemeToggle.module.css";
 
 const ThemeToggle = () => {
@@ -11,7 +12,7 @@ const ThemeToggle = () => {
       className={s.themeToggle}
       aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
     >
-      <ion-icon name={darkMode ? "sunny" : "moon"}></ion-icon>
+      {darkMode ? <IoSunny className={s.icon} /> : <IoMoon className={s.icon} />}
     </button>
   );
 };
