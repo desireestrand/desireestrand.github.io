@@ -2,7 +2,8 @@ export const productivityAssistantApp = {
   id: "productivity-assistant-app",
   title: "Livsplaneraren",
   category: "Frontend",
-  thumbnail: "/images/livsplaneraren.png",
+  thumbnail: "/images/livsplaneraren-thumbnail.png",
+  cover: "/images/livsplaneraren.png",
   excerpt:
     "A comprehensive React-based productivity suite featuring task management, habit tracking, and event planning with persistent user authentication",
   type: "Group Project (Semester 1)",

@@ -2,7 +2,8 @@ export const quizApp = {
   id: "quiz-app",
   title: "Geekqwizz",
   category: "Frontend",
-  thumbnail: "/images/quiz.png",
+  thumbnail: "/images/quiz-thumbnail.png",
+  cover: "/images/quiz.png",
   excerpt:
     "A retro-style Single Page Application (SPA) quiz game featuring dynamic category filtering, a timed challenge system, and persistent high scores",
   type: "Group Project (Semester 1)",

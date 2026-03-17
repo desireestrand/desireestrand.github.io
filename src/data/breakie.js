@@ -3,7 +3,8 @@ export const breakie = {
   title: "Breakie",
   category: "UX",
   tags: ["UX", "UI", "Interaction Design", "EdTech"],
-  thumbnail: "/images/breakie-front.png",
+  thumbnail: "/images/breakie-thumbnail.png",
+  cover: "/images/breakie-front.png",
   excerpt:
     "A digital classroom tool designed to re-energize students and improve concentration through scheduled 'brain breaks'",
   summary:

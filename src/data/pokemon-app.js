@@ -2,7 +2,8 @@ export const pokemonApp = {
   id: "pokemon-app",
   title: "Pokémon 151",
   category: "Frontend",
-  thumbnail: "/images/pokemon.png",
+  thumbnail: "/images/pokemon-thumbnail.gif",
+  cover: "/images/pokemon.png",
   excerpt:
     "An interactive application that interfaces with the PokéAPI to fetch, filter, and display detailed statistics and visual assets for the original 151 Pokémon",
   type: "Individual Project (Semester 1)",

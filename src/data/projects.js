@@ -5,13 +5,17 @@ import { quizApp } from "./quiz-app";
 import { internetskolan } from "./internetskolan";
 import { remap } from "./remap";
 import { breakie } from "./breakie";
+import { acnhMuseumTracker } from "./acnh-museum-tracker";
+import { portfolio } from "./portfolio";
 
 export const projects = [
+  acnhMuseumTracker,
   productivityAssistantApp,
+  internetskolan,
   pokemonApp,
   blogPlatform,
   quizApp,
   breakie,
-  internetskolan,
-  remap
+  remap,
+  portfolio,
 ];

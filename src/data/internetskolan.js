@@ -3,7 +3,8 @@ export const internetskolan = {
   title: "Internetskolan",
   category: "UX",
   tags: ["UX", "UI", "Product Design", "Frontend"],
-  thumbnail: "/images/internetskolan-front.jpg",
+  thumbnail: "/images/internetskolan-thumbnail.gif",
+  cover: "/images/internetskolan-front.jpg",
   excerpt:
     "A lesson-based platform dedicated to bridging the digital divide among the elderly",
   summary:

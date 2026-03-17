@@ -44,7 +44,7 @@ function ProjectDetailsPage() {
         </div>
 
         <div className={s.heroImage}>
-          <img src={project.thumbnail} alt={`${project.title} main view`} />
+          <img src={project.cover} alt={`${project.title} main view`} />
         </div>
 
         <div className={s.metaGrid}>

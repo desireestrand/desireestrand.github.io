@@ -2,7 +2,8 @@ export const blogPlatform = {
   id: "blog-platform",
   title: "Blog Platform",
   category: "Frontend",
-  thumbnail: "/images/blogg.png",
+  thumbnail: "/images/blog-platform-thumbnail.png",
+  cover: "/images/blogg.png",
   excerpt:
     "A full-featured Single Page Application (SPA) blog platform where users can publish, interact with, and moderate content through a reactive interface",
   type: "Individual Project (Semester 1)",
