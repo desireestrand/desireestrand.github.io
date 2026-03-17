@@ -5,7 +5,7 @@ function Hero() {
     <section className={s.hero}>
       <h1>
         Hi! I'm Desirée, a Junior <span>✦ Fullstack Developer</span> and <span>✴︎ UX/UI Designer</span>, passionate about
-        crafting robust and meaningful
+        crafting reliable and meaningful
         digital experiences
         that create real value for users. <span>₊ ⊹</span>
       </h1>

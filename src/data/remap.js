@@ -6,9 +6,9 @@ export const remap = {
   thumbnail: "/images/remap-thumbnail.png",
   cover: "/images/remap-front.jpg",
   excerpt: "A bold and confident visual identity, designed to empower and amplify youth voices",
-  summary: "Tasked with bringing the student concept 'Re:map' to life, my team and I developed a comprehensive design brief and brand profile for this interactive platform that enables young people to reshape their local communities. The process spanned three phases: developing two distinct visual directions, refining the chosen concept, and delivering a final pitch supported by a concept film. Drawing inspiration from deconstruction, futurism, and DIY 'cut-and-paste' aesthetics, the brand identity for Re:map puts youth in the shoes of the decision-makers. The project was highly praised by our mentors, cited as one of the ICT, Media and Design program's strongest outcomes.",
+  summary: "Tasked with bringing the student concept Re:map to life, my team and I developed a comprehensive design brief and brand profile for this interactive platform that enables young people to reshape their local communities. The process spanned three phases: developing two distinct visual directions, refining the chosen concept, and delivering a final pitch supported by a concept film. Drawing inspiration from deconstruction, futurism, and DIY cut-and-paste aesthetics, the brand identity for Re:map puts youth in the shoes of the decision-makers. The project was highly praised by our mentors, cited as one of the ICT, Media and Design program's strongest outcomes.",
   type: "Group Project (Semester 3)",
-  client: "The Student Concept 'Re:map'",
+  client: "The Student Concept Re:map",
   duration: "4 weeks (Dec 2020 - Jan 2021)",
   skills: [
     "Visual Identity",
@@ -41,7 +41,7 @@ export const remap = {
     },
     {
       type: "text",
-      content: "Re:map was born from a challenge to develop a solution for the research project 'Planning with Youth', under the theme: 'Innovative solutions to engage youth in sustainable urban planning'. The original student group identified that teenagers (ages 12–18) rarely share their ideas with decision-makers, partly due to a lack of know-how, but primarily because they feel like their voices won't be heard. Re:map bridges this gap by meeting youth where they are. Through interactive screens in the local community, users can quickly submit suggestions for neighborhood improvements, vote on peer ideas, and see those concepts come to life.",
+      content: "Re:map was born from a challenge to develop a solution for the research project Planning with Youth, under the theme: “Innovative solutions to engage youth in sustainable urban planning”. The original student group identified that teenagers (ages 12–18) rarely share their ideas with decision-makers, partly due to a lack of know-how, but primarily because they feel like their voices won't be heard. Re:map bridges this gap by meeting youth where they are. Through interactive screens in the local community, users can quickly submit suggestions for neighborhood improvements, vote on peer ideas, and see those concepts come to life.",
     },
     {
       type: "h2",
@@ -69,35 +69,30 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "During Phase 1, the team was tasked with delivering two contrasting visual directions for Re:map. We split into two groups to explore opposite aesthetics: 'Corporate Cool,' based on traditional municipal brand profiles, and 'Modern Punk Workshop,' acting as its radical antithesis. My subgroup was assigned the 'Modern Punk Workshop' aesthetic, using a moodboard created by a team member as our foundation.",
+      content: "During Phase 1, the team was tasked with delivering two contrasting visual directions for Re:map. We split into two groups to explore opposite aesthetics: “Corporate Cool”, based on traditional municipal brand profiles, and “Modern Punk Workshop”, acting as its radical antithesis. My subgroup was assigned the Modern Punk Workshop aesthetic, using a moodboard created by a team member as our foundation.",
     },
     {
       type: "image",
       url: "/images/remap-2.jpg",
-      caption:
-        "The moodboard that inspired the 'Modern Punk Workshop' aesthetic.",
+      caption: "The moodboard that inspired the Modern Punk Workshop aesthetic.",
     },
     {
       type: "text",
-      content:
-        "Inspired by the moodboard, we developed a design brief, primary personas, a refined moodboard, logo, typography, color palette, and slogan proposals. I then created a comprehensive style guide to define how these graphic elements should be applied in visualizations and mock-ups. Rooted in a DIY 'cut-and-paste' aesthetic, we utilized layers of textures, colors, transparency, and raw, angular cut-outs. To add a tactile feel, we illustrated custom patterns. The repetition of shapes and patterns unified the elements, creating a cohesive identity that remained flexible in its expression, composition and hierarchy. Based on the style guide, I designed a promotional poster, while my subgroup members created 3D models of the Re:map screen and a user interface.",
+      content: "Inspired by the moodboard, we developed a design brief, primary personas, a refined moodboard, logo, typography, color palette, and slogan proposals. I then created a style guide to define how these graphic elements should be applied in visualizations and mock-ups. Rooted in a DIY cut-and-paste aesthetic, we utilized layers of textures, colors, transparency, and raw, angular cut-outs. To add a tactile feel, we illustrated custom patterns. The repetition of shapes and patterns unified the elements, creating a cohesive identity that remained flexible in its expression, composition and hierarchy. Based on the style guide, I designed a promotional poster, while my subgroup members created 3D models of the Re:map screen and a user interface.",
     },
     {
       type: "image",
       url: "/images/remap-3.jpg",
-      caption:
-        "The style guide I developed based on the graphic elements defined by the subgroup.",
+      caption: "The style guide I developed based on the graphic elements defined by the subgroup.",
     },
     {
       type: "image",
       url: "/images/remap-konceptgestaltning.jpg",
-      caption: "The final result of the 'Modern Punk Workshop' concept sketch.",
+      caption: "The final result of the Modern Punk Workshop concept sketch.",
     },
     {
       type: "text",
-      content:
-        "Our two visual directions were presented to our mentors and peers for feedback. Both proposals were noted for their high level of finish and required minimal adjustments. After a class vote, our 'Modern Punk Workshop' concept was selected for further development.",
+      content: "Our two visual directions were presented to our mentors and peers for feedback. Both proposals were noted for their high level of finish and required minimal adjustments. After a class vote, our Modern Punk Workshop concept was selected for further development.",
     },
 
     {
@@ -106,8 +101,7 @@ export const remap = {
         { url: "/images/remap-9-2.jpg" },
         { url: "/images/remap-9-1.jpg" },
       ],
-      caption:
-        "Visualizations of the two initial concepts: 'Modern Punk Workshop' (left) and 'Corporate Cool' (right).",
+      caption: "Visualizations of the two initial concepts: Modern Punk Workshop (left) and Corporate Cool (right).",
     },
     {
       type: "h2",
@@ -115,8 +109,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "In Phase 2, the team focused on refining the 'Modern Punk Workshop' concept. I established the visual art direction for imagery and contributed to secondary personas. My teammates developed a web interface, updated the screen UI, and created Instagram content based on my style guide. My primary focus during this stage was fine-tuning existing elements and compiling the final concept sketch.",
+      content: "In Phase 2, the team focused on refining the Modern Punk Workshop concept. I established the visual art direction for imagery and contributed to secondary personas. My teammates developed a web interface, updated the screen UI, and created Instagram content based on my style guide. My primary focus during this stage was fine-tuning existing elements and compiling the final concept sketch.",
     },
     {
       type: "image",
@@ -129,8 +122,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "The final phase involved a concept presentation featuring a concept film and a rhetorical pitch via Zoom, tailored for an audience of potential investors. We brainstormed the film's narrative, defined the core idea, and created moodboards and storyboards. The goal was to convey the rebellious tone and DIY ‘cut-and-paste’ aesthetic that defined the brand. While my teammates handled the animation, I focused on the content strategy for the film to reflect the Re:map slogan — writing copy, illustrating collages, and sketching animation sequences.",
+      content: "The final phase involved a concept presentation featuring a concept film and a rhetorical pitch via Zoom, tailored for an audience of potential investors. We brainstormed the film's narrative, defined the core idea, and created moodboards and storyboards. The goal was to convey the rebellious tone and DIY cut-and-paste aesthetic that defined the brand. While my teammates handled the animation, I focused on the content strategy for the film to reflect the Re:map slogan — writing copy, illustrating collages, and sketching animation sequences.",
     },
     {
       type: "gallery-2col",
@@ -144,14 +136,12 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "The pitch materials were developed collaboratively. For the live presentation, we illustrated an interactive Re:map screen for Zoom engagement and designed custom Zoom backgrounds incorporating the logo and brand colors.",
+      content: "The pitch materials were developed collaboratively. For the live presentation, we illustrated an interactive Re:map screen for Zoom engagement and designed custom Zoom backgrounds incorporating the logo and brand colors.",
     },
     {
       type: "image",
       url: "/images/remap-zoom.png",
-      caption:
-        "The interactive Re:map screen used for participant engagement during the Zoom pitch.",
+      caption: "The interactive Re:map screen used for participant engagement during the Zoom pitch.",
     },
     {
       type: "h1",
@@ -159,12 +149,11 @@ export const remap = {
     },
     {
       type: "h2",
-      content: "The Design Brief",
+      content: "Design Brief",
     },
     {
       type: "text",
-      content:
-        "Re:map’s visual identity is aimed at a younger audience. Today, many young people feel that decision-makers aren't listening to them and therefore don’t share their ideas, leading to a lack of engagement, as they also don’t know how to contribute. Re:map’s goal is to empower youth to change their local communities by providing the tools and confidence to do so — meeting them in spaces where they naturally spend time. The core emotions Re:map aims to evoke are creativity, curiosity, freedom, community, confidence, and the feeling of being heard.",
+      content: "Re:map's visual identity is aimed at a younger audience. Today, many young people feel that decision-makers aren't listening to them and therefore don't share their ideas, leading to a lack of engagement, as they also don't know how to contribute. Re:map's goal is to empower youth to change their local communities by providing the tools and confidence to do so — meeting them in spaces where they naturally spend time. The core emotions Re:map aims to evoke are creativity, curiosity, freedom, community, confidence, and the feeling of being heard.",
     },
     {
       type: "h2",
@@ -185,8 +174,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "To capture interest and inspire action, we intentionally moved beyond the expected visual language of municipal branding. The collaboration between youth and local government results in a fusion of diverse styles, backgrounds, and environments. Re:map emphasizes this eclectic mix — deconstructing and questioning norms and highlighting the unique, different, special and unconventional to ensure that Re:map stands out in any setting. Inspired by deconstructivist collages, we created a bold and rebellious graphic expression where nothing is sacred. Deconstruction, punk, retro-aesthetics, futurism, technology, tactile materials, contemporary typography, and high-contrast colors come together to make an impact and create a sense of collective creation.",
+      content: "To capture interest and inspire action, we intentionally moved beyond the expected visual language of municipal branding. The collaboration between youth and local government results in a fusion of diverse styles, backgrounds, and environments. Re:map emphasizes this eclectic mix — deconstructing and questioning norms and highlighting the unique, different, special and unconventional to ensure that Re:map stands out in any setting. Inspired by deconstructivist collages, we created a bold and rebellious graphic expression where nothing is sacred. Deconstruction, punk, retro-aesthetics, futurism, technology, tactile materials, contemporary typography, and high-contrast colors come together to make an impact and create a sense of collective creation.",
     },
     {
       type: "image",
@@ -199,8 +187,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "The Re:map logo serves as a centerpiece, combining and summarizing the various elements of the visual identity into a unified mark. Re:map also has a secondary brand mark for contexts where the full logo requires a more compact footprint.",
+      content: "The Re:map logo serves as a centerpiece, combining and summarizing the various elements of the visual identity into a unified mark. Re:map also has a secondary brand mark for contexts where the full logo requires a more compact footprint.",
     },
     {
       type: "image",
@@ -213,8 +200,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "Three distinct patterns unify the brand elements. These draw inspiration from physical materials and environments: grooved industrial metal, woodworking workshops, and topographical maps. They reflect the DIY 'cut-and-paste' aesthetic and the hands-on creation we want to encourage.",
+      content: "Three distinct patterns unify the brand elements. These draw inspiration from physical materials and environments: grooved industrial metal, woodworking workshops, and topographical maps. They reflect the DIY cut-and-paste aesthetic and the hands-on creation we want to encourage.",
     },
     {
       type: "image",
@@ -227,8 +213,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "The primary palette consists of vibrant purple, green, and yellow, complemented by off-black and off-white. These bold and high-contrast colors create a loud, confident expression that demands attention regardless of the context.",
+      content: "The primary palette consists of vibrant purple, green, and yellow, complemented by off-black and off-white. These bold and high-contrast colors create a loud, confident expression that demands attention regardless of the context.",
     },
     {
       type: "image",
@@ -241,8 +226,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "Re:map utilizes a combination of three typefaces. The custom-made accent font 'Märkpenna' emphasizes the brand's rebellious edge; its handwritten uppercase characters create a sharp contrast in both texture and form against the geometric headline font 'Syne' and the body font 'Work Sans'.",
+      content: "Re:map utilizes a combination of three typefaces. The custom-made accent font Märkpenna emphasizes the brand's rebellious edge; its handwritten uppercase characters create a sharp contrast in both texture and form against the geometric headline font Syne and the body font Work Sans.",
     },
     {
       type: "image",
@@ -252,7 +236,7 @@ export const remap = {
     {
       type: "image",
       url: "/images/remap-markpenna.jpg",
-      caption: "The custom accent font 'Märkpenna', designed by a team member.",
+      caption: "The custom accent font Märkpenna, designed by a team member.",
     },
     {
       type: "h3",
@@ -260,8 +244,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "Re:map's art direction for imagery defines the color filters, camera angles, subjects and overall tonality. Re:map uses close-ups of people in motion to reflect the target audience, aiming to make them feel seen and validate their drive to contribute and create.",
+      content: "Re:map's art direction for imagery defines the color filters, camera angles, subjects and overall tonality. Re:map uses close-ups of people in motion to reflect the target audience, aiming to make them feel seen and validate their drive to contribute and create.",
     },
     {
       type: "image",
@@ -275,7 +258,7 @@ export const remap = {
     {
       type: "text",
       content:
-        "“Reset, redo, create” plays on the Re:map concept as a whole — highlighting what is possible within the service while calling for creativity and action. It also hints at our theme of redistributing power to the youth through the concepts of 'resetting' and 'redoing'.",
+        "“Reset, redo, create” plays on the Re:map concept as a whole — highlighting what is possible within the service while calling for creativity and action. It also hints at our theme of redistributing power to the youth through the concepts of resetting and redoing.",
     },
     {
       type: "image",
@@ -288,8 +271,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "Re:map is visualized through a promotional poster encouraging users to find the physical screens. We created two screen models — one classic and one futuristic. Additionally, we designed the Re:map website and social media ads to demonstrate how the brand can engage youth across their chosen digital channels.",
+      content: "Re:map is visualized through a promotional poster encouraging users to find the physical screens. We created two screen models — one classic and one futuristic. Additionally, we designed the Re:map website and social media ads to demonstrate how the brand can engage youth across their chosen digital channels.",
     },
     {
       type: "image",
@@ -304,8 +286,7 @@ export const remap = {
         { url: "/images/remap-26.jpg" },
         { url: "/images/remap-27.jpg" },
       ],
-      caption:
-        "Re:map's screens, Instagram ad, and UI design for screens and web, created by my team members.",
+      caption: "Re:map's screens, Instagram ad, and UI design for screens and web, created by my team members.",
     },
     {
       type: "h3",
@@ -313,8 +294,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "Re:map has four personas: two for the primary target audience (youth), based on needs and traits identified in the original concept interviews, and two for secondary stakeholders (adults close to the youth) who may engage with Re:map through the teens' involvement.",
+      content: "Re:map has four personas: two for the primary target audience (youth), based on needs and traits identified in the original concept interviews, and two for secondary stakeholders (adults close to the youth) who may engage with Re:map through the teens' involvement.",
     },
     {
       type: "image",
@@ -331,8 +311,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "The visual identity we created for Re:map was highlighted by our mentors as one of the ICT, Media and Design program’s strongest conceptual realizations to date. Feedback from peer reviews, mentors, and guest lecturers praised the pitch and concept film for being exceptionally clear, engaging, elaborate and professional.",
+      content: "The visual identity we created for Re:map was highlighted by our mentors as one of the ICT, Media and Design program’s strongest conceptual realizations to date. Feedback from peer reviews, mentors, and guest lecturers praised the pitch and concept film for being exceptionally clear, engaging, elaborate and professional.",
     },
     {
       type: "h1",
@@ -340,8 +319,7 @@ export const remap = {
     },
     {
       type: "text",
-      content:
-        "I am incredibly proud of the final result, but especially of our team’s synergy. We delivered a high-fidelity project in a very short timeframe (14 working days total), which like the feedback served as a testament to our effective collaboration, with clear communication, and shared abilities, experiences, ambitions and goals, and respect for each other.",
+      content: "I am incredibly proud of the final result, but especially of our team's synergy. We delivered a high-fidelity project in a very short timeframe (14 working days total), which like the feedback served as a testament to our effective collaboration, with clear communication, and shared abilities, experiences, ambitions and goals, and respect for each other.",
     },
     {
       type: "text",

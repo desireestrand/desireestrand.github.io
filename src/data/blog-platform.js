@@ -4,20 +4,19 @@ export const blogPlatform = {
   category: "Frontend",
   thumbnail: "/images/blog-platform-thumbnail.png",
   cover: "/images/blogg.png",
-  excerpt:
-    "A full-featured Single Page Application (SPA) blog platform where users can publish, interact with, and moderate content through a reactive interface",
+  excerpt: "A blog platform where users can publish, interact with, and moderate content through a reactive interface",
+  summary: "A blog platform where users can publish, interact with, and moderate content through a reactive interface.",
   type: "Individual Project (Semester 1)",
   client: "Educational Project",
   duration: "2 weeks (Sep - Oct 2025)",
   skills: [
-    "Vanilla JavaScript",
-    "Dynamic DOM Manipulation",
-    "Data Persistence (Local Storage)",
+    "DOM Manipulation",
+    "Data Persistence",
     "Event Handling",
     "Responsive Design"
   ],
-  tools: ["JavaScript", "HTML5", "CSS3"],
-  tags: ["JavaScript", "HTML", "CSS", "SPA", "CRUD"],
+  tools: ["JavaScript", "HTML5", "CSS3", "localStorage"],
+  tags: ["JavaScript", "HTML", "CSS", "SPA"],
   github: "https://github.com/desireestrand/blog-platform",
   liveDemo: "https://desireestrand.github.io/blog-platform/",
   blocks: [
@@ -27,18 +26,17 @@ export const blogPlatform = {
     },
     {
       type: "text",
-      content:
-        "The goal of this project was to build a dynamic blog platform that functions as a Single Page Application. Users can share their thoughts with the world through a clean, 'retro-modern' interface that handles everything from content creation to community interaction without a single page refresh.",
+      content: "The goal of this project was to build a dynamic, Single Page Application (SPA) blog platform. Users can share their thoughts through a simple interface that handles content creation, community interaction and moderation in real-time without a single page refresh.",
     },
     {
       type: "list",
       style: "ul",
       items: [
-        "Real-time Publishing: Create and display blog posts instantly using a controlled form and DOM injection.",
-        "Community Interaction: A fully functional comment section under every post for dynamic discussions.",
-        "Reactions Engine: A custom-built 'Like/Dislike' system with logic to prevent multiple contradictory reactions.",
-        "Content Moderation: Built-in tools for users to delete both posts and individual comments with confirmation prompts.",
-        "Persistent Storage: All data — posts, comments, and likes — is synchronized with 'localStorage' to ensure nothing is lost on reload.",
+        "Create, publish and display blog posts instantly using controlled forms and dynamic DOM injection.",
+        "A fully functional nested comment section for every post to facilitate community interaction.",
+        "A custom-built reaction system (Like/Dislike) with built-in logic to prevent multiple or contradictory reactions.",
+        "Tools for users to moderate content; delete both posts and individual comments, protected by confirmation prompts to prevent accidental data loss.",
+        "All data — posts, comments, and likes — is synchronized with localStorage to ensure nothing is lost upon reload.",
       ],
     },
     {
@@ -47,14 +45,19 @@ export const blogPlatform = {
     },
     {
       type: "text",
-      content:
-        "I chose a modular approach to handle the complexity of a nested data structure (posts containing arrays of comments). Every post is rendered as a unique object with a timestamp-based ID, which allows for precise targeting during deletion and updates.",
+      content: "I adopted a modular approach to manage the complexity of a nested data structures (posts containing arrays of comments). Every post is treated as a unique object with a timestamp-based ID, allowing for precise targeting during updates or deletions. To keep the UI fresh, I utilized prepend methods to ensure that the latest content always appears at the top.",
     },
-    
     {
       type: "text",
-      content:
-        "One of the key challenges was managing the 'reaction' logic. I implemented a dataset-driven state on the buttons to toggle between active and disabled states, ensuring that a user can't 'like' and 'dislike' at the same time. I also built a robust date-formatter to give the platform a professional feel with formatted 'dd-mm-yyyy @ hh:mm' timestamps.",
+      content: "One of the main challenges was the reaction logic. I implemented a dataset-driven state on the buttons to toggle between active and disabled states. This ensures that a user can't like and dislike simultaneously."
+     },
+     {
+      type: "text",
+      content: "To handle nested data, I developed logic to target specific objects within arrays in localStorage, ensuring that adding a comment to one post wouldn't affect the state of another."
+    },
+    {
+      type: "text",
+      content: "I also took a creative risk by implementing a monochrome dark-mode. While aware of the UX challenges with monochrome designs, it was an insightful experiment in creating depth, hierarchy, and clickable elements using only shades of a single color.",
     },
     {
       type: "h1",
@@ -62,17 +65,16 @@ export const blogPlatform = {
     },
     {
       type: "text",
-      content:
-        "This project deepened my understanding of how to bridge the gap between user input and persistent data storage. It taught me the importance of error handling when parsing JSON and how to maintain a clean DOM by using 'prepend' to keep the latest content at the top.",
+      content: "This project deepened my understanding of bridging the gap between user input and persistent local storage. Key takeaways include:",
     },
     {
       type: "list",
       style: "ul",
       items: [
-        "Nested Data Management: Mastering how to update specific objects inside an array in localStorage when a new comment is added.",
-        "UX Feedback: Learning how to use 'empty state' messages (e.g., 'No posts yet...') to guide the user when the platform is fresh.",
-        "Event Delegation vs Direct Listeners: Balancing when to add listeners during rendering versus using delegation for performance.",
-        "Mobile-First CSS: Ensuring that long blog content and multi-level comment threads remain readable and clickable on small touchscreens.",
+        "Mastering how to update specific nested objects within a JSON structure in localStorage.",
+        "Using empty state messages to guide users when the platform contains no posts.",
+        "Learning when to attach event listeners during rendering versus using event delegation to maintain performance as the DOM grows.",
+        "Building custom tools, such as a date-formatter, to give the platform a professional feel.",
       ],
     },
   ],

@@ -9,9 +9,9 @@ import { acnhMuseumTracker } from "./acnh-museum-tracker";
 import { portfolio } from "./portfolio";
 
 export const projects = [
-  acnhMuseumTracker,
   productivityAssistantApp,
   internetskolan,
+  acnhMuseumTracker,
   pokemonApp,
   blogPlatform,
   quizApp,

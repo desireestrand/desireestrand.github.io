@@ -159,4 +159,13 @@
   .wrapper {
     padding: 2rem 1rem 2rem;
   }
+
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header img {
+    width: 200px;
+  }
 }
