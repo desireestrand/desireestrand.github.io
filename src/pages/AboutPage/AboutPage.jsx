@@ -5,10 +5,13 @@ function AboutPage() {
   return (
     <article className={s.wrapper}>
       <header className={s.header}>
-        <h2>Desirée Strand</h2>
-        <div className={s.details}>
-          <p className={s.title}>Fullstack Developer & UX/UI Designer</p>
-          <span className={s.location}>Stockholm, Sweden</span>
+        <img src="/images/me.jpg" alt="Picture of me" />
+        <div className={s.meta}>
+          <h2>Desirée Strand</h2>
+          <div className={s.details}>
+            <p className={s.title}>Fullstack Developer & UX/UI Designer</p>
+            <span className={s.location}>Stockholm, Sweden</span>
+          </div>
         </div>
       </header>
 

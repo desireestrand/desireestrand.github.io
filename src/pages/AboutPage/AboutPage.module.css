@@ -11,6 +11,16 @@
 
 .header {
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header img {
+  width: 150px;
+  height: 100%;
+  clip-path: circle(50%);
 }
 
 .wrapper h2 {
