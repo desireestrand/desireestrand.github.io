@@ -7,8 +7,10 @@ import { remap } from "./remap";
 import { breakie } from "./breakie";
 import { acnhMuseumTracker } from "./acnh-museum-tracker";
 import { portfolio } from "./portfolio";
+import { plotTwist } from "./plot-twist";
 
 export const projects = [
+  plotTwist,
   productivityAssistantApp,
   internetskolan,
   acnhMuseumTracker,
