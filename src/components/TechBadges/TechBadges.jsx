@@ -3,14 +3,15 @@ import s from "./TechBadges.module.css";
 
 import { FaReact, FaJs, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaGitAlt, FaGithub, FaFigma, FaPhp, FaDocker, FaCode } from "react-icons/fa";
 import { SiTypescript, SiMongodb, SiPostgresql, SiVite, SiPostman, SiJquery, SiExpress, SiJsonwebtokens, SiWordpress, SiMongoose } from "react-icons/si";
-import { MdOutlineDraw, MdDesignServices, MdOutlinePsychology, MdOutlineRocketLaunch, MdOutlineQuiz, MdDevices, MdAccessibility } from "react-icons/md";
-import { GrDeploy } from "react-icons/gr";
+import { MdDesignServices, MdOutlinePsychology, MdOutlineRocketLaunch, MdOutlineQuiz, MdDevices, MdAccessibility } from "react-icons/md";
 import { VscVscodeInsiders } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoAdobe } from "react-icons/bi";
 import { DiMysql } from "react-icons/di";
 import { TbApi } from "react-icons/tb";
 import { FaNoteSticky } from "react-icons/fa6";
+import { GoIterations } from "react-icons/go";
+import { LuBrainCircuit } from "react-icons/lu";
 
 const iconMap = {
   react: <FaReact />,
@@ -36,17 +37,17 @@ const iconMap = {
   figma: <FaFigma />,
   jquery: <SiJquery />,
   php: <FaPhp />,
-  agile: <MdOutlineRocketLaunch />,
-  designthinking: <MdDesignServices />,
+  agile: <GoIterations />,
+  designthinking: <LuBrainCircuit />,
   cms: <SiWordpress />,
   responsive: <MdDevices />,
   accessability: <MdAccessibility />,
   research: <MdOutlinePsychology />,
   idea: <FaNoteSticky />,
-  prototype: <MdOutlineDraw />,
+  prototype: <MdDesignServices />,
   testing: <MdOutlineQuiz />,
   adobecc: <BiLogoAdobe />,
-  cicd: <GrDeploy />,
+  cicd: <MdOutlineRocketLaunch />,
 };
 
 const techStack = [
